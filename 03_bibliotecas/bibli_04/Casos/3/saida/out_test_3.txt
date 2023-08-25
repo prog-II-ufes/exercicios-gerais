@@ -1,0 +1,4 @@
+Data informada: 19 de Julho de 2023
+O ano informado nao eh bissexto
+O mes informado possui 31 dias
+A data seguinte eh: 20/07/2023

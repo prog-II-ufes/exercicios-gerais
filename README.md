@@ -39,7 +39,8 @@ A partir dos exercícios disponíveis na pasta `03_bibliotecas`, será possível
 
 Cada exercício terá uma especificação indicando como a correção automática deverá ser realizada.
 
-Mais informações de como utilizar o script serão incluídas nesta página em breve.
+Para baixar o script, acesse: https://github.com/prog-II-ufes/script-de-correcao
+Após baixar, basta copiar o script para a raiz do diretório e executá-lo.
 
 ## Bugs e sugestões
 Como este é um repositório em construção, é possível que você encontre algum bug ou tenha alguma sugestão de melhoria. Neste caso, por favor, entre em contato com os monitores ou professores da disciplina.
