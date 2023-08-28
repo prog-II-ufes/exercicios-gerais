@@ -47,13 +47,11 @@ Opcao escolhida:
 5 - Transposta de uma matriz
 6 - Encerrar o programa
 Opcao escolhida: 
-|40 56|
-|24 64|
-|56 80|
+|40 56 24|
+|64 56 80|
 
-|7 9|
-|11 8|
-|10 12|
+|7 9 11|
+|8 10 12|
 
 1 - Somar matrizes
 2 - Subtrair matrizes
