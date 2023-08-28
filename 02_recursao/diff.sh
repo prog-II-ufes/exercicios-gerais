@@ -13,4 +13,4 @@ for i in ./input/*; do
     fi
 done
 
-diff ./output ./outmain
+diff -w ./output ./outmain
