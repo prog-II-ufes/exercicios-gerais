@@ -1,0 +1,5 @@
+./test <input/test_1 >outprog/test_1 
+./test <input/test_2 >outprog/test_2 
+./test <input/test_3 >outprog/test_3 
+./test <input/test_4 >outprog/test_4 
+diff output outprog
