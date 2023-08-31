@@ -1,0 +1,1 @@
+Rodando o script do Aluno - A pasta Gabarito-obj com os arquivos objetos do professor não existe, por favor rode o script do professor primeiro. Abortado!\n
