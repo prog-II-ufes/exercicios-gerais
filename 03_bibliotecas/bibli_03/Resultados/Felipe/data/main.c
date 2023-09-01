@@ -20,7 +20,6 @@ int main(int argc, char const *argv[])
     printf("Segunda data: ");
     imprimeDataExtenso(dia2, mes2, ano2);
 
-    // NAO MEXE
     if (comparaData(dia1, mes1, ano1, dia2, mes2, ano2) == 1) {
         printf("A primeira data eh mais antiga\n");
     } else if (comparaData(dia1, mes1, ano1, dia2, mes2, ano2) == -1) {
