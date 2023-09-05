@@ -1,0 +1,22 @@
+Filme cadastrado 2 - Shrek
+Filme cadastrado 3 - A Mumia
+Filme cadastrado 1 - Matrix
+Filme cadastrado 6 - A Sociedade Do Anel
+Filme ja cadastrado no estoque
+
+Nao e possivel devolver o filme 1 - Matrix.
+
+Filme 5 nao cadastrado.
+Total de filmes alugados: 2 com custo de R$6
+
+Filme 2 - Shrek nao disponivel no estoque. Volte mais tarde.
+
+Filme 2 - Shrek Devolvido!
+
+~ESTOQUE~
+3 - A Mumia Fitas em estoque: 3
+6 - A Sociedade Do Anel Fitas em estoque: 1
+1 - Matrix Fitas em estoque: 2
+2 - Shrek Fitas em estoque: 1
+
+Lucro total R$4

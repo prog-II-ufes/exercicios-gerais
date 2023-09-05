@@ -1,0 +1,31 @@
+10
+Jorge
+333
+5 9 7
+Carlos
+222
+8 8 2
+Ronaldo
+444
+9 6 10
+Clovis
+111
+7 7 7
+Reginaldo
+123
+2 2 1
+Ronildo
+142
+3 4 1
+Maria
+888
+9 9 9
+Claudia
+432
+10 1 1
+Vitoria
+001
+5 5 5
+Laura
+102
+10 0 10

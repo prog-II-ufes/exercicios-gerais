@@ -1,0 +1,13 @@
+Filme cadastrado 1 - A Sociedade Do Anel
+
+Total de filmes alugados: 1 com custo de R$5
+
+~ESTOQUE~
+1 - A Sociedade Do Anel Fitas em estoque: 0
+
+Filme 1 - A Sociedade Do Anel Devolvido!
+
+~ESTOQUE~
+1 - A Sociedade Do Anel Fitas em estoque: 1
+
+Lucro total R$5
