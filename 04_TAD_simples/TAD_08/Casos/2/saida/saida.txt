@@ -1,0 +1,45 @@
+ATRIBUTOS:
+departamento => CCS
+diretor => Claudia
+curso1 => Medicina, media1 => 9
+curso2 => Enfermagem, media2 => 7
+curso3 => Nutricao, media3 => 6
+media geral => 7.33
+desvio padrao => 1.25
+
+ATRIBUTOS:
+departamento => SEAD
+diretor => Mateus
+curso1 => Biblioteconomia, media1 => 9
+curso2 => Administracao, media2 => 6
+curso3 => CienciasContabeis, media3 => 7
+media geral => 7.33
+desvio padrao => 1.25
+
+ATRIBUTOS:
+departamento => CEUNES
+diretor => Luana
+curso1 => EngQuimica, media1 => 8
+curso2 => Pedagogia, media2 => 6
+curso3 => Agronomia, media3 => 7
+media geral => 7.00
+desvio padrao => 0.82
+
+ATRIBUTOS:
+departamento => CAr
+diretor => Fatima
+curso1 => ArquiteturaEUrbanismo, media1 => 6
+curso2 => ArtesVisuais, media2 => 5
+curso3 => Jornalismo, media3 => 7
+media geral => 6.00
+desvio padrao => 0.82
+
+ATRIBUTOS:
+departamento => CCHN
+diretor => Jorge
+curso1 => Geografia, media1 => 5
+curso2 => Psicologia, media2 => 8
+curso3 => LetrasLibras, media3 => 4
+media geral => 5.67
+desvio padrao => 1.70
+

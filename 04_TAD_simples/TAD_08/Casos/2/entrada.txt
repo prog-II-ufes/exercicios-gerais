@@ -1,0 +1,31 @@
+5
+CCS
+Claudia
+Medicina
+Enfermagem
+Nutricao
+9 7 6
+CAr
+Fatima
+ArquiteturaEUrbanismo
+ArtesVisuais
+Jornalismo
+6 5 7
+CCHN
+Jorge
+Geografia
+Psicologia
+LetrasLibras
+5 8 4
+CEUNES
+Luana
+EngQuimica
+Pedagogia
+Agronomia
+8 6 7
+SEAD
+Mateus
+Biblioteconomia
+Administracao
+CienciasContabeis
+9 6 7
