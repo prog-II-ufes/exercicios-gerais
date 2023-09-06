@@ -1,0 +1,13 @@
+Lista de operacoes:
+1 - Cadastrar livros.
+2 - Remover livros.
+3 - Listar todos os livros cadastrados.
+
+Livro adicionado com sucesso!
+
+Lista de Livros na Biblioteca:
+Titulo: Um
+Autor: Lorraint
+Ano de Publicacao: 2002
+
+Operacao invalida!
