@@ -1,0 +1,167 @@
+Rodando o script do Aluno - Arquivos header necessários do professor existem na pasta Includes
+ - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+#######################################
+ALUNO: Felipe
+#######################################
+CRIANDO O DIRETÓRIO DE RESULTADO PARA Felipe:
+ - Diretório Resultados/Felipe criado com sucesso!
+ - Diretório Resultados/Felipe/conta criado com sucesso!
+ - Diretório Resultados/Felipe/main criado com sucesso!
+ - Diretório Resultados/Felipe/usuario criado com sucesso!
+ - Diretório Resultados/Felipe/completo criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/Felipe/conta.c' encontrado!
+ - Arquivo esperado 'Respostas/Felipe/conta.h' encontrado!
+ - Arquivo esperado 'Respostas/Felipe/main.c' encontrado!
+ - Arquivo esperado 'Respostas/Felipe/usuario.c' encontrado!
+ - Arquivo esperado 'Respostas/Felipe/usuario.h' encontrado!
+ - Arquivos esperados enviados: Ok!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta conta:
+ - Copiando os Casos de teste para a pasta Resultados/Felipe/conta
+ - Copiando os 'Respostas/Felipe/*.h' do aluno para a pasta Resultados/Felipe/conta
+ - Copiando os 'Includes/*.h' do professor para a pasta Resultados/Felipe/conta
+ - Copiando os 'Respostas/Felipe/*.c' do aluno para a pasta Resultados/Felipe/conta
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/Felipe/main
+ - Copiando os 'Respostas/Felipe/*.h' do aluno para a pasta Resultados/Felipe/main
+ - Copiando os 'Includes/*.h' do professor para a pasta Resultados/Felipe/main
+ - Copiando os 'Respostas/Felipe/*.c' do aluno para a pasta Resultados/Felipe/main
+ - Pasta usuario:
+ - Copiando os Casos de teste para a pasta Resultados/Felipe/usuario
+ - Copiando os 'Respostas/Felipe/*.h' do aluno para a pasta Resultados/Felipe/usuario
+ - Copiando os 'Includes/*.h' do professor para a pasta Resultados/Felipe/usuario
+ - Copiando os 'Respostas/Felipe/*.c' do aluno para a pasta Resultados/Felipe/usuario
+ - Pasta completo:
+ - Copiando os Casos de teste para a pasta Resultados/Felipe/completo
+ - Copiando os 'Respostas/Felipe/*.h' do aluno para a pasta Resultados/Felipe/completo
+ - Copiando os 'Respostas/Felipe/*.c' do aluno para a pasta Resultados/Felipe/completo
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Pasta conta:
+ - Compilando o arquivo conta.c do aluno, gerando o conta.o
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Compilando o arquivo usuario.c do aluno, gerando o usuario.o
+ - Arquivo de output gerado: Resultados/Felipe/conta/result_compilation.txt.
+ - Pasta main:
+ - Compilando o arquivo conta.c do aluno, gerando o conta.o
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Compilando o arquivo usuario.c do aluno, gerando o usuario.o
+ - Arquivo de output gerado: Resultados/Felipe/main/result_compilation.txt.
+ - Pasta usuario:
+ - Compilando o arquivo conta.c do aluno, gerando o conta.o
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Compilando o arquivo usuario.c do aluno, gerando o usuario.o
+ - Arquivo de output gerado: Resultados/Felipe/usuario/result_compilation.txt.
+ - Pasta completo:
+ - Compilando o arquivo conta.c do aluno, gerando o conta.o
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Compilando o arquivo usuario.c do aluno, gerando o usuario.o
+ - Arquivo de output gerado: Resultados/Felipe/completo/result_compilation.txt.
+ - Copiando os arquivos objetos do professor para cada subpasta do Resultado do Felipe:
+ - Copiando o Gabarito-obj/conta.o para a pasta Resultados/Felipe/main
+ - Copiando o Gabarito-obj/conta.o para a pasta Resultados/Felipe/usuario
+ - Copiando o Gabarito-obj/main.o para a pasta Resultados/Felipe/conta
+ - Copiando o Gabarito-obj/main.o para a pasta Resultados/Felipe/usuario
+ - Copiando o Gabarito-obj/usuario.o para a pasta Resultados/Felipe/conta
+ - Copiando o Gabarito-obj/usuario.o para a pasta Resultados/Felipe/main
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta conta:
+ - Gerando o binário prog linkando com o(s) arquivo(s) conta/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Felipe/conta/result_linking.txt
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Felipe/main/result_linking.txt
+ - Pasta usuario:
+ - Gerando o binário prog linkando com o(s) arquivo(s) usuario/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Felipe/usuario/result_linking.txt
+ - Pasta completo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Felipe/completo/result_linking.txt
+
+EXECUTANDO O VALGRIND EM CADA CASO:
+ - Pasta conta / Caso 1:
+ - Arquivo de output gerado: Resultados/Felipe/conta/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta conta / Caso 2:
+ - Arquivo de output gerado: Resultados/Felipe/conta/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta conta / Caso 3:
+ - Arquivo de output gerado: Resultados/Felipe/conta/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta main / Caso 1:
+ - Arquivo de output gerado: Resultados/Felipe/main/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta main / Caso 2:
+ - Arquivo de output gerado: Resultados/Felipe/main/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta main / Caso 3:
+ - Arquivo de output gerado: Resultados/Felipe/main/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta usuario / Caso 1:
+ - Arquivo de output gerado: Resultados/Felipe/usuario/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta usuario / Caso 2:
+ - Arquivo de output gerado: Resultados/Felipe/usuario/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta usuario / Caso 3:
+ - Arquivo de output gerado: Resultados/Felipe/usuario/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta completo / Caso 1:
+ - Arquivo de output gerado: Resultados/Felipe/completo/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta completo / Caso 2:
+ - Arquivo de output gerado: Resultados/Felipe/completo/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta completo / Caso 3:
+ - Arquivo de output gerado: Resultados/Felipe/completo/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Nome 0: Felipe
+ - Arquivos Corretos: 5 de 5 / Nota 10.00
+ - Compilações Corretas: 12 de 12 / Nota 10.00
+ - Linkagens Corretas: 4 de 4 / Nota 10.00
+ - Resultados Corretos conta: 3 de 3 / Nota 10.00
+ - Valgrinds Corretos conta: 3 de 3 / Nota 10.00
+ - Resultados Corretos main: 3 de 3 / Nota 10.00
+ - Valgrinds Corretos main: 3 de 3 / Nota 10.00
+ - Resultados Corretos usuario: 3 de 3 / Nota 10.00
+ - Valgrinds Corretos usuario: 3 de 3 / Nota 10.00
+ - Resultados Corretos completo: 3 de 3 / Nota 10.00
+ - Valgrinds Corretos completo: 3 de 3 / Nota 10.00
+ - Soma das notas do Felipe: 110.000
+ - Campos Considerados: 11
+ - Média do Felipe: 10.00
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+
