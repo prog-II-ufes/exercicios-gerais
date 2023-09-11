@@ -65,6 +65,7 @@ int numeroDiasMes(int mes, int ano);
  * @param ano2 Ano da segunda data.
  * @return int Retorna 1 se a primeira data é maior que a segunda, -1 se a primeira data é menor que a segunda
  * e 0 se as datas são iguais.
+ * A data ser "maior" significa que ela está mais no futuro.
  */
 int comparaData(int dia1, int mes1, int ano1, int dia2, int mes2, int ano2);
 
