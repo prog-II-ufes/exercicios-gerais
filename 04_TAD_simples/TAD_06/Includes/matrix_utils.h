@@ -15,20 +15,20 @@ typedef struct Matrix{
  * @param cols O número de colunas na matriz.
  * @return A matriz criada.
  */
-tMatrix matrix_create(int rows, int cols);
+tMatrix MatrixCreate(int rows, int cols);
 
 /**
  * @brief Lê uma matriz da entrada padrão.
  * @param matrix A matriz a ser lida.
  * @return A matriz lida.
  */
-tMatrix matrix_read(tMatrix matrix);
+tMatrix MatrixRead(tMatrix matrix);
 
 /**
  * @brief Imprime uma matriz na saída padrão.
  * @param matrix A matriz a ser impressa.
  */
-void matrix_print(tMatrix matrix);
+void MatrixPrint(tMatrix matrix);
 
 /**
  * @brief Verifica se é possível somar duas matrizes.
@@ -36,7 +36,7 @@ void matrix_print(tMatrix matrix);
  * @param matrix2 A segunda matriz.
  * @return 1 se for possível somar as matrizes, 0 caso contrário.
  */
-int possible_matrix_sum(tMatrix matrix1, tMatrix matrix2);
+int PossibleMatrixSum(tMatrix matrix1, tMatrix matrix2);
 
 /**
  * @brief Verifica se é possível subtrair duas matrizes.
@@ -44,7 +44,7 @@ int possible_matrix_sum(tMatrix matrix1, tMatrix matrix2);
  * @param matrix2 A segunda matriz.
  * @return 1 se for possível subtrair as matrizes, 0 caso contrário.
  */
-int possible_matrix_sub(tMatrix matrix1, tMatrix matrix2);
+int PossibleMatrixSub(tMatrix matrix1, tMatrix matrix2);
 
 /**
  * @brief Verifica se é possível multiplicar duas matrizes.
@@ -52,7 +52,7 @@ int possible_matrix_sub(tMatrix matrix1, tMatrix matrix2);
  * @param matrix2 A segunda matriz.
  * @return 1 se for possível multiplicar as matrizes, 0 caso contrário.
  */
-int possible_matrix_multiply(tMatrix matrix1, tMatrix matrix2);
+int PossibleMatrixMultiply(tMatrix matrix1, tMatrix matrix2);
 
 /**
  * @brief Soma duas matrizes.
@@ -60,7 +60,7 @@ int possible_matrix_multiply(tMatrix matrix1, tMatrix matrix2);
  * @param matrix2 A segunda matriz.
  * @return O resultado da soma.
  */
-tMatrix matrix_add(tMatrix matrix1, tMatrix matrix2);
+tMatrix MatrixAdd(tMatrix matrix1, tMatrix matrix2);
 
 /**
  * @brief Subtrai duas matrizes.
@@ -68,7 +68,7 @@ tMatrix matrix_add(tMatrix matrix1, tMatrix matrix2);
  * @param matrix2 A segunda matriz.
  * @return O resultado da subtração.
  */
-tMatrix matrix_sub(tMatrix matrix1, tMatrix matrix2);
+tMatrix MatrixSub(tMatrix matrix1, tMatrix matrix2);
 
 /**
  * @brief Multiplica duas matrizes.
@@ -76,14 +76,14 @@ tMatrix matrix_sub(tMatrix matrix1, tMatrix matrix2);
  * @param matrix2 A segunda matriz.
  * @return O resultado da multiplicação.
  */
-tMatrix matrix_multiply(tMatrix matrix1, tMatrix matrix2);
+tMatrix MatrixMultiply(tMatrix matrix1, tMatrix matrix2);
 
 /**
  * @brief Transpõe uma matriz.
  * @param matrix A matriz a ser transposta.
  * @return A matriz transposta.
  */
-tMatrix transpose_matrix(tMatrix matrix);
+tMatrix TransposeMatrix(tMatrix matrix);
 
 /**
  * @brief Multiplica uma matriz por um escalar.
@@ -91,6 +91,6 @@ tMatrix transpose_matrix(tMatrix matrix);
  * @param scalar O escalar pelo qual a matriz será multiplicada.
  * @return O resultado da multiplicação.
  */
-tMatrix matrix_multiply_by_scalar(tMatrix matrix, int scalar);
+tMatrix MatrixMultiplyByScalar(tMatrix matrix, int scalar);
 
 #endif

@@ -17,7 +17,7 @@ typedef struct Vendedor {
  * @param prct_comissao Porcentagem de comissão do vendedor.
  * @return tVendedor Retorna a estrutura do tipo tVendedor com os dados do vendedor registrado.
  */
-tVendedor registrar_vendedor(char nome[50], float salario, float prct_comissao);
+tVendedor RegistraVendedor(char nome[50], float salario, float prct_comissao);
 
 /**
  * @brief Verifica se o nome de um vendedor é igual a outro.
@@ -26,7 +26,7 @@ tVendedor registrar_vendedor(char nome[50], float salario, float prct_comissao);
  * @param nome Nome do vendedor a ser comparado.
  * @return int Retorna 1 se o nome do vendedor é igual ao nome passado como parâmetro, ou 0 caso contrário.
  */
-int verifica_nome_vendedor(tVendedor vendedor, char nome[50]);
+int VerificaNomeVendedor(tVendedor vendedor, char nome[50]);
 
 /**
  * @brief Contabiliza uma venda para um vendedor.
@@ -35,7 +35,7 @@ int verifica_nome_vendedor(tVendedor vendedor, char nome[50]);
  * @param valor Valor da venda a ser contabilizada.
  * @return tVendedor Retorna a estrutura do tipo tVendedor atualizada com o valor da venda contabilizada.
  */
-tVendedor contabilizar_venda(tVendedor vendedor, float valor);
+tVendedor ContabilizaVenda(tVendedor vendedor, float valor);
 
 /**
  * @brief Obtém o salário de um vendedor.
@@ -43,7 +43,7 @@ tVendedor contabilizar_venda(tVendedor vendedor, float valor);
  * @param vendedor Estrutura do tipo tVendedor contendo os dados do vendedor.
  * @return float Retorna o salário do vendedor.
  */
-float obter_salario(tVendedor vendedor);
+float GetSalario(tVendedor vendedor);
 
 /**
  * @brief Obtém a comissão de um vendedor.
@@ -51,7 +51,7 @@ float obter_salario(tVendedor vendedor);
  * @param vendedor Estrutura do tipo tVendedor contendo os dados do vendedor.
  * @return float Retorna a comissão do vendedor.
  */
-float obter_comissao(tVendedor vendedor);
+float GetComissao(tVendedor vendedor);
 
 /**
  * @brief Obtém o total vendido por um vendedor.
@@ -59,7 +59,7 @@ float obter_comissao(tVendedor vendedor);
  * @param vendedor Estrutura do tipo tVendedor contendo os dados do vendedor.
  * @return float Retorna o total vendido pelo vendedor.
  */
-float obter_total_vendido(tVendedor vendedor);
+float GetTotalVendido(tVendedor vendedor);
 
 /**
  * @brief Obtém o total recebido por um vendedor.
@@ -67,13 +67,13 @@ float obter_total_vendido(tVendedor vendedor);
  * @param vendedor Estrutura do tipo tVendedor contendo os dados do vendedor.
  * @return float Retorna o total recebido pelo vendedor (salário + comissão).
  */
-float obter_total_recebido(tVendedor vendedor);
+float GetTotalRecebido(tVendedor vendedor);
 
 /**
  * @brief Imprime o relatório de um vendedor.
  * 
  * @param vendedor Estrutura do tipo tVendedor contendo os dados do vendedor.
  */
-void imprimir_relatorio_vendedor(tVendedor vendedor);
+void ImprimeRelatorioVendedor(tVendedor vendedor);
 
 #endif
