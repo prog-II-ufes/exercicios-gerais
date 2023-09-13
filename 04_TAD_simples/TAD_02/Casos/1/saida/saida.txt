@@ -1,5 +1,0 @@
-FIM DA ELEICAO
-- PRESIDENTE ELEITO: Edsger Dijkstra (Partido do Melhor Caminho (PMC)), 3, 100.00%
-- PRIMEIRO MINISTRO ELEITO: Ada Lovelace (Gamers Unidos (GU)), 3, 100.00%
-- COMPARECIMENTO: 60.00%
-- NULOS E BRANCOS: 0, 0
