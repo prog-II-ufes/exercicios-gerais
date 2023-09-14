@@ -17,7 +17,14 @@ typedef struct Aluno {
  * @param n3 Nota da terceira avaliação.
  * @return tAluno Retorna uma estrutura tAluno com os dados do aluno criado.
  */
-tAluno criar_aluno(char *nome, int matricula, int n1, int n2, int n3);
+tAluno CriaAluno(char *nome, int matricula, int n1, int n2, int n3); 
+
+/**
+ * @brief Lê os dados de um aluno.
+ * 
+ * @return tAluno Retorna uma estrutura tAluno com os dados do aluno lido.
+ */
+tAluno LeAluno();
 
 /**
  * @brief Compara as matrículas de dois alunos.
@@ -26,7 +33,7 @@ tAluno criar_aluno(char *nome, int matricula, int n1, int n2, int n3);
  * @param aluno2 Segundo aluno a ser comparado.
  * @return int Retorna 1 se a matrícula do aluno1 é maior que a do aluno2, -1 se a matrícula do aluno1 é menor que a do aluno2 e 0 se as matrículas são iguais.
  */
-int comparar_matricula_aluno(tAluno aluno1, tAluno aluno2);
+int ComparaMatricula(tAluno aluno1, tAluno aluno2);
 
 /**
  * @brief Calcula a média das notas de um aluno.
@@ -34,7 +41,7 @@ int comparar_matricula_aluno(tAluno aluno1, tAluno aluno2);
  * @param aluno Aluno a ter a média calculada.
  * @return int Retorna a média das notas do aluno.
  */
-int calcular_media_aluno(tAluno aluno);
+int CalculaMediaAluno(tAluno aluno);
 
 /**
  * @brief Verifica se um aluno foi aprovado ou reprovado.
@@ -42,13 +49,13 @@ int calcular_media_aluno(tAluno aluno);
  * @param aluno Aluno a ser verificado.
  * @return int Retorna 1 se o aluno foi aprovado e 0 se foi reprovado.
  */
-int aluno_aprovado(tAluno aluno);
+int VerificaAprovacao(tAluno aluno);
 
 /**
  * @brief Imprime os dados de um aluno.
  * 
  * @param aluno Aluno a ser impresso.
  */
-void imprimir_aluno(tAluno aluno);
+void ImprimeAluno(tAluno aluno);
 
 #endif
