@@ -1,5 +1,4 @@
 #include "locadora.h"
-#include "filme.h"
 #include <stdio.h>
 #include <string.h>
 
@@ -62,8 +61,9 @@ tLocadora alugarFilmesLocadora (tLocadora locadora, int* codigos, int quantidade
 tLocadora lerAluguelLocadora (tLocadora locadora) {
     int codigo, quantidadeCodigos = 0, custo = 0;
     int codigos[MAX_FILMES];
+    char aux;
 
-    while (!scanf("#\n")) {
+    while (!scanf("#%c", &aux)) {
         scanf("%d\n", &codigo);
 
         if (verificarFilmeCadastrado(locadora, codigo)) {
@@ -111,8 +111,9 @@ tLocadora devolverFilmesLocadora (tLocadora locadora, int* codigos, int quantida
 tLocadora lerDevolucaoLocadora (tLocadora locadora) {
     int codigo, quantidadeCodigos = 0;
     int codigos[MAX_FILMES];
+    char aux;
     
-    while (!scanf("#\n")) {
+    while (!scanf("#%c", &aux)) {
         scanf("%d\n", &codigo);
 
         if (verificarFilmeCadastrado(locadora, codigo)) {

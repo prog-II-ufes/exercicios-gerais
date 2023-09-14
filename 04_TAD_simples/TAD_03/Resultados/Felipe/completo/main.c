@@ -7,21 +7,18 @@ int main(int argc, char const *argv[])
     char operacao[20];
     tLocadora locadora = criarLocadora();
 
-    while (1) {
-        scanf("%s\n", operacao);
+    while (scanf("%s\n", operacao)) {
 
-        if (strcmp(operacao, "Cadastrar")) {
-            while (!scanf("#\n")) {
+        if (strcmp(operacao, "Cadastrar") == 0) {
+            while (!scanf("#%c", operacao)) {
                 locadora = lerCadastroLocadora(locadora);
             }
-        } else if (strcmp(operacao, "Alugar")) {
+        } else if (strcmp(operacao, "Alugar") == 0) {
             locadora = lerAluguelLocadora(locadora);
-        } else if (strcmp(operacao, "Devolver")) {
+        } else if (strcmp(operacao, "Devolver") == 0) {
             locadora = lerDevolucaoLocadora(locadora);
-        } else if (strcmp(operacao, "Estoque")) {
+        } else if (strcmp(operacao, "Estoque") == 0) {
            consultarEstoqueLocadora(locadora);
-           printf("\n");
-           break;
         }
 
         printf("\n");
