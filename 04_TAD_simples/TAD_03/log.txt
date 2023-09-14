@@ -1,0 +1,423 @@
+Rodando o script do Aluno - Arquivos header necessários do professor existem na pasta Includes
+ - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+#######################################
+ALUNO: Felipe
+#######################################
+CRIANDO O DIRETÓRIO DE RESULTADO PARA Felipe:
+ - Diretório Resultados/Felipe criado com sucesso!
+ - Diretório Resultados/Felipe/filme criado com sucesso!
+ - Diretório Resultados/Felipe/locadora criado com sucesso!
+ - Diretório Resultados/Felipe/main criado com sucesso!
+ - Diretório Resultados/Felipe/completo criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/Felipe/filme.c' encontrado!
+ - Arquivo esperado 'Respostas/Felipe/filme.h' encontrado!
+ - Arquivo esperado 'Respostas/Felipe/locadora.c' encontrado!
+ - Arquivo esperado 'Respostas/Felipe/locadora.h' encontrado!
+ - Arquivo esperado 'Respostas/Felipe/main.c' encontrado!
+ - Arquivos esperados enviados: Ok!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta filme:
+ - Copiando os Casos de teste para a pasta Resultados/Felipe/filme
+ - Copiando os 'Respostas/Felipe/*.h' do aluno para a pasta Resultados/Felipe/filme
+ - Copiando os 'Includes/*.h' do professor para a pasta Resultados/Felipe/filme
+ - Copiando os 'Respostas/Felipe/*.c' do aluno para a pasta Resultados/Felipe/filme
+ - Pasta locadora:
+ - Copiando os Casos de teste para a pasta Resultados/Felipe/locadora
+ - Copiando os 'Respostas/Felipe/*.h' do aluno para a pasta Resultados/Felipe/locadora
+ - Copiando os 'Includes/*.h' do professor para a pasta Resultados/Felipe/locadora
+ - Copiando os 'Respostas/Felipe/*.c' do aluno para a pasta Resultados/Felipe/locadora
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/Felipe/main
+ - Copiando os 'Respostas/Felipe/*.h' do aluno para a pasta Resultados/Felipe/main
+ - Copiando os 'Includes/*.h' do professor para a pasta Resultados/Felipe/main
+ - Copiando os 'Respostas/Felipe/*.c' do aluno para a pasta Resultados/Felipe/main
+ - Pasta completo:
+ - Copiando os Casos de teste para a pasta Resultados/Felipe/completo
+ - Copiando os 'Respostas/Felipe/*.h' do aluno para a pasta Resultados/Felipe/completo
+ - Copiando os 'Respostas/Felipe/*.c' do aluno para a pasta Resultados/Felipe/completo
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Pasta filme:
+ - Compilando o arquivo filme.c do aluno, gerando o filme.o
+ - Compilando o arquivo locadora.c do aluno, gerando o locadora.o
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Arquivo de output gerado: Resultados/Felipe/filme/result_compilation.txt.
+ - Pasta locadora:
+ - Compilando o arquivo filme.c do aluno, gerando o filme.o
+ - Compilando o arquivo locadora.c do aluno, gerando o locadora.o
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Arquivo de output gerado: Resultados/Felipe/locadora/result_compilation.txt.
+ - Pasta main:
+ - Compilando o arquivo filme.c do aluno, gerando o filme.o
+ - Compilando o arquivo locadora.c do aluno, gerando o locadora.o
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Arquivo de output gerado: Resultados/Felipe/main/result_compilation.txt.
+ - Pasta completo:
+ - Compilando o arquivo filme.c do aluno, gerando o filme.o
+ - Compilando o arquivo locadora.c do aluno, gerando o locadora.o
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Arquivo de output gerado: Resultados/Felipe/completo/result_compilation.txt.
+ - Copiando os arquivos objetos do professor para cada subpasta do Resultado do Felipe:
+ - Copiando o Gabarito-obj/filme.o para a pasta Resultados/Felipe/locadora
+ - Copiando o Gabarito-obj/filme.o para a pasta Resultados/Felipe/main
+ - Copiando o Gabarito-obj/locadora.o para a pasta Resultados/Felipe/filme
+ - Copiando o Gabarito-obj/locadora.o para a pasta Resultados/Felipe/main
+ - Copiando o Gabarito-obj/main.o para a pasta Resultados/Felipe/filme
+ - Copiando o Gabarito-obj/main.o para a pasta Resultados/Felipe/locadora
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta filme:
+ - Gerando o binário prog linkando com o(s) arquivo(s) filme/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Felipe/filme/result_linking.txt
+ - Pasta locadora:
+ - Gerando o binário prog linkando com o(s) arquivo(s) locadora/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Felipe/locadora/result_linking.txt
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Felipe/main/result_linking.txt
+ - Pasta completo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Felipe/completo/result_linking.txt
+
+EXECUTANDO O VALGRIND EM CADA CASO:
+ - Pasta filme / Caso 1:
+ - Arquivo de output gerado: Resultados/Felipe/filme/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta filme / Caso 10:
+ - Arquivo de output gerado: Resultados/Felipe/filme/Casos/10/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta filme / Caso 11:
+ - Arquivo de output gerado: Resultados/Felipe/filme/Casos/11/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta filme / Caso 12:
+ - Arquivo de output gerado: Resultados/Felipe/filme/Casos/12/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta filme / Caso 13:
+ - Arquivo de output gerado: Resultados/Felipe/filme/Casos/13/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta filme / Caso 14:
+ - Arquivo de output gerado: Resultados/Felipe/filme/Casos/14/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta filme / Caso 15:
+ - Arquivo de output gerado: Resultados/Felipe/filme/Casos/15/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta filme / Caso 16:
+ - Arquivo de output gerado: Resultados/Felipe/filme/Casos/16/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta filme / Caso 17:
+ - Arquivo de output gerado: Resultados/Felipe/filme/Casos/17/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta filme / Caso 18:
+ - Arquivo de output gerado: Resultados/Felipe/filme/Casos/18/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta filme / Caso 19:
+ - Arquivo de output gerado: Resultados/Felipe/filme/Casos/19/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta filme / Caso 2:
+ - Arquivo de output gerado: Resultados/Felipe/filme/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta filme / Caso 3:
+ - Arquivo de output gerado: Resultados/Felipe/filme/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta filme / Caso 4:
+ - Arquivo de output gerado: Resultados/Felipe/filme/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta filme / Caso 5:
+ - Arquivo de output gerado: Resultados/Felipe/filme/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta filme / Caso 6:
+ - Arquivo de output gerado: Resultados/Felipe/filme/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta filme / Caso 7:
+ - Arquivo de output gerado: Resultados/Felipe/filme/Casos/7/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta filme / Caso 8:
+ - Arquivo de output gerado: Resultados/Felipe/filme/Casos/8/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta filme / Caso 9:
+ - Arquivo de output gerado: Resultados/Felipe/filme/Casos/9/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta locadora / Caso 1:
+ - Arquivo de output gerado: Resultados/Felipe/locadora/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta locadora / Caso 10:
+ - Arquivo de output gerado: Resultados/Felipe/locadora/Casos/10/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta locadora / Caso 11:
+ - Arquivo de output gerado: Resultados/Felipe/locadora/Casos/11/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta locadora / Caso 12:
+ - Arquivo de output gerado: Resultados/Felipe/locadora/Casos/12/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta locadora / Caso 13:
+ - Arquivo de output gerado: Resultados/Felipe/locadora/Casos/13/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta locadora / Caso 14:
+ - Arquivo de output gerado: Resultados/Felipe/locadora/Casos/14/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta locadora / Caso 15:
+ - Arquivo de output gerado: Resultados/Felipe/locadora/Casos/15/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta locadora / Caso 16:
+ - Arquivo de output gerado: Resultados/Felipe/locadora/Casos/16/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta locadora / Caso 17:
+ - Arquivo de output gerado: Resultados/Felipe/locadora/Casos/17/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta locadora / Caso 18:
+ - Arquivo de output gerado: Resultados/Felipe/locadora/Casos/18/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta locadora / Caso 19:
+ - Arquivo de output gerado: Resultados/Felipe/locadora/Casos/19/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta locadora / Caso 2:
+ - Arquivo de output gerado: Resultados/Felipe/locadora/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta locadora / Caso 3:
+ - Arquivo de output gerado: Resultados/Felipe/locadora/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta locadora / Caso 4:
+ - Arquivo de output gerado: Resultados/Felipe/locadora/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta locadora / Caso 5:
+ - Arquivo de output gerado: Resultados/Felipe/locadora/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta locadora / Caso 6:
+ - Arquivo de output gerado: Resultados/Felipe/locadora/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta locadora / Caso 7:
+ - Arquivo de output gerado: Resultados/Felipe/locadora/Casos/7/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta locadora / Caso 8:
+ - Arquivo de output gerado: Resultados/Felipe/locadora/Casos/8/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta locadora / Caso 9:
+ - Arquivo de output gerado: Resultados/Felipe/locadora/Casos/9/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 1:
+ - Arquivo de output gerado: Resultados/Felipe/main/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 10:
+ - Arquivo de output gerado: Resultados/Felipe/main/Casos/10/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 2, frees: 0, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 11:
+ - Arquivo de output gerado: Resultados/Felipe/main/Casos/11/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 2, frees: 0, errors: 2.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 12:
+ - Arquivo de output gerado: Resultados/Felipe/main/Casos/12/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 13:
+ - Arquivo de output gerado: Resultados/Felipe/main/Casos/13/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 2, frees: 0, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 14:
+ - Arquivo de output gerado: Resultados/Felipe/main/Casos/14/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 2, frees: 0, errors: 2.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 15:
+ - Arquivo de output gerado: Resultados/Felipe/main/Casos/15/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 2, frees: 0, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 16:
+ - Arquivo de output gerado: Resultados/Felipe/main/Casos/16/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 17:
+ - Arquivo de output gerado: Resultados/Felipe/main/Casos/17/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 18:
+ - Arquivo de output gerado: Resultados/Felipe/main/Casos/18/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 2, frees: 0, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 19:
+ - Arquivo de output gerado: Resultados/Felipe/main/Casos/19/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 2, frees: 0, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 2:
+ - Arquivo de output gerado: Resultados/Felipe/main/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 3:
+ - Arquivo de output gerado: Resultados/Felipe/main/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 4:
+ - Arquivo de output gerado: Resultados/Felipe/main/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 5:
+ - Arquivo de output gerado: Resultados/Felipe/main/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 6:
+ - Arquivo de output gerado: Resultados/Felipe/main/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 7:
+ - Arquivo de output gerado: Resultados/Felipe/main/Casos/7/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 2, frees: 0, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 8:
+ - Arquivo de output gerado: Resultados/Felipe/main/Casos/8/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 2, frees: 0, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 9:
+ - Arquivo de output gerado: Resultados/Felipe/main/Casos/9/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 2, frees: 0, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 1:
+ - Arquivo de output gerado: Resultados/Felipe/completo/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 10:
+ - Arquivo de output gerado: Resultados/Felipe/completo/Casos/10/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 11:
+ - Arquivo de output gerado: Resultados/Felipe/completo/Casos/11/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 12:
+ - Arquivo de output gerado: Resultados/Felipe/completo/Casos/12/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 13:
+ - Arquivo de output gerado: Resultados/Felipe/completo/Casos/13/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 14:
+ - Arquivo de output gerado: Resultados/Felipe/completo/Casos/14/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 15:
+ - Arquivo de output gerado: Resultados/Felipe/completo/Casos/15/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 16:
+ - Arquivo de output gerado: Resultados/Felipe/completo/Casos/16/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 17:
+ - Arquivo de output gerado: Resultados/Felipe/completo/Casos/17/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 18:
+ - Arquivo de output gerado: Resultados/Felipe/completo/Casos/18/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 19:
+ - Arquivo de output gerado: Resultados/Felipe/completo/Casos/19/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 2:
+ - Arquivo de output gerado: Resultados/Felipe/completo/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 3:
+ - Arquivo de output gerado: Resultados/Felipe/completo/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 4:
+ - Arquivo de output gerado: Resultados/Felipe/completo/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 5:
+ - Arquivo de output gerado: Resultados/Felipe/completo/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 6:
+ - Arquivo de output gerado: Resultados/Felipe/completo/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 7:
+ - Arquivo de output gerado: Resultados/Felipe/completo/Casos/7/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 8:
+ - Arquivo de output gerado: Resultados/Felipe/completo/Casos/8/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 9:
+ - Arquivo de output gerado: Resultados/Felipe/completo/Casos/9/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Incorreto!
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Nome 0: Felipe
+ - Arquivos Corretos: 5 de 5 / Nota 10.00
+ - Compilações Corretas: 12 de 12 / Nota 10.00
+ - Linkagens Corretas: 4 de 4 / Nota 10.00
+ - Resultados Corretos filme: 19 de 19 / Nota 10.00
+ - Valgrinds Corretos filme: 19 de 19 / Nota 10.00
+ - Resultados Corretos locadora: 0 de 19 / Nota 0.00
+ - Valgrinds Corretos locadora: 19 de 19 / Nota 10.00
+ - Resultados Corretos main: 0 de 19 / Nota 0.00
+ - Valgrinds Corretos main: 9 de 19 / Nota 4.73
+ - Resultados Corretos completo: 0 de 19 / Nota 0.00
+ - Valgrinds Corretos completo: 19 de 19 / Nota 10.00
+ - Soma das notas do Felipe: 74.730
+ - Campos Considerados: 11
+ - Média do Felipe: 6.79
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+
