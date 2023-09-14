@@ -1,0 +1,14 @@
+Cadastrar
+2,Shrek,4,1
+3,A Mumia,4,3
+#
+Alugar
+1
+2
+3
+#
+Devolver
+2
+#
+Estoque
+#

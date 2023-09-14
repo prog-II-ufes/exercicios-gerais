@@ -1,4 +1,5 @@
 #include "locadora.h"
+#include "filme.h"
 #include <stdio.h>
 #include <string.h>
 
@@ -31,6 +32,9 @@ tLocadora lerCadastroLocadora (tLocadora locadora) {
 
     if (!verificarFilmeCadastrado(locadora, filme.codigo)) {
         locadora = cadastrarFilmeLocadora(locadora, filme.nome, filme.codigo, filme.valor, filme.qtdEstoque);
+        printf("Filme cadastrado - %d - %s\n", filme.codigo, filme.nome);
+    } else {
+        printf("Filme ja cadastrado no estoque\n");
     }
 
     return locadora;
@@ -56,11 +60,29 @@ tLocadora alugarFilmesLocadora (tLocadora locadora, int* codigos, int quantidade
 }
 
 tLocadora lerAluguelLocadora (tLocadora locadora) {
-    int quantidadeCodigos = 0;
+    int codigo, quantidadeCodigos = 0, custo = 0;
     int codigos[MAX_FILMES];
 
-    while (scanf("%d\n", &codigos[quantidadeCodigos])) {
-        quantidadeCodigos++;
+    while (!scanf("#\n")) {
+        scanf("%d\n", &codigo);
+
+        if (verificarFilmeCadastrado(locadora, codigo)) {
+            tFilme filme = locadora.filme[codigo - 1];
+
+            if (obterQtdEstoqueFilme(filme) > 0) {
+                codigos[quantidadeCodigos] = codigo;
+                quantidadeCodigos++;
+                custo += obterValorFilme(filme);
+            } else {
+                printf("Filme %d - %s nao disponivel no estoque. Volte mais tarde.\n", codigo, filme.nome);
+            }
+        } else {
+            printf("Filme %d nao cadastrado\n", codigo);
+        }
+    }
+
+    if (quantidadeCodigos > 0) {
+        printf("Total de filmes alugados: %d com custo de R$%d\n", quantidadeCodigos, custo);
     }
 
     locadora = alugarFilmesLocadora(locadora, codigos, quantidadeCodigos);
@@ -87,11 +109,25 @@ tLocadora devolverFilmesLocadora (tLocadora locadora, int* codigos, int quantida
 }
 
 tLocadora lerDevolucaoLocadora (tLocadora locadora) {
-    int quantidadeCodigos = 0;
+    int codigo, quantidadeCodigos = 0;
     int codigos[MAX_FILMES];
     
-    while (scanf("%d\n", &codigos[quantidadeCodigos])) {
-        quantidadeCodigos++;
+    while (!scanf("#\n")) {
+        scanf("%d\n", &codigo);
+
+        if (verificarFilmeCadastrado(locadora, codigo)) {
+            tFilme filme = locadora.filme[codigo - 1];
+
+            if (obterQtdAlugadaFilme(filme) > 0) {
+                codigos[quantidadeCodigos] = codigo;
+                quantidadeCodigos++;
+                printf("Filme %d - %s Devolvido!\n", codigo, filme.nome);
+            } else {
+                printf("Nao e possivel devolver o filme %d - %s\n", codigo, filme.nome);
+            }
+        } else {
+            printf("Filme %d nao cadastrado\n", codigo);
+        }
     }
 
     locadora = devolverFilmesLocadora(locadora, codigos, quantidadeCodigos);

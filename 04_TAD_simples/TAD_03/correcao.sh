@@ -596,53 +596,61 @@ if [[ "$RUN_STUDENT_SCRIPT" == true ]] ; then
                             binary=$STUDENT_RESULT_FOLDER/$src_file_dir/prog
                             valgrind_args="--leak-check=full --log-file=$DIR_CASE/result_valgrind.txt"
                             # output=$(timeout 5 valgrind $valgrind_args $binary < $txt_input_file > $output 2>&1)
-                            output=$(timeout 5 valgrind $valgrind_args $binary $directory_path < $input_file > $output 2>&1)
+
+                            if [ "$IGNORE_VALGRIND" = "false" ]; then
+                                output=$(timeout 5 valgrind $valgrind_args $binary $directory_path < $input_file > $output 2>&1)
+                            else
+                                output=$(timeout 5 $binary $directory_path < $input_file > $output 2>&1)
+                            fi
+
                             # echo "output: $output"
                             # output=$(valgrind $valgrind_args $binary < $DIR_CASE/in.txt > "out.txt" 2>&1)
 
                             there_is_a_wrong_valgrind=false
-                            if [[ -f "$DIR_CASE/result_valgrind.txt" ]]; then
-                                valgrind_result_file=$DIR_CASE/result_valgrind.txt
-                                echo "   - Arquivo de output gerado: $DIR_CASE/result_valgrind.txt."
-                                TERMINAL_OUTPUT_LOG="${TERMINAL_OUTPUT_LOG}   - Arquivo de output gerado: $DIR_CASE/result_valgrind.txt.\n"
-                        
-                                # Valgring returns
-                                allocs=0
-                                frees=0
-                                errors=0
-                                contexts=0
+                            if [ "$IGNORE_VALGRIND" = "false" ]; then
+                                if [[ -f "$DIR_CASE/result_valgrind.txt" ]]; then
+                                    valgrind_result_file=$DIR_CASE/result_valgrind.txt
+                                    echo "   - Arquivo de output gerado: $DIR_CASE/result_valgrind.txt."
+                                    TERMINAL_OUTPUT_LOG="${TERMINAL_OUTPUT_LOG}   - Arquivo de output gerado: $DIR_CASE/result_valgrind.txt.\n"
+                            
+                                    # Valgring returns
+                                    allocs=0
+                                    frees=0
+                                    errors=0
+                                    contexts=0
 
-                                # Using while read loop to process each line of the file
-                                while IFS= read -r line; do
-                                    if echo "$line" | grep -q "total heap usage"; then
-                                        # Extract the allocs (position 5) and frees (position 7) numbers on the string
-                                        allocs=$(echo "$line" | awk '{print $5}')
-                                        frees=$(echo "$line" | awk '{print $7}')
-                                    elif echo "$line" | grep -q "ERROR SUMMARY"; then
-                                        # Extract the errors (position 4) and contexts (position 7) numbers on the string
-                                        errors=$(echo "$line" | awk '{print $4}')
-                                        contexts=$(echo "$line" | awk '{print $7}')
+                                    # Using while read loop to process each line of the file
+                                    while IFS= read -r line; do
+                                        if echo "$line" | grep -q "total heap usage"; then
+                                            # Extract the allocs (position 5) and frees (position 7) numbers on the string
+                                            allocs=$(echo "$line" | awk '{print $5}')
+                                            frees=$(echo "$line" | awk '{print $7}')
+                                        elif echo "$line" | grep -q "ERROR SUMMARY"; then
+                                            # Extract the errors (position 4) and contexts (position 7) numbers on the string
+                                            errors=$(echo "$line" | awk '{print $4}')
+                                            contexts=$(echo "$line" | awk '{print $7}')
+                                        fi
+                                    done < "$valgrind_result_file"
+
+                                    if [[ -f $valgrind_result_file ]]; then 
+                                        rm -r $valgrind_result_file
                                     fi
-                                done < "$valgrind_result_file"
 
-                                if [[ -f $valgrind_result_file ]]; then 
-                                    rm -r $valgrind_result_file
-                                fi
-
-                                echo "Test Case: $DIR_CASE" >> $valgrind_result_file
-                                echo "Valgrind result: allocs: $allocs frees: $frees errors: $errors contexts: $contexts" >> $valgrind_result_file
-                                if test "$allocs" = "$frees" && test "$errors" = "0"; then
-                                    echo "   - Valgrind: Ok! allocs: $allocs, frees: $frees, errors: $errors"
-                                    TERMINAL_OUTPUT_LOG="${TERMINAL_OUTPUT_LOG}   - Valgrind: Ok! allocs: $allocs, frees: $frees, errors: $errors.\n"
+                                    echo "Test Case: $DIR_CASE" >> $valgrind_result_file
+                                    echo "Valgrind result: allocs: $allocs frees: $frees errors: $errors contexts: $contexts" >> $valgrind_result_file
+                                    if test "$allocs" = "$frees" && test "$errors" = "0"; then
+                                        echo "   - Valgrind: Ok! allocs: $allocs, frees: $frees, errors: $errors"
+                                        TERMINAL_OUTPUT_LOG="${TERMINAL_OUTPUT_LOG}   - Valgrind: Ok! allocs: $allocs, frees: $frees, errors: $errors.\n"
+                                    else
+                                        echo "   - Valgrind: Incorreto! allocs: $allocs, frees: $frees, errors: $errors"
+                                        TERMINAL_OUTPUT_LOG="${TERMINAL_OUTPUT_LOG}   - Valgrind: Incorreto! allocs: $allocs, frees: $frees, errors: $errors.\n"
+                                        there_is_a_wrong_valgrind=true
+                                    fi
                                 else
-                                    echo "   - Valgrind: Incorreto! allocs: $allocs, frees: $frees, errors: $errors"
-                                    TERMINAL_OUTPUT_LOG="${TERMINAL_OUTPUT_LOG}   - Valgrind: Incorreto! allocs: $allocs, frees: $frees, errors: $errors.\n"
+                                    echo "   - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado."
+                                    TERMINAL_OUTPUT_LOG="${TERMINAL_OUTPUT_LOG}   - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.\n"
                                     there_is_a_wrong_valgrind=true
                                 fi
-                            else
-                                echo "   - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente."
-                                TERMINAL_OUTPUT_LOG="${TERMINAL_OUTPUT_LOG}   - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente.\n"
-                                there_is_a_wrong_valgrind=true
                             fi
 
                             DIR_CASE_SAIDA=$DIR_CASE/saida
