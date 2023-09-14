@@ -8,6 +8,15 @@ tLocadora criarLocadora () {
     return locadora;
 }
 
+tFilme obterFilme(tLocadora locadora, int codigo) {
+
+    for (int i = 0; i < locadora.numFilmes; i++) {
+        if (locadora.filme[i].codigo == codigo) {
+            return locadora.filme[i];
+        }
+    }
+}
+
 int verificarFilmeCadastrado (tLocadora locadora, int codigo) {
 
     for (int i = 0; i < locadora.numFilmes; i++) {
@@ -27,11 +36,13 @@ tLocadora cadastrarFilmeLocadora (tLocadora locadora, char* nome, int codigo, in
 }
 
 tLocadora lerCadastroLocadora (tLocadora locadora) {
-    tFilme filme = lerFilme();
+    tFilme filme;
+
+    scanf("%d,%[^,],%d,%d\n", &filme.codigo, filme.nome, &filme.valor, &filme.qtdEstoque);
 
     if (!verificarFilmeCadastrado(locadora, filme.codigo)) {
         locadora = cadastrarFilmeLocadora(locadora, filme.nome, filme.codigo, filme.valor, filme.qtdEstoque);
-        printf("Filme cadastrado - %d - %s\n", filme.codigo, filme.nome);
+        printf("Filme cadastrado %d - %s\n", filme.codigo, filme.nome);
     } else {
         printf("Filme ja cadastrado no estoque\n");
     }
@@ -67,8 +78,9 @@ tLocadora lerAluguelLocadora (tLocadora locadora) {
         scanf("%d\n", &codigo);
 
         if (verificarFilmeCadastrado(locadora, codigo)) {
-            tFilme filme = locadora.filme[codigo - 1];
 
+            tFilme filme = obterFilme(locadora, codigo);
+            
             if (obterQtdEstoqueFilme(filme) > 0) {
                 codigos[quantidadeCodigos] = codigo;
                 quantidadeCodigos++;
@@ -77,7 +89,7 @@ tLocadora lerAluguelLocadora (tLocadora locadora) {
                 printf("Filme %d - %s nao disponivel no estoque. Volte mais tarde.\n", codigo, filme.nome);
             }
         } else {
-            printf("Filme %d nao cadastrado\n", codigo);
+            printf("Filme %d nao cadastrado.\n", codigo);
         }
     }
 
@@ -117,7 +129,8 @@ tLocadora lerDevolucaoLocadora (tLocadora locadora) {
         scanf("%d\n", &codigo);
 
         if (verificarFilmeCadastrado(locadora, codigo)) {
-            tFilme filme = locadora.filme[codigo - 1];
+            
+            tFilme filme = obterFilme(locadora, codigo);
 
             if (obterQtdAlugadaFilme(filme) > 0) {
                 codigos[quantidadeCodigos] = codigo;
@@ -127,7 +140,7 @@ tLocadora lerDevolucaoLocadora (tLocadora locadora) {
                 printf("Nao e possivel devolver o filme %d - %s\n", codigo, filme.nome);
             }
         } else {
-            printf("Filme %d nao cadastrado\n", codigo);
+            printf("Filme %d nao cadastrado.\n", codigo);
         }
     }
 
@@ -155,15 +168,19 @@ tLocadora ordenarFilmesLocadora (tLocadora locadora) {
     }
 
     return locadora;
+
 }
 
 void consultarEstoqueLocadora (tLocadora locadora) {
     printf("~ESTOQUE~\n");
 
+    locadora = ordenarFilmesLocadora(locadora);
+
     for (int i = 0; i < locadora.numFilmes; i++) {
         tFilme filme = locadora.filme[i];
 
-        printf("%d - %s Fitas em estoque: %d\n", filme.codigo, filme.nome, filme.qtdEstoque);
+        printf("%d - %s Fitas em estoque: %d", filme.codigo, filme.nome, filme.qtdEstoque);
+        if (i < locadora.numFilmes - 1) printf("\n");
     }
 }
 
