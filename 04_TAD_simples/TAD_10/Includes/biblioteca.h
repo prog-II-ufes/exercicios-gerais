@@ -27,7 +27,7 @@ tBiblioteca inicializarBiblioteca();
  * @param livro O livro a ser adicionado.
  * @return A biblioteca atualizada com o livro adicionado.
  */
-tBiblioteca adicionarLivro(tBiblioteca biblioteca, tLivros livro);
+tBiblioteca adicionarLivroNaBiblioteca(tBiblioteca biblioteca, tLivros livro);
 
 /**
  * Remove um livro da biblioteca pelo título. 
@@ -38,7 +38,7 @@ tBiblioteca adicionarLivro(tBiblioteca biblioteca, tLivros livro);
  * @param titulo O título do livro a ser removido.
  * @return A biblioteca atualizada após a remoção do livro.
  */
-tBiblioteca removerLivro(tBiblioteca biblioteca, char *titulo);
+tBiblioteca removerLivroDaBiblioteca(tBiblioteca biblioteca, char *titulo);
 
 /**
  * Verifica se o título digitado é igual ao título do livro.
@@ -47,7 +47,7 @@ tBiblioteca removerLivro(tBiblioteca biblioteca, char *titulo);
  * @param titulo O título digitado pelo usuário.
  * @return se o título for igual, retorna 0.
 */
-int verificaTitulo(tLivros livro, char* titulo);
+int verificaTituloDoLivroNaBiblioteca(tLivros livro, char* titulo);
 
 /**
  * Lista todos os livros presentes na biblioteca.
@@ -55,7 +55,7 @@ int verificaTitulo(tLivros livro, char* titulo);
  *
  * @param biblioteca A biblioteca cujos livros serão listados.
  */
-void listarLivros(tBiblioteca biblioteca);
+void listarLivrosDaBiblioteca(tBiblioteca biblioteca);
 
 
 
