@@ -9,12 +9,19 @@ typedef struct empresa {
 } tEmpresa;
 
 /**
- * @brief Cria uma empresa a partir de valores de nome e salario.
+ * @brief Cria uma empresa a partir de um id.
  * 
  * @param id Id do empresa a ser criada.
- * @return TEmpresa empresa criado a partir do Id fornecido.
+ * @return TEmpresa empresa criada a partir do Id fornecido.
  */
 tEmpresa criaEmpresa(int id);
+
+/**
+ * @brief Le os dados de uma empresa da entrada padrao.
+ * 
+ * @return TEmpresa empresa criada a partir dos dados lidos.
+ */
+tEmpresa leEmpresa();
 
 /**
  * @brief Adiciona um funcionario a uma empresa caso o id do funcionario ainda nao esteja registrado na empresa.

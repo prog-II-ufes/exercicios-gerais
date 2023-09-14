@@ -23,14 +23,14 @@ typedef struct Departamento {
  * @param diretor Nome do diretor.
  * @return tDepartamento Departamento criado a partir dos valores nomes dos cursos, nome do departamento, média por curso e nome do diretor.
  */
-tDepartamento criaDepartamento(char* c1, char* c2, char* c3, char* nome, int m1, int m2, int m3, char* diretor);
+tDepartamento CriaDepartamento(char* c1, char* c2, char* c3, char* nome, int m1, int m2, int m3, char* diretor);
 
 /**
  * @brief Imprime os atributos do departamento, sendo eles: cursos, nome do departamento, média por curso e nome do diretor.
  * 
  * @param depto Departamento cujos atributos serão impressos.
  */
-void imprimeAtributos (tDepartamento depto);
+void ImprimeAtributos (tDepartamento depto);
 
 /**
  * @brief Verifica se a media inserida é valida, ou seja, pertence à [0, 10].
@@ -38,7 +38,7 @@ void imprimeAtributos (tDepartamento depto);
  * @param media Valor a ser validado.
  * @return int Se é válida (1) ou não (0).
  */
-int validaMedia (int media);
+int ValidaMedia (int media);
 
 /**
  * @brief Calcula o Desvio Padrão das médias por curso de um departamento.
@@ -46,7 +46,7 @@ int validaMedia (int media);
  * @param depto Departamento cujo Desvio Padrão de médias por curso deve ser calculado.
  * @return double Valor do cálculo do Desvio Padrão.
  */
-double calculaDesvioPadrao(tDepartamento depto);
+double CalculaDesvioPadrao(tDepartamento depto);
 
 /**
  * @brief Calcula a média simples das notas dos cursos do departamento.
@@ -54,6 +54,6 @@ double calculaDesvioPadrao(tDepartamento depto);
  * @param depto Departamento cuja media simples deve ser calculada.
  * @return double Valor do calculo da média simples.
  */
-double calculaMediaGeral(tDepartamento depto);
+double CalculaMediaGeral(tDepartamento depto);
 
 #endif

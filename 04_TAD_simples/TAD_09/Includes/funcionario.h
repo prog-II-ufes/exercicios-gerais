@@ -16,6 +16,13 @@ typedef struct funcionario {
 tFuncionario criaFuncionario(int id, float salario);
 
 /**
+ * @brief Le os dados de um funcionario da entrada padrao.
+ * 
+ * @return TFuncionario Funcionario criado a partir dos dados lidos.
+ */
+tFuncionario leFuncionario();
+
+/**
  * @brief Obtem o Id de um funcionario.
  * 
  * @param funcionario Funcionario que deseja obter o id.

@@ -15,7 +15,7 @@ typedef struct Data {
  * @param ano Ano da data a ser criada.
  * @return tData Data criada a partir dos valores de dia, mês e ano.
  */
-tData criaData(int dia, int mes, int ano);
+tData CriaData(int dia, int mes, int ano);
 
 /**
  * @brief Verifica se uma data é válida.
@@ -23,21 +23,21 @@ tData criaData(int dia, int mes, int ano);
  * @param data Data a ser verificada.
  * @return int 1 se a data é válida, 0 caso contrário.
  */
-int verificaDataValida(tData data);
+int VerificaDataValida(tData data);
 
 /**
  * @brief Imprime o mês de uma data em formato extenso.
  * 
  * @param data Data cujo mês será impresso em formato extenso.
  */
-void imprimeMesExtenso(tData data);
+void ImprimeMesExtenso(tData data);
 
 /**
  * @brief Imprime uma data em formato extenso.
  * 
  * @param data Data a ser impressa em formato extenso.
  */
-void imprimeDataExtenso(tData data);
+void ImprimeDataExtenso(tData data);
 
 /**
  * @brief Verifica se um ano é bissexto.
@@ -45,7 +45,7 @@ void imprimeDataExtenso(tData data);
  * @param data Data cujo ano será verificado.
  * @return int 1 se o ano é bissexto, 0 caso contrário.
  */
-int verificaBissexto(tData data);
+int VerificaBissexto(tData data);
 
 /**
  * @brief Retorna o número de dias de um determinado mês.
@@ -53,7 +53,7 @@ int verificaBissexto(tData data);
  * @param data Data cujo mês terá o número de dias retornado.
  * @return int Número de dias do mês da data.
  */
-int numeroDiasMes(tData data);
+int NumeroDiasMes(tData data);
 
 /**
  * @brief Compara duas datas.
@@ -62,7 +62,7 @@ int numeroDiasMes(tData data);
  * @param data2 Segunda data a ser comparada.
  * @return int 1 se data1 é maior que data2, -1 se data1 é menor que data2, 0 se as datas são iguais.
  */
-int comparaData(tData data1, tData data2);
+int ComparaData(tData data1, tData data2);
 
 /**
  * @brief Calcula o número de dias até o início do mês de uma determinada data.
@@ -70,7 +70,7 @@ int comparaData(tData data1, tData data2);
  * @param data Data cujo número de dias até o início do mês será calculado.
  * @return int Número de dias até o início do mês da data.
  */
-int calculaDiasAteMes(tData data);
+int CalculaDiasAteMes(tData data);
 
 /**
  * @brief Calcula a diferença em dias entre duas datas.
@@ -79,6 +79,6 @@ int calculaDiasAteMes(tData data);
  * @param data2 Segunda data a ser comparada.
  * @return int Número de dias entre as duas datas.
  */
-int calculaDiferencaDias(tData data1, tData data2);
+int CalculaDiferencaDias(tData data1, tData data2);
 
 #endif

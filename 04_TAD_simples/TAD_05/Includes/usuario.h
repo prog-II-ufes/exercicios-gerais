@@ -16,12 +16,12 @@ typedef struct Usuario {
  * @param cpf CPF do usuário.
  * @return O novo usuário criado.
  */
-tUsuario criar_usuario(char nome[20], char cpf[15]);
+tUsuario CriaUsuario(char nome[20], char cpf[15]);
 
 /**
  * @brief Imprime os dados de um usuário.
  * @param user Usuário a ser impresso.
  */
-void imprime_usuario(tUsuario user);
+void ImprimeUsuario(tUsuario user);
 
 #endif
