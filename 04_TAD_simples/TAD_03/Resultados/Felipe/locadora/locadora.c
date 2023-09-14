@@ -27,7 +27,9 @@ tLocadora cadastrarFilmeLocadora (tLocadora locadora, char* nome, int codigo, in
 }
 
 tLocadora lerCadastroLocadora (tLocadora locadora) {
-    tFilme filme = lerFilme();
+    tFilme filme;
+
+    scanf("%d,%[^,],%d,%d\n", &filme.codigo, filme.nome, &filme.valor, &filme.qtdEstoque);
 
     if (!verificarFilmeCadastrado(locadora, filme.codigo)) {
         locadora = cadastrarFilmeLocadora(locadora, filme.nome, filme.codigo, filme.valor, filme.qtdEstoque);

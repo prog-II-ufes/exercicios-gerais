@@ -1,1 +1,29 @@
-valgrind: Resultados/Felipe/locadora/prog: No such file or directory
+Filme cadastrado - 2 - Tomb Raider
+
+Filme 1 nao cadastrado
+
+~ESTOQUE~
+2 - Tomb Raider Fitas em estoque: 1
+
+Filme cadastrado - 4 - Shrek
+
+~ESTOQUE~
+4 - Shrek Fitas em estoque: 1
+2 - Tomb Raider Fitas em estoque: 1
+
+Filme 4 -  nao disponivel no estoque. Volte mais tarde.
+
+Filme 4 -  nao disponivel no estoque. Volte mais tarde.
+
+Nao e possivel devolver o filme 4 - 
+
+Filme 4 -  nao disponivel no estoque. Volte mais tarde.
+
+Total de filmes alugados: 1 com custo de R$5
+
+Filme 2 - Tomb Raider Devolvido!
+
+~ESTOQUE~
+4 - Shrek Fitas em estoque: 1
+2 - Tomb Raider Fitas em estoque: 1
+Lucro total R$5

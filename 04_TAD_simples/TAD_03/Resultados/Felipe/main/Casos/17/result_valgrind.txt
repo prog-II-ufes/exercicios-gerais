@@ -1,2 +1,2 @@
 Test Case: Resultados/Felipe/main/Casos/17
-Valgrind result: allocs: 2 frees: 0 errors: 0 contexts: 0
+Valgrind result: allocs: 2 frees: 2 errors: 0 contexts: 0

@@ -7,7 +7,7 @@ int main(int argc, char const *argv[])
     char operacao[20];
     tLocadora locadora = criarLocadora();
 
-    while (scanf("%s\n", operacao)) {
+    while (scanf("%s", operacao) != EOF) {
 
         if (strcmp(operacao, "Cadastrar") == 0) {
             while (!scanf("#%c", operacao)) {

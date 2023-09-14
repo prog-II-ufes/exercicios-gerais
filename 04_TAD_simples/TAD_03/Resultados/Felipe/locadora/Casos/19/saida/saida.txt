@@ -1,1 +1,62 @@
-valgrind: Resultados/Felipe/locadora/prog: No such file or directory
+Filme cadastrado - 21 - The Last Castle
+
+~ESTOQUE~
+21 - The Last Castle Fitas em estoque: 5
+
+Filme 21 -  nao disponivel no estoque. Volte mais tarde.
+Filme 22 nao cadastrado
+Filme 23 nao cadastrado
+
+Filme 26 nao cadastrado
+
+Filme 24 nao cadastrado
+Filme 25 nao cadastrado
+Filme 22 nao cadastrado
+
+Filme 23 nao cadastrado
+Filme 24 nao cadastrado
+Filme 25 nao cadastrado
+
+~ESTOQUE~
+21 - The Last Castle Fitas em estoque: 5
+
+Filme cadastrado - 26 - Vanilla Sky
+
+~ESTOQUE~
+21 - The Last Castle Fitas em estoque: 5
+26 - Vanilla Sky Fitas em estoque: 5
+
+Filme 26 -  nao disponivel no estoque. Volte mais tarde.
+
+Filme 24 nao cadastrado
+Filme 25 nao cadastrado
+
+Filme 24 nao cadastrado
+Filme 29 nao cadastrado
+Filme 30 nao cadastrado
+
+Filme 24 nao cadastrado
+Filme 29 nao cadastrado
+
+Filme 24 nao cadastrado
+Filme 25 nao cadastrado
+Filme 22 nao cadastrado
+
+Nao e possivel devolver o filme 21 - 
+Filme 22 nao cadastrado
+Filme 23 nao cadastrado
+
+Filme 30 nao cadastrado
+
+Filme 29 nao cadastrado
+Filme 30 nao cadastrado
+
+Filme 30 nao cadastrado
+
+Filme 30 nao cadastrado
+Filme 29 nao cadastrado
+
+~ESTOQUE~
+21 - The Last Castle Fitas em estoque: 5
+26 - Vanilla Sky Fitas em estoque: 5
+Lucro total R$0

@@ -1,3 +1,0 @@
-/usr/bin/ld: Resultados/Felipe/locadora/locadora.o: in function `lerCadastroLocadora':
-locadora.c:(.text+0x282): undefined reference to `lerFilme'
-collect2: error: ld returned 1 exit status

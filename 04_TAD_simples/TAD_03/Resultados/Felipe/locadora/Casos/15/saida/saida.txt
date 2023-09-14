@@ -1,1 +1,15 @@
-valgrind: Resultados/Felipe/locadora/prog: No such file or directory
+Filme cadastrado - 2 - Shrek
+
+Filme 1 nao cadastrado
+
+Filme 1 nao cadastrado
+Filme 2 -  nao disponivel no estoque. Volte mais tarde.
+Filme 5 nao cadastrado
+
+Filme 2 -  nao disponivel no estoque. Volte mais tarde.
+
+Nao e possivel devolver o filme 2 - 
+
+~ESTOQUE~
+2 - Shrek Fitas em estoque: 1
+Lucro total R$0

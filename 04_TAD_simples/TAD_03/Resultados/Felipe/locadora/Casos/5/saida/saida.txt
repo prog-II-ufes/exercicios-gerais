@@ -1,1 +1,8 @@
-valgrind: Resultados/Felipe/locadora/prog: No such file or directory
+Filme cadastrado - 1 - Final Fantasy
+
+Filme 2 nao cadastrado
+Total de filmes alugados: 1 com custo de R$5
+
+~ESTOQUE~
+1 - Final Fantasy Fitas em estoque: 0
+Lucro total R$5

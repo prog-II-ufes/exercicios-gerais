@@ -1,1 +1,49 @@
-valgrind: Resultados/Felipe/locadora/prog: No such file or directory
+Filme cadastrado - 1 - Hannibal
+
+~ESTOQUE~
+1 - Hannibal Fitas em estoque: 1
+
+Filme 2 nao cadastrado
+Filme 3 nao cadastrado
+Total de filmes alugados: 1 com custo de R$10
+
+~ESTOQUE~
+1 - Hannibal Fitas em estoque: 0
+
+Filme 1 - Hannibal Devolvido!
+Filme 1 - Hannibal Devolvido!
+
+~ESTOQUE~
+1 - Hannibal Fitas em estoque: 2
+
+Filme 2 nao cadastrado
+
+Filme 15 nao cadastrado
+
+Filme cadastrado - 15 - Shrek
+
+Filme 15 -  nao disponivel no estoque. Volte mais tarde.
+
+Filme 5 nao cadastrado
+
+~ESTOQUE~
+1 - Hannibal Fitas em estoque: 2
+15 - Shrek Fitas em estoque: 1
+
+Filme 2 nao cadastrado
+Filme 2 nao cadastrado
+
+Total de filmes alugados: 2 com custo de R$20
+
+~ESTOQUE~
+1 - Hannibal Fitas em estoque: 0
+15 - Shrek Fitas em estoque: 1
+
+Filme 2 nao cadastrado
+
+Filme 2 nao cadastrado
+
+~ESTOQUE~
+1 - Hannibal Fitas em estoque: 0
+15 - Shrek Fitas em estoque: 1
+Lucro total R$30

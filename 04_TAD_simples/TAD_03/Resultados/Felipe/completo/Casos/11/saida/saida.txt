@@ -1,13 +1,15 @@
-Filme cadastrado 2 - Shrek
-Filme cadastrado 3 - A Mumia
+Filme cadastrado - 2 - Shrek
+Filme cadastrado - 3 - A Mumia
 
-Filme 1 nao cadastrado.
-Total de filmes alugados: 2 com custo de R$8
+Filme 1 nao cadastrado
+Filme 3 -  nao disponivel no estoque. Volte mais tarde.
+Total de filmes alugados: 1 com custo de R$4
 
-Filme 2 - Shrek Devolvido!
+Nao e possivel devolver o filme 2 - A Mumia
 
 ~ESTOQUE~
-3 - A Mumia Fitas em estoque: 2
-2 - Shrek Fitas em estoque: 1
+2 - Shrek Fitas em estoque: 0
+3 - A Mumia Fitas em estoque: 3
+
 
 Lucro total R$4
