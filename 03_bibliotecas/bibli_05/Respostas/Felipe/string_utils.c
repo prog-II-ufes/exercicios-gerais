@@ -7,7 +7,7 @@ int string_length(char *str) {
         i++;
     }
 
-    return i;
+    return i + 1;
 }
 
 void string_copy(char *src, char *dest) {
@@ -50,7 +50,7 @@ void string_lower(char *str) {
 }
 
 void string_reverse(char *str) {
-    int size = string_length(str);
+    int size = string_length(str) - 2;
     
     for (int i = 0; i < size/2; i++) {
         char aux = str[i];
