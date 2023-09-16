@@ -8,6 +8,7 @@ typedef struct Departamento {
     char c1[STRING_MAX], c2[STRING_MAX], c3[STRING_MAX];    // nomes dos cursos do departamento
     int m1, m2, m3;     // médias de notas dos cursos do departamento
     char diretor [STRING_MAX];    // nome do diretor do departamento
+    float media_geral;
 } tDepartamento;
 
 /**
