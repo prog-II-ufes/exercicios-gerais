@@ -1,0 +1,16 @@
+
+===== Menu =====
+1 - Cadastrar um evento
+2 - Exibir todos os eventos
+3 - Trocar data de um evento
+4 - Trocar a posicao entre dois eventos
+5 - Sair
+Indice invalido!
+Nenhum evento cadastrado.
+Evento cadastrado com sucesso!
+Eventos cadastrados:
+0 - Aula - 23/9/2023
+Data modificada com sucesso!
+Eventos cadastrados:
+0 - Aula - 25/10/2023
+Saindo...

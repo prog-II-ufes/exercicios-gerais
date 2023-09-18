@@ -1,0 +1,3 @@
+Maior elemento: 2000
+Menor elemento: 2
+Media dos elementos: 387.60
