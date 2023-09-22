@@ -61,6 +61,7 @@ int NumeroDiasMes(tData data);
  * @param data1 Primeira data a ser comparada.
  * @param data2 Segunda data a ser comparada.
  * @return int 1 se data1 é maior que data2, -1 se data1 é menor que data2, 0 se as datas são iguais.
+ * A data ser maior significa que ela é mais recente.
  */
 int ComparaData(tData data1, tData data2);
 
