@@ -1,0 +1,24 @@
+NOME COMPLETO: Felipe Oliveira
+PAI: Matheus Oliveira
+MAE: Isabela Oliveira
+
+NOME COMPLETO: Ana Silva
+PAI: João Silva
+MAE: Maria Silva
+
+NOME COMPLETO: Rafael Pereira
+PAI: Lucas Pereira
+MAE: Carolina Pereira
+
+NOME COMPLETO: Gabriel Rodrigues
+PAI: Luiz Rodrigues
+MAE: Mariana Rodrigues
+
+NOME COMPLETO: Laura Santos
+PAI: Pedro Santos
+MAE: Sofia Santos
+
+NOME COMPLETO: Sofia Costa
+PAI: Matheus Costa
+MAE: Laura Costa
+

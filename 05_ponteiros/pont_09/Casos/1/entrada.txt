@@ -1,0 +1,22 @@
+15
+Maria Silva
+João Rodrigues
+Ana Oliveira
+Pedro Souza
+Laura Rodrigues
+Lucas Pereira
+Sofia Pereira
+Matheus Alves
+Isabela Alves
+Gabriel Lima
+Rafael Costa
+Carolina Alves
+Luiz Silva
+Mariana Rodrigues
+Felipe Oliveira
+5
+mae: 2, pai: -1, filho: 14
+mae: 4, pai: 1, filho: 13
+mae: 11, pai: 7, filho: 8
+mae: -1, pai: 12, filho: 0
+mae: 6, pai: -1, filho: 5
