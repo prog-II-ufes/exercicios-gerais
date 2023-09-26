@@ -22,10 +22,11 @@ typedef struct Filme {
 tFilme criarFilme (char* nome, int codigo, int valor, int quantidade);
 
 /**
- * @brief Lê um filme a partir da entrada padrão.
+ * @brief Lê um filme.
+ * @param codigo Código do filme.
  * @return Filme lido.
- */
-tFilme lerFilme ();
+*/
+tFilme leFilme(int codigo);
 
 /**
  * @brief Obtém o código de um filme.

@@ -27,18 +27,15 @@ tLocadora criarLocadora ();
 int verificarFilmeCadastrado (tLocadora locadora, int codigo);
 
 /**
- * @brief Cadastra um novo filme na locadora.
+ * @brief Cadastra um filme na locadora, desde que ele não esteja cadastrado.
  * @param locadora Locadora a ser atualizada.
- * @param nome Nome do filme.
- * @param codigo Código do filme.
- * @param valor Valor do filme.
- * @param quantidade Quantidade em estoque do filme.
+ * @param filme Filme a ser cadastrado.
  * @return Locadora atualizada.
- */
-tLocadora cadastrarFilmeLocadora (tLocadora locadora, char* nome, int codigo, int valor, int quantidade);
+*/
+tLocadora cadastrarFilmeLocadora (tLocadora locadora, tFilme filme);
 
 /**
- * @brief Lê o cadastro de um filme a partir da entrada padrão e o cadastra na locadora.
+ * @brief Lê o cadastro de um ou mais filmes a partir da entrada padrão e o cadastra na locadora.
  * @param locadora Locadora a ser atualizada.
  * @return Locadora atualizada.
  */
