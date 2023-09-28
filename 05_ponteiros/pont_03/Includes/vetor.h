@@ -24,7 +24,10 @@ void ImprimeDadosDoVetor(int * n, int tam);
 /**
  * @brief Troca o valor de duas variáveis se o segundo for menor que o primeiro.
  * 
- * Esta função recebe como parâmetro um vetor, seu tamanho e um ponteiro para uma variável que será usada para armazenar o índice do menor valor encontrado. A função percorre o vetor e, se encontrar um valor menor que o valor armazenado na variável apontada por paraTrocar, atualiza essa variável e troca os valores das posições correspondentes no vetor.
+ * 
+ * Obs.: Essa função tem o comportamento de encontrar o menor valor no vetor vet de tamanho tam, 
+ *  se esse valor for menor do que o valor apontado por paraTrocar, realiza uma troca. 
+ *  Ao final da execução, a variável apontada por paraTrocar terá o menor valor encontrado no vetor vet.
  * 
  * @param vet Ponteiro para o vetor a ser percorrido.
  * @param tam Tamanho do vetor.
