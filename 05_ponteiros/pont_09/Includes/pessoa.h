@@ -10,7 +10,7 @@ struct Pessoa{
 };
 
 /**
- * @brief Cria uma nova pessoa e inicializa os ponteiros.
+ * @brief Cria uma nova pessoa com nome vazio (primeiro caractere igual a '\0') e inicializa os ponteiros para pai e mae com NULL.
  * 
  * @return Uma nova pessoa e sem pais.
  */
