@@ -45,7 +45,7 @@ void ImprimePessoa(tPessoa *pessoa);
 /**
  * @brief Le as associciacoes da entrada padrao e altera as pessoas de forma a representar as associacoes lidas
  * 
- * @param pessoas Ponteiro para a lista de pessoas a serem associadas.
+ * @param pessoas Vetor de pessoas a serem associadas.
  */
 void AssociaFamiliasGruposPessoas(tPessoa *pessoas);
 
