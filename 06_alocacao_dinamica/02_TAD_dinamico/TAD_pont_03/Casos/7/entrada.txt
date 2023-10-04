@@ -1,0 +1,13 @@
+Cadastrar
+1,A Sociedade Do Anel,5,1
+#
+Alugar
+1
+#
+Estoque
+#Z
+Devolver
+1
+#
+Estoque
+#

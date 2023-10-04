@@ -1,0 +1,19 @@
+3
+CT
+Luiz
+EngComputacao
+EngProducao
+EngEletrica
+9 7 6
+CCJE
+Joana
+Direito
+Administracao
+Economia
+5 8 4
+CCE
+Helio
+Matematica
+Fisica
+Estatistica
+6 5 7
