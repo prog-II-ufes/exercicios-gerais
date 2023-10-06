@@ -1,0 +1,18 @@
+Lista de operacoes:
+1 - Cadastrar livros.
+2 - Remover livros.
+3 - Listar todos os livros cadastrados.
+
+Livro adicionado com sucesso!
+Livro adicionado com sucesso!
+Livro nao encontrado na biblioteca.
+
+Lista de Livros na Biblioteca:
+Titulo: Jockey
+Autor: PonyStar67
+Ano de Publicacao: 2015
+
+Titulo: Poker
+Autor: StarsNet
+Ano de Publicacao: 2018
+
