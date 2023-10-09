@@ -1,0 +1,1 @@
+Elemento 42 encontrado no índice 41.
