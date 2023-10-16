@@ -1,0 +1,6 @@
+Quantidade de Cartas: 2
+Quantidade de descartadas: 0
+Quantidade de lutas: 1
+Lutas que foram desempatadas: 0
+Carta mais vitoriosa: Dragao Vermelho
+Luta com Maior Diferença: 1

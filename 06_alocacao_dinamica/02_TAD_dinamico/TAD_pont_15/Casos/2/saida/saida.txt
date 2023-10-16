@@ -1,0 +1,6 @@
+Quantidade de Cartas: 3
+Quantidade de descartadas: 0
+Quantidade de lutas: 4
+Lutas que foram desempatadas: 0
+Carta mais vitoriosa: Dragao Mestre
+Luta com Maior Diferença: 2
