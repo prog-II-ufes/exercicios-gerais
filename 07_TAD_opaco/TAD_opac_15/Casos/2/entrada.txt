@@ -1,0 +1,25 @@
+C
+1
+Dragao Mestre
+22 26 29
+C
+2
+Dragao Dourado
+16 24 28
+C
+3
+Dragao Prateado
+15 21 27
+L
+1
+1 2 G
+L
+2
+1 3 M
+L
+3
+2 3 G
+L
+4
+1 3 F
+F
