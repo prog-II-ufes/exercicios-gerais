@@ -1,0 +1,24 @@
+--- Agencia Bancaria ---
+Este id ja esta cadastrado na agencia. Digite um id diferente!
+A lista de operações suspeitas:
+Operação na conta 123 com valor -38617.00
+Operação na conta 567 com valor 22956.00
+Operação na conta 888 com valor 31109.00
+Operação na conta 45 com valor 27719.00
+Operação na conta 789 com valor -29324.00
+Operação na conta 63 com valor -25680.00
+Operação na conta 321 com valor -23237.00
+Operação na conta 456 com valor -32049.00
+Operação na conta 954 com valor 22754.00
+Operação na conta 789 com valor 47718.00
+Operação na conta 888 com valor -22486.00
+Operação na conta 123 com valor 43919.00
+Operação na conta 567 com valor -34949.00
+Operação na conta 212 com valor -49675.00
+Operação na conta 63 com valor -40984.00
+Operação na conta 456 com valor -28827.00
+Operação na conta 954 com valor -27548.00
+Os dois correntistas com maior saldo são:
+Id: 45, Saldo: 29858.00
+Id: 789, Saldo: 18394.00
+O saldo total da agencia eh: -161365.00

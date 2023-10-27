@@ -1,0 +1,28 @@
+--- Agencia Bancaria ---
+A lista de operações suspeitas:
+Operação na conta 64 com valor -23001.00
+Operação na conta 22 com valor -29542.00
+Operação na conta 91 com valor 27501.00
+Operação na conta 5 com valor 21037.00
+Operação na conta 22 com valor -21912.00
+Operação na conta 91 com valor 21184.00
+Operação na conta 5 com valor -23660.00
+Operação na conta 64 com valor 23958.00
+Operação na conta 22 com valor 27188.00
+Operação na conta 5 com valor -26324.00
+Operação na conta 64 com valor -24403.00
+Operação na conta 22 com valor -24194.00
+Operação na conta 91 com valor 26281.00
+Operação na conta 5 com valor -28058.00
+Operação na conta 91 com valor 28148.00
+Operação na conta 5 com valor 21309.00
+Operação na conta 5 com valor 24857.00
+Operação na conta 37 com valor -27568.00
+Operação na conta 91 com valor -20818.00
+Operação na conta 5 com valor 29907.00
+Operação na conta 64 com valor -26306.00
+Operação na conta 22 com valor 22748.00
+Os dois correntistas com maior saldo são:
+Id: 91, Saldo: 83552.00
+Id: 37, Saldo: 23354.00
+O saldo total da agencia eh: 52668.00
