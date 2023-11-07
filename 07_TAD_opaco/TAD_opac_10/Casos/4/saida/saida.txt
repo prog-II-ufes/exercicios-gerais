@@ -1,0 +1,77 @@
+Lista de operacoes:
+1 - Cadastrar livros.
+2 - Remover livros.
+3 - Listar todos os livros cadastrados.
+
+Livro adicionado com sucesso!
+Livro adicionado com sucesso!
+Livro adicionado com sucesso!
+Livro adicionado com sucesso!
+Livro adicionado com sucesso!
+Livro adicionado com sucesso!
+Livro adicionado com sucesso!
+Livro adicionado com sucesso!
+Livro adicionado com sucesso!
+Livro adicionado com sucesso!
+Livro adicionado com sucesso!
+Livro adicionado com sucesso!
+Livro adicionado com sucesso!
+Livro adicionado com sucesso!
+
+Lista de Livros na Biblioteca:
+Titulo: Dom
+Autor: Casmurro
+Ano de Publicacao: 2003
+
+Titulo: Bela
+Autor: Fera
+Ano de Publicacao: 2020
+
+Titulo: Brasil
+Autor: Hillbert
+Ano de Publicacao: 1500
+
+Titulo: Lavanda
+Autor: PedrAzul
+Ano de Publicacao: 1980
+
+Titulo: Cores
+Autor: Plotus
+Ano de Publicacao: 2023
+
+Titulo: Rodas
+Autor: Romero
+Ano de Publicacao: 2024
+
+Titulo: Uvas
+Autor: Vinho
+Ano de Publicacao: 2001
+
+Titulo: Viagem
+Autor: Kingy
+Ano de Publicacao: 2014
+
+Titulo: Cambridge
+Autor: John
+Ano de Publicacao: 2015
+
+Titulo: Ratata
+Autor: Mbappe
+Ano de Publicacao: 2020
+
+Titulo: Tabuleiro
+Autor: FimDaLinha
+Ano de Publicacao: 2032
+
+Titulo: Teste
+Autor: UmDoisTres
+Ano de Publicacao: 2023
+
+Titulo: Teste2
+Autor: QuatroCincoSeis
+Ano de Publicacao: 2023
+
+Titulo: Teste3
+Autor: SeteOitoNove
+Ano de Publicacao: 2023
+

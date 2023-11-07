@@ -20,11 +20,6 @@
 /* TAD Opaco */
 typedef struct ponto *tPonto;
 
-/**
- * @brief Inicializa um novo array, apontando data para NULL e tamanho para 0.
- * @return Ponteiro para a estrutura Array criada ou encerra caso não seja possível alocar memória.
- */
-
 /* Funcoes exportadas */
 
 /**
