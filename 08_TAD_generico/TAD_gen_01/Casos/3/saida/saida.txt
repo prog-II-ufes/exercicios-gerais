@@ -1,0 +1,4 @@
+tad_gen_01
+Digite o tipo e numero de elementos: 
+Digite o vetor:
+1.42 1.73 2.00 2.72 3.14

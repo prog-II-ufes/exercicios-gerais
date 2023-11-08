@@ -1,0 +1,6 @@
+Digite o numero de tarefas: 
+O resultado da multiplicacao de 3.14 com 2.00 eh: 6.28
+O resultado da soma de 1.00 com 1.00 eh: 2.00
+Olá Mundo!
+Quarta Tarefa a Ser Executada
+Tchau Mundo!

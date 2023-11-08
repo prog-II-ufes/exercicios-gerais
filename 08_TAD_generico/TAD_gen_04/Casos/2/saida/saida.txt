@@ -1,0 +1,22 @@
+Bradesco
+Lista de agencias:
+	Nome: UFES
+	Numero: 220
+	Numero de contas cadastradas: 3
+	Saldo médio: R$78366.84
+
+	Nome: Praia do Canto
+	Numero: 221
+	Numero de contas cadastradas: 3
+	Saldo médio: R$2596799.00
+
+	Nome: Jardim Camburi
+	Numero: 222
+	Numero de contas cadastradas: 1
+	Saldo médio: R$2000.00
+
+	Nome: Republica
+	Numero: 223
+	Numero de contas cadastradas: 3
+	Saldo médio: R$3334973.00
+

@@ -1,0 +1,36 @@
+tad_gen_02
+
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote específico
+	(3) Imprimir todos os pacotes e sair
+Escolha uma opcao valida para o menu!
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote específico
+	(3) Imprimir todos os pacotes e sair
+Escolha uma opcao valida para o menu!
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote específico
+	(3) Imprimir todos os pacotes e sair
+Escolha uma opcao valida para o menu!
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote específico
+	(3) Imprimir todos os pacotes e sair
+Escolha uma opcao valida para o menu!
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote específico
+	(3) Imprimir todos os pacotes e sair
+Escolha uma opcao valida para o menu!
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote específico
+	(3) Imprimir todos os pacotes e sair
+Escolha uma opcao valida para o menu!
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote específico
+	(3) Imprimir todos os pacotes e sair

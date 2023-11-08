@@ -1,0 +1,17 @@
+Banco do Brasil
+Lista de agencias:
+	Nome: Jardim da Penha
+	Numero: 110
+	Numero de contas cadastradas: 2
+	Saldo médio: R$9543.11
+
+	Nome: Goiabeiras
+	Numero: 111
+	Numero de contas cadastradas: 1
+	Saldo médio: R$2.50
+
+	Nome: Jardim Camburi
+	Numero: 112
+	Numero de contas cadastradas: 3
+	Saldo médio: R$359033.50
+

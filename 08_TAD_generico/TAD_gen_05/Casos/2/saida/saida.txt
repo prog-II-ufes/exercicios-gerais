@@ -1,0 +1,7 @@
+Digite o numero de tarefas: 
+Digite um tipo de tarefa suportado (I/S/M))
+Ola Mundo!
+Meio do Programa
+O resultado da soma de 1.00 com 1.00 eh: 2.00
+O resultado da multiplicacao de 2.00 com 2.00 eh: 4.00
+Tchau Mundo!

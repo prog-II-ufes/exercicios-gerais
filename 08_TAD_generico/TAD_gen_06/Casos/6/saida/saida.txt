@@ -1,0 +1,27 @@
+Digite o número de linhas, colunas e o tipo da matriz (0 – inteiro, 1 – float, 2 – double, 3 – char, 4 – número complexo): Digite o número de linhas, colunas e o tipo da matriz (0 – inteiro, 1 – float, 2 – double, 3 – char, 4 – número complexo): 
+Digite a operação desejada
+	1 - Apenas imprimir a matriz
+	2 - Converter para o tipo complexo e imprimir
+	3 - Calcular e imprimir a multiplicacao da matriz pela sua transposta.
+4.00 + i0.00 3.00 + i0.00 
+2.00 + i0.00 1.00 + i0.00 
+
+Digite a operação desejada
+	1 - Entrar com uma nova matriz
+	2 - Encerrar o Programa
+Digite o número de linhas, colunas e o tipo da matriz (0 – inteiro, 1 – float, 2 – double, 3 – char, 4 – número complexo): 
+Digite a operação desejada
+	1 - Apenas imprimir a matriz
+	2 - Converter para o tipo complexo e imprimir
+	3 - Calcular e imprimir a multiplicacao da matriz pela sua transposta.
+
+Digite a operação desejada
+	1 - Apenas imprimir a matriz
+	2 - Converter para o tipo complexo e imprimir
+	3 - Calcular e imprimir a multiplicacao da matriz pela sua transposta.
+25.00 + i0.00 11.00 + i0.00 
+11.00 + i0.00 5.00 + i0.00 
+
+Digite a operação desejada
+	1 - Entrar com uma nova matriz
+	2 - Encerrar o Programa

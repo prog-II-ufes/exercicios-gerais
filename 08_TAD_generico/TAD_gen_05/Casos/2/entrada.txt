@@ -1,0 +1,7 @@
+5
+-1 I Tchau Mundo!
+1000 I Ola Mundo!
+3 K blabla
+3 I Meio do Programa
+2 S 1 1
+1 M 2 2

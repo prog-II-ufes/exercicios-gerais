@@ -1,0 +1,28 @@
+Digite o numero de tarefas: 
+Iniciando contas aleatórias
+O resultado da multiplicacao de 5.00 com 6.00 eh: 30.00
+O resultado da multiplicacao de 25.00 com 11.00 eh: 275.00
+O resultado da multiplicacao de 3.00 com 14.00 eh: 42.00
+O resultado da multiplicacao de 2.00 com 16.00 eh: 32.00
+O resultado da multiplicacao de 22.00 com 15.00 eh: 330.00
+O resultado da multiplicacao de 4.00 com 23.00 eh: 92.00
+O resultado da multiplicacao de 7.00 com 20.00 eh: 140.00
+O resultado da multiplicacao de 6.00 com 4.00 eh: 24.00
+O resultado da multiplicacao de 14.00 com 7.00 eh: 98.00
+O resultado da multiplicacao de 16.00 com 8.00 eh: 128.00
+O resultado da soma de 2.00 com 19.00 eh: 21.00
+O resultado da soma de 1.00 com 13.00 eh: 14.00
+O resultado da soma de 1.00 com 12.00 eh: 13.00
+O resultado da soma de 9.00 com 3.00 eh: 12.00
+O resultado da soma de 3.00 com 12.00 eh: 15.00
+O resultado da multiplicacao de 22.00 com 10.00 eh: 220.00
+O resultado da soma de 9.00 com 10.00 eh: 19.00
+O resultado da soma de 17.00 com 8.00 eh: 25.00
+O resultado da soma de 14.00 com 1.00 eh: 15.00
+O resultado da soma de 12.00 com 13.00 eh: 25.00
+O resultado da soma de 4.00 com 18.00 eh: 22.00
+O resultado da soma de 19.00 com 5.00 eh: 24.00
+O resultado da multiplicacao de 20.00 com 2.00 eh: 40.00
+O resultado da soma de 11.00 com 7.00 eh: 18.00
+O resultado da multiplicacao de 18.00 com 4.00 eh: 72.00
+O resultado da soma de 14.00 com 18.00 eh: 32.00

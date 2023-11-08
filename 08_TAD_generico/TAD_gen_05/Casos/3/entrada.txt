@@ -1,0 +1,27 @@
+25
+1 I Sol brilha alto.
+2 I Lua cheia brilha.
+3 I Mar azul calmo.
+4 I Vento suave sopra.
+5 I Neve branca cai.
+6 I Céu estrelado à noite.
+7 I Fogo crepita suavemente.
+8 I Chuva fina cai.
+9 I Noite silenciosa e serena.
+10 I Beijo apaixonado e doce.
+11 I Café quente e aromático.
+12 I Música suave embala.
+100 K Esse tipo existe?
+13 I Livros antigos encantam.
+14 I Amigos leais permanecem.
+15 I Flores coloridas encantam.
+16 I Amor verdadeiro perdura.
+17 I Crianças brincam felizes.
+18 I Sonhos se tornam realidade.
+19 I Montanhas altas e majestosas.
+20 I Praia dourada e tranquila.
+21 I Riso contagiante enche.
+22 I Abraço apertado e caloroso.
+23 I Cores vivas e intensas.
+24 I Silêncio profundo e sereno.
+25 I Coração alegre e grato.

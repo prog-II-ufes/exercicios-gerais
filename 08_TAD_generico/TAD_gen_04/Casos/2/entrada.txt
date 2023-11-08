@@ -1,0 +1,40 @@
+Bradesco
+A
+220;UFES
+A
+221;Praia do Canto
+A
+222;Jardim Camburi
+A
+223;Republica
+C
+1;Legolas;235092.00
+220
+C
+2;Eren;1.50
+220
+C
+3;Sasuke;4800.00
+223
+C
+4;Mario;12500.25
+221
+C
+5;Luigi;0.50
+221
+C
+6;Yoshi;9999999.00
+223
+C
+7;Barack Obama;7777896.00
+221
+C
+8;Beltrano;2000.00
+222
+C
+9;Tobi;7.00
+220
+C
+10;Neji;120.00
+223
+F

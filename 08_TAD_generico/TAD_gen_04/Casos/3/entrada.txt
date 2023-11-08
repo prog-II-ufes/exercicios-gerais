@@ -1,0 +1,21 @@
+Itau
+A
+500;Jardim da Penha
+A
+501;Republica
+C
+100;Joao;250.00
+500
+C
+101;Maria;250.00
+500
+C
+102;Fulano;895.30
+501
+C
+103;Ciclano;1200000.00
+501
+C
+104;Arya;789000.00
+501
+F

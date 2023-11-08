@@ -1,0 +1,27 @@
+Digite o numero de tarefas: 
+Digite um tipo de tarefa suportado (I/S/M))
+Coração alegre e grato.
+Silêncio profundo e sereno.
+Cores vivas e intensas.
+Abraço apertado e caloroso.
+Riso contagiante enche.
+Praia dourada e tranquila.
+Montanhas altas e majestosas.
+Sonhos se tornam realidade.
+Crianças brincam felizes.
+Amor verdadeiro perdura.
+Flores coloridas encantam.
+Amigos leais permanecem.
+Livros antigos encantam.
+Música suave embala.
+Café quente e aromático.
+Beijo apaixonado e doce.
+Noite silenciosa e serena.
+Chuva fina cai.
+Fogo crepita suavemente.
+Céu estrelado à noite.
+Neve branca cai.
+Vento suave sopra.
+Mar azul calmo.
+Lua cheia brilha.
+Sol brilha alto.

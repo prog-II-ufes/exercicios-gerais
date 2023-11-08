@@ -1,0 +1,26 @@
+Banco do Brasil
+A
+110;Jardim da Penha
+C
+1;Goku;1500.21
+110
+C
+2;Joao;17586.00
+110
+A
+111;Goiabeiras
+A
+112;Jardim Camburi
+C
+3;Maria;300000.00
+112
+C
+4;Haku;2.50
+111
+C
+5;Fulano;777000.50
+112
+C
+6;Ciclano;100.00
+112
+F

@@ -1,0 +1,7 @@
+6
+Fiora;F;8
+Zyra;F;7
+Vegeta;M;5.9
+Tobi;M;0
+Fiona;F;10
+Mario;M;8.5

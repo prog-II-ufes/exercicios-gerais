@@ -1,0 +1,6 @@
+Media das notas: 5.44
+Porcentagem de alunos aprovados: 60.00%
+Porcentagem de cada genero:
+Masculino: 40.00%
+Feminino: 20.00%
+Outro: 40.00%

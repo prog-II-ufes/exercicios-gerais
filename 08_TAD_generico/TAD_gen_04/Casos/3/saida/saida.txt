@@ -1,0 +1,12 @@
+Itau
+Lista de agencias:
+	Nome: Jardim da Penha
+	Numero: 500
+	Numero de contas cadastradas: 2
+	Saldo médio: R$250.00
+
+	Nome: Republica
+	Numero: 501
+	Numero de contas cadastradas: 3
+	Saldo médio: R$663298.44
+

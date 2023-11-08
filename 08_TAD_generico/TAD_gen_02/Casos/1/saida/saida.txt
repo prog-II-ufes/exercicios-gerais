@@ -1,0 +1,76 @@
+tad_gen_02
+
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote específico
+	(3) Imprimir todos os pacotes e sair
+Digite o tipo (0-char, 1-int) e o numero de elementos do pacote/mensagem: 
+Digite o conteúdo do vetor/mensagem: 
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote específico
+	(3) Imprimir todos os pacotes e sair
+Digite o tipo (0-char, 1-int) e o numero de elementos do pacote/mensagem: 
+Digite o conteúdo do vetor/mensagem: 
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote específico
+	(3) Imprimir todos os pacotes e sair
+Digite o tipo (0-char, 1-int) e o numero de elementos do pacote/mensagem: 
+Digite o conteúdo do vetor/mensagem: 
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote específico
+	(3) Imprimir todos os pacotes e sair
+Digite o tipo (0-char, 1-int) e o numero de elementos do pacote/mensagem: 
+Digite o conteúdo do vetor/mensagem: 
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote específico
+	(3) Imprimir todos os pacotes e sair
+Digite o tipo (0-char, 1-int) e o numero de elementos do pacote/mensagem: 
+Digite o conteúdo do vetor/mensagem: 
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote específico
+	(3) Imprimir todos os pacotes e sair
+Digite o tipo (0-char, 1-int) e o numero de elementos do pacote/mensagem: 
+Digite o conteúdo do vetor/mensagem: 
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote específico
+	(3) Imprimir todos os pacotes e sair
+Digite o tipo (0-char, 1-int) e o numero de elementos do pacote/mensagem: 
+Digite o conteúdo do vetor/mensagem: 
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote específico
+	(3) Imprimir todos os pacotes e sair
+Digite o tipo (0-char, 1-int) e o numero de elementos do pacote/mensagem: 
+Digite o conteúdo do vetor/mensagem: 
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote específico
+	(3) Imprimir todos os pacotes e sair
+Digite o tipo (0-char, 1-int) e o numero de elementos do pacote/mensagem: 
+Digite o conteúdo do vetor/mensagem: 
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote específico
+	(3) Imprimir todos os pacotes e sair
+Digite o tipo (0-char, 1-int) e o numero de elementos do pacote/mensagem: 
+Digite o conteúdo do vetor/mensagem: 
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote específico
+	(3) Imprimir todos os pacotes e sair
+1015 abcdefghij
+498 5 12 8 33 19 28 45 7 2 1 14 30 26 16 11 41 36 47 20 49 22 17 9
+806 39 24 3 43 46 37 6 4 29 35 48 25 21 44 10 38 31 15 13 32 27 34 42 23 18 40 5 26 30 7 11
+868 ijklmnop
+1569 qrstuvwxyzabcd
+385 22 3 47 36 7 2 9 18 25 40 46 29 35 21 15 30
+78 13 19 32 5 1 8
+1505 efghijklmnopqr
+1242 stuvwxyzabc
+640 33 44 10 21 6 27 17 14 3 23 19 42 48 4 30 41 12 35 15 36 7 34 38 1 46 26 8

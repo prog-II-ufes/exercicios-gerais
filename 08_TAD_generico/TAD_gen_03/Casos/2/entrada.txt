@@ -1,0 +1,6 @@
+5
+Goku;M;3
+Sasuke;M;10
+Kisame;O;7
+Ahri;F;1.2
+Yoshi;O;6

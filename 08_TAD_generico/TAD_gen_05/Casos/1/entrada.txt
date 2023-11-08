@@ -1,0 +1,6 @@
+5
+3 I Olá Mundo!
+5 M 3.14 2.0
+1 I Tchau Mundo!
+5 S 1 1
+2 I Quarta Tarefa a Ser Executada

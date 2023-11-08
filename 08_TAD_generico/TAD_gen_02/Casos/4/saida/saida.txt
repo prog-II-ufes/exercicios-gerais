@@ -1,0 +1,31 @@
+tad_gen_02
+
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote específico
+	(3) Imprimir todos os pacotes e sair
+Digite o tipo (0-char, 1-int) e o numero de elementos do pacote/mensagem: 
+Digite um tipo valido!
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote específico
+	(3) Imprimir todos os pacotes e sair
+Digite o tipo (0-char, 1-int) e o numero de elementos do pacote/mensagem: 
+Digite um tipo valido!
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote específico
+	(3) Imprimir todos os pacotes e sair
+Digite o tipo (0-char, 1-int) e o numero de elementos do pacote/mensagem: 
+Digite um tipo valido!
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote específico
+	(3) Imprimir todos os pacotes e sair
+Digite o tipo (0-char, 1-int) e o numero de elementos do pacote/mensagem: 
+Digite o conteúdo do vetor/mensagem: 
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote específico
+	(3) Imprimir todos os pacotes e sair
+652 bom dia
