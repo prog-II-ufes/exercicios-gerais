@@ -27,6 +27,7 @@ void AbreContaBanco(tBanco *banco);
 
 /**
  * @brief Realiza um saque em uma conta do banco se ela existir e tiver saldo suficiente.
+ * Nessa função é necessário ler o número da conta e o valor do saque.
  * 
  * @param banco Ponteiro para o banco onde a conta será sacada.
  */
@@ -34,6 +35,7 @@ void SaqueContaBanco(tBanco *banco);
 
 /**
  * @brief Realiza um depósito em uma conta do banco se ela existir.
+ * Nessa função é necessário ler o número da conta e o valor do depósito. 
  * 
  * @param banco Ponteiro para o banco onde a conta será depositada.
  */
@@ -41,6 +43,7 @@ void DepositoContaBanco(tBanco *banco);
 
 /**
  * @brief Realiza uma transferência entre duas contas do banco se elas existirem e a conta de origem tiver saldo suficiente.
+ * Nessa função é necessário ler o número da conta de origem, o número da conta de destino e o valor da transferência.
  * 
  * @param banco Ponteiro para o banco onde as contas estão.
  */
