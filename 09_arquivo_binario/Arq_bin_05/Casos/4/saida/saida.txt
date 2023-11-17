@@ -1,0 +1,6 @@
+Produtos em falta:
+Codigo;Nome;Preco
+1;maca;8.50
+2;banana;9.50
+3;ovos;9.30
+4;pera;12.50

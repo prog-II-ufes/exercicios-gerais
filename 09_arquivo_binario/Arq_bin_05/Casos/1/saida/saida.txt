@@ -1,0 +1,4 @@
+Produtos em falta:
+Codigo;Nome;Preco
+100;caneta;4.50
+104;pincel;10.00

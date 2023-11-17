@@ -1,0 +1,6 @@
+Produtos em falta:
+Codigo;Nome;Preco
+201;apagador;15.77
+202;giz;8.99
+203;lapiseira;6.50
+206;bloco-de-folhas;15.30
