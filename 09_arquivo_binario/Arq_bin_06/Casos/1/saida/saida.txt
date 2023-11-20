@@ -1,0 +1,8 @@
+Valor total vendido: R$ 9336.50
+Produtos vendidos:
+Codigo;Nome;Preco;Quantidade vendida;Porcentagem
+100;caneta;R$ 4.50;150;7.23%
+101;lapis;R$ 2.50;984;26.35%
+102;caderno;R$ 12.00;150;19.28%
+103;agenda;R$ 8.50;59;5.37%
+104;pincel;R$ 10.00;390;41.77%

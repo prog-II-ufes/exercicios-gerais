@@ -1,0 +1,9 @@
+Valor total vendido: R$ 100223.80
+Produtos vendidos:
+Codigo;Nome;Preco;Quantidade vendida;Porcentagem
+500;leite;R$ 3.89;1053;4.09%
+501;pao;R$ 9.50;2500;23.70%
+502;arroz;R$ 12.37;3798;46.88%
+503;trigo;R$ 6.80;998;6.77%
+504;sabonete;R$ 3.89;2473;9.60%
+505;detergente;R$ 2.50;3596;8.97%

@@ -1,0 +1,10 @@
+Valor total vendido: R$ 71847.84
+Produtos vendidos:
+Codigo;Nome;Preco;Quantidade vendida;Porcentagem
+200;lousa;R$ 120.37;15;2.51%
+201;apagador;R$ 15.77;250;5.49%
+202;giz;R$ 8.99;3000;37.54%
+203;lapiseira;R$ 6.50;4520;40.89%
+204;borracha;R$ 3.00;1500;6.26%
+205;corretivo;R$ 8.00;530;5.90%
+206;bloco-de-folhas;R$ 15.30;66;1.41%

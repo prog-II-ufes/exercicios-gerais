@@ -1,0 +1,7 @@
+Valor total vendido: R$ 25239.00
+Produtos vendidos:
+Codigo;Nome;Preco;Quantidade vendida;Porcentagem
+1;maca;R$ 8.50;456;15.36%
+2;banana;R$ 9.50;412;15.51%
+3;ovos;R$ 9.30;680;25.06%
+4;pera;R$ 12.50;890;44.08%
