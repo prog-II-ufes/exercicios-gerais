@@ -1,0 +1,31 @@
+5
+Aria Nocturne
+17/09/2988
+Astrofisica Quantica
+2023/2
+90
+8.4
+Galen Solaris
+03/04/2999
+Biologia Exoplanetaria
+2023/1
+87
+9.1
+Nyssa Quantum
+22/11/3005
+Inteligencia Artificial Avancada
+2023/2
+94
+9.8
+Silas Nebulon
+10/07/2990
+Engenharia de Nanorrobos
+2023/1
+80
+7.6
+Lumiara Eclipse
+29/02/2996
+Astronomia Holografica
+2023/2
+89
+8.3

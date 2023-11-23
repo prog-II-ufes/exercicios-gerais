@@ -1,0 +1,23 @@
+<<<<<<< HEAD
+Casos/2/alunos.bin
+=======
+3
+Lyra Celestia
+21 de fevereiro de 2980
+Psicologia Cosmica
+2023/1
+75
+7.8
+Zephyr Vanguard
+09 de outubro de 3012
+Inteligencia Artificial etica
+2023/2
+88
+8.9
+Nova Stardust
+05 de maio de 3002
+Engenharia Genetica Intergalactica
+2023/1
+96
+9.2
+>>>>>>> e12992bdf671acfb8a105f20eb8a647a9ad6a1d4

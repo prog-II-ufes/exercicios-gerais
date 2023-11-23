@@ -1,0 +1,17 @@
+<<<<<<< HEAD
+Casos/1/alunos.bin
+=======
+2
+Seraphina Luminara
+12 de julho de 2995
+Engenharia Quantica
+2023/1
+85
+8.7
+Draven Obsidian
+04 de setembro de 3008
+Astrobiologia Avancada
+2023/2
+93
+9.5
+>>>>>>> e12992bdf671acfb8a105f20eb8a647a9ad6a1d4

@@ -1,0 +1,26 @@
+<<<<<<< HEAD
+Coeficiente de Rendimento Medio da base de alunos: 8.37
+=======
+Digite o numero de alunos: Numero de bytes salvos: 278
+Aluno 0:
+Nome: Lyra Celestia
+Data Nascimento: 21 de fevereiro de 2980
+Curso: Psicologia Cosmica
+Periodo Ingresso: 2023/1
+% Conclusao do Curso: 75
+CRA: 7.80
+Aluno 1:
+Nome: Zephyr Vanguard
+Data Nascimento: 09 de outubro de 301280
+Curso: Inteligencia Artificial etica
+Periodo Ingresso: 2023/2
+% Conclusao do Curso: 88
+CRA: 8.90
+Aluno 2:
+Nome: Nova Stardustrd
+Data Nascimento: 05 de maio de 300201280
+Curso: Engenharia Genetica Intergalactica
+Periodo Ingresso: 2023/1
+% Conclusao do Curso: 96
+CRA: 9.20
+>>>>>>> e12992bdf671acfb8a105f20eb8a647a9ad6a1d4

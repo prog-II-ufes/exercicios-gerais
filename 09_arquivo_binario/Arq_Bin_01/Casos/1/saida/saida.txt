@@ -1,0 +1,15 @@
+Digite o numero de alunos: Numero de bytes salvos: 179
+Aluno 0:
+Nome: Seraphina Luminara
+Data Nascimento: 12 de julho de 2995
+Curso: Engenharia Quantica
+Periodo Ingresso: 2023/1
+% Conclusao do Curso: 85
+CRA: 8.70
+Aluno 1:
+Nome: Draven Obsidianara
+Data Nascimento: 04 de setembro de 3008
+Curso: Astrobiologia Avancada
+Periodo Ingresso: 2023/2
+% Conclusao do Curso: 93
+CRA: 9.50
