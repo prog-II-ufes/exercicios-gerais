@@ -1,0 +1,5 @@
+4
+ENTRADA cadeira
+ENTRADA mesa
+PRODUZIR
+PRODUZIR

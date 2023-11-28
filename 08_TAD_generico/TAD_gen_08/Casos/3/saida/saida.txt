@@ -1,0 +1,4 @@
+mesa
+cadeira
+armario
+estante
