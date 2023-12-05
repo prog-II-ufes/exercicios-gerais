@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #if !defined(_ALUNO_H_)
 #define _ALUNO_H_
 
@@ -45,26 +45,3 @@ tAluno *LeAluno(FILE *arquivo_binario);
 float GetCoeficienteRendimentoAluno(tAluno* aluno);
 
 #endif // _ALUNO_H_
-=======
-#ifndef __aluno
-#define __aluno
-
-typedef struct aluno Aluno;
-
-Aluno** CriaVetorAlunos(int numeroAlunos);
-
-Aluno* CriaAluno(char *nome, char *dtNasc, char *cursoUfes, char* periodoIngresso, int percConclusao, float CRA);
-
-void LeAlunos(Aluno** vetorAlunos, int numeroAlunos);
-
-void LiberaAlunos(Aluno** alunos, int numeroAlunos);
-
-void SalvaAlunosBinario(Aluno **alunos, char *fileName, int numeroAlunos);
-
-void CarregaAlunosBinario(Aluno **alunos, char *fileName);
-
-void ImprimeAlunos(Aluno** alunos, int numeroAlunos);
-
-
-#endif
->>>>>>> e12992bdf671acfb8a105f20eb8a647a9ad6a1d4
