@@ -1,0 +1,10 @@
+Teste 1: Vencedores para presidente e governador
+Teste 2: Eleicao anulada, eleitor com mesmo id
+Teste 3: Empate para presidente e vencedor para governador
+Teste 4: Sem decisao, pois houve mais votos invalidos do que validos
+Teste 5: Mais eleitores que o permitido
+Teste 6: Eleicao anulada, eleitor com mesmo id
+Teste 7: Sem decisao e empate para governador
+Teste 8: Empate para ambos
+Teste 9: Eleicao anulada, eleitor com mesmo id
+Teste 10: Sem decisao para presidente e governador eleito

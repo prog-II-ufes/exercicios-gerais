@@ -1,0 +1,8 @@
+Arquivos
+	saida.txt=10
+Valgrind
+	desconto=0.5
+Validações
+	main=3.34
+	completo=3.33
+	esfera_utils=3.33

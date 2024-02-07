@@ -1,0 +1,11 @@
+Arquivos
+	saida.txt=10
+Valgrind
+	desconto=0.5
+Validações
+	main=1.66
+	completo=1.66
+	agendatarefas=1.67
+	tarefamultiplica=1.67
+	tarefasoma=1.67
+	tarefaimprime=1.67

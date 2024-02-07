@@ -1,0 +1,11 @@
+
+Digite um departamento com médias válidas
+Departamento: Informatica
+	Diretor: Patricia
+	1o curso: CC
+	Media do 1o curso: 10
+	2o curso: EC
+	Media do 2o curso: 7
+	3o curso: SI
+	Media do 3o curso: 5
+	Media dos cursos: 7.33

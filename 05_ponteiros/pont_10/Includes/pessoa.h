@@ -59,7 +59,7 @@ int VerificaIrmaoPessoa(tPessoa *pessoa1, tPessoa *pessoa2);
  * 
  * Apos a associado dos pais, voce deve verificar se ha irmaos e associar os irmaos.
  * 
- * @param pessoas Vetor de pessoas a serem associadas.
+ * @param pessoas Ponteiro para a lista de pessoas a serem associadas.
  * @param numPessoas Numero de pessoas a serem associadas (tamanho do vetor).
  */
 void AssociaFamiliasGruposPessoas(tPessoa *pessoas, int numPessoas);

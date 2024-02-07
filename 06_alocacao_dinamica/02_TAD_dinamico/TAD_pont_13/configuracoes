@@ -1,0 +1,11 @@
+Arquivos
+	saida.txt=10
+Valgrind
+	desconto=0.5
+Validações
+	main=1.66
+	completo=1.66
+	data=1.67
+	paciente=1.67
+	pad=1.67
+	lesao=1.67

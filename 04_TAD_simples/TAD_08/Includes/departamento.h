@@ -60,7 +60,7 @@ double calculaMediaGeralDepartamento(tDepartamento depto);
 /**
  * @brief Ordena o vetor de departamentos em ordem decrescente de acordo com as médias dos departamentos.
  * 
- * @param deptos Vetor de departamentos a ser ordenado.
+ * @param d Vetor de departamentos a ser ordenado.
  * @param tamanho Tamanho do vetor a ser ordenado.
  */
 void ordenaPorMediaDepartamentos(tDepartamento d[], int tamanho);

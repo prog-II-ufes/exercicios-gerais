@@ -1,0 +1,10 @@
+Arquivos
+	saida.txt=10
+Valgrind
+	desconto=0.5
+Validações
+	main=2.00
+	completo=2.00
+	eleicao=2.00
+	candidato=2.00
+	eleitor=2.00

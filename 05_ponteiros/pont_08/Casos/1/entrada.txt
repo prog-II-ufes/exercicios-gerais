@@ -1,0 +1,13 @@
+1
+Informatica
+Patricia
+CC
+EC
+SI
+10 7 -5
+Informatica
+Patricia
+CC
+EC
+SI
+10 7 5

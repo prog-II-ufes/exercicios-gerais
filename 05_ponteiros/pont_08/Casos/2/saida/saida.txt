@@ -1,0 +1,19 @@
+
+Departamento: Informatica
+	Diretor: Patricia
+	1o curso: CC
+	Media do 1o curso: 9
+	2o curso: EC
+	Media do 2o curso: 8
+	3o curso: SI
+	Media do 3o curso: 7
+	Media dos cursos: 8.00
+Departamento: Eletrica
+	Diretor: Eliete
+	1o curso: Potencia
+	Media do 1o curso: 7
+	2o curso: Eletronica
+	Media do 2o curso: 7
+	3o curso: Telecom
+	Media do 3o curso: 7
+	Media dos cursos: 7.00

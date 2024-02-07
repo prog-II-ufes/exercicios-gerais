@@ -1,0 +1,11 @@
+Arquivos
+	saida.txt=10
+Valgrind
+	desconto=0.5
+Validações
+	main=1.66
+	completo=1.66
+	jogada=1.67
+	jogador=1.67
+	tabuleiro=1.67
+	jogo=1.67

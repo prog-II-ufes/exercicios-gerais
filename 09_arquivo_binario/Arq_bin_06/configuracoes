@@ -1,0 +1,10 @@
+Arquivos
+	saida.txt=10
+Valgrind
+	desconto=0.5
+Validações
+	main=2.00
+	completo=2.00
+	produto=2.00
+	vector=2.00
+	estabelecimento=2.00

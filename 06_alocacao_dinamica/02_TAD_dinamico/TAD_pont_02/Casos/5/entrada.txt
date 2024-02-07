@@ -1,0 +1,19 @@
+6
+Edsger Dijkstra, Partido do Melhor Caminho (PMC), P, 10
+Alan Turing, Partido dos Avanço Intelectual (PAI), P, 42
+Tim Berners-Lee, World Wide Web (WWW), G, 36
+Carol Shaw, Mulheres Programadoras Unidas (MPU), P, 26
+Linus Torvalds, Partido: Linux (Linux), G, 64
+Ada Lovelace, Gamers Unidos (GU), G, 18
+11
+1 26 18
+2 42 64
+3 11 64
+4 26 64
+5 42 60
+6 42 64
+7 26 0
+8 10 18
+9 10 18
+10 10 64
+11 10 64
