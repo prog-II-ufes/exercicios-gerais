@@ -1,0 +1,155 @@
+1 - Cadastrar contato
+2 - Remover contato
+3 - Realizar busca
+4 - Exibir todos os contatos
+0 - Sair da lista de contatos
+Opcao escolhida: 
+1 - Cadastrar contato
+2 - Remover contato
+3 - Realizar busca
+4 - Exibir todos os contatos
+0 - Sair da lista de contatos
+Opcao escolhida: 
+
+Nao existe um contato cadastrado com esse numero de telefone
+1 - Cadastrar contato
+2 - Remover contato
+3 - Realizar busca
+4 - Exibir todos os contatos
+0 - Sair da lista de contatos
+Opcao escolhida: 
+
+Lista de contatos cadastrados
+Nome: Maria
+Telefone: 998451206
+
+Nome: Fernanda
+Telefone: 999456789
+
+Nome: Isabela
+Telefone: 996111222
+
+Nome: Lucas
+Telefone: 997874191
+
+Nome: Andre
+Telefone: 992222777
+
+Nome: Beatriz
+Telefone: 991111888
+
+Nome: Joao
+Telefone: 995616478
+
+1 - Cadastrar contato
+2 - Remover contato
+3 - Realizar busca
+4 - Exibir todos os contatos
+0 - Sair da lista de contatos
+Opcao escolhida: 
+1 - Cadastrar contato
+2 - Remover contato
+3 - Realizar busca
+4 - Exibir todos os contatos
+0 - Sair da lista de contatos
+Opcao escolhida: 
+
+Ja existe um contato com esse nome e/ou numero de telefone
+1 - Cadastrar contato
+2 - Remover contato
+3 - Realizar busca
+4 - Exibir todos os contatos
+0 - Sair da lista de contatos
+Opcao escolhida: 
+1 - Cadastrar contato
+2 - Remover contato
+3 - Realizar busca
+4 - Exibir todos os contatos
+0 - Sair da lista de contatos
+Opcao escolhida: 
+
+1 - Buscar pelo nome
+2 - Buscar pelo numero de telefone
+Opcao escolhida: 
+Nome: Amanda
+Telefone: 986666222
+
+1 - Cadastrar contato
+2 - Remover contato
+3 - Realizar busca
+4 - Exibir todos os contatos
+0 - Sair da lista de contatos
+Opcao escolhida: 
+1 - Cadastrar contato
+2 - Remover contato
+3 - Realizar busca
+4 - Exibir todos os contatos
+0 - Sair da lista de contatos
+Opcao escolhida: 
+
+Ja existe um contato com esse nome e/ou numero de telefone
+1 - Cadastrar contato
+2 - Remover contato
+3 - Realizar busca
+4 - Exibir todos os contatos
+0 - Sair da lista de contatos
+Opcao escolhida: 
+
+Ja existe um contato com esse nome e/ou numero de telefone
+1 - Cadastrar contato
+2 - Remover contato
+3 - Realizar busca
+4 - Exibir todos os contatos
+0 - Sair da lista de contatos
+Opcao escolhida: 
+
+1 - Buscar pelo nome
+2 - Buscar pelo numero de telefone
+Opcao escolhida: 
+Nome: Lucas
+Telefone: 997874191
+
+1 - Cadastrar contato
+2 - Remover contato
+3 - Realizar busca
+4 - Exibir todos os contatos
+0 - Sair da lista de contatos
+Opcao escolhida: 
+
+Lista de contatos cadastrados
+Nome: Maria
+Telefone: 998451206
+
+Nome: Fernanda
+Telefone: 999456789
+
+Nome: Isabela
+Telefone: 996111222
+
+Nome: Lucas
+Telefone: 997874191
+
+Nome: Andre
+Telefone: 992222777
+
+Nome: Beatriz
+Telefone: 991111888
+
+Nome: Joao
+Telefone: 995616478
+
+Nome: Amanda
+Telefone: 986666222
+
+Nome: Camila
+Telefone: 984444444
+
+Nome: Daniel
+Telefone: 983333555
+
+1 - Cadastrar contato
+2 - Remover contato
+3 - Realizar busca
+4 - Exibir todos os contatos
+0 - Sair da lista de contatos
+Opcao escolhida: 

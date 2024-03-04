@@ -1,0 +1,76 @@
+1 - Cadastrar contato
+2 - Remover contato
+3 - Realizar busca
+4 - Exibir todos os contatos
+0 - Sair da lista de contatos
+Opcao escolhida: 
+1 - Cadastrar contato
+2 - Remover contato
+3 - Realizar busca
+4 - Exibir todos os contatos
+0 - Sair da lista de contatos
+Opcao escolhida: 
+1 - Cadastrar contato
+2 - Remover contato
+3 - Realizar busca
+4 - Exibir todos os contatos
+0 - Sair da lista de contatos
+Opcao escolhida: 
+
+Ja existe um contato com esse nome e/ou numero de telefone
+1 - Cadastrar contato
+2 - Remover contato
+3 - Realizar busca
+4 - Exibir todos os contatos
+0 - Sair da lista de contatos
+Opcao escolhida: 
+1 - Cadastrar contato
+2 - Remover contato
+3 - Realizar busca
+4 - Exibir todos os contatos
+0 - Sair da lista de contatos
+Opcao escolhida: 
+1 - Cadastrar contato
+2 - Remover contato
+3 - Realizar busca
+4 - Exibir todos os contatos
+0 - Sair da lista de contatos
+Opcao escolhida: 
+1 - Cadastrar contato
+2 - Remover contato
+3 - Realizar busca
+4 - Exibir todos os contatos
+0 - Sair da lista de contatos
+Opcao escolhida: 
+1 - Cadastrar contato
+2 - Remover contato
+3 - Realizar busca
+4 - Exibir todos os contatos
+0 - Sair da lista de contatos
+Opcao escolhida: 
+
+1 - Buscar pelo nome
+2 - Buscar pelo numero de telefone
+Opcao escolhida: 
+Nome: Roger
+Telefone: 995616478
+
+1 - Cadastrar contato
+2 - Remover contato
+3 - Realizar busca
+4 - Exibir todos os contatos
+0 - Sair da lista de contatos
+Opcao escolhida: 
+
+1 - Buscar pelo nome
+2 - Buscar pelo numero de telefone
+Opcao escolhida: 
+Nome: Lucas
+Telefone: 997874191
+
+1 - Cadastrar contato
+2 - Remover contato
+3 - Realizar busca
+4 - Exibir todos os contatos
+0 - Sair da lista de contatos
+Opcao escolhida: 
