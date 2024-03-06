@@ -1,0 +1,63 @@
+6
+Leticia
+14/03/1994
+Design Grafico
+0.88
+9.0
+Lucas
+08/11/1998
+Matemática
+0.92
+9.6
+Carolina
+20/06/2001
+Jornalismo
+0.78
+8.4
+Andre
+02/09/1995
+Engenharia Civil
+0.83
+8.7
+Juliana
+16/12/2002
+Fisioterapia
+0.71
+7.9
+Victor
+09/05/1999
+Marketing
+0.87
+8.8
+10
+Patricia
+25/07/1989
+Departamento de Jornalismo
+Alexandre
+13/02/1984
+Departamento de Educação Fisica
+Anderson
+22/06/1988
+Departamento de Farmácia
+Renata
+29/03/1977
+Departamento de Direito
+Adriano
+18/11/1984
+Departamento de Marketing
+Camila
+03/12/1981
+Departamento de Fisioterapia
+Roberto
+11/05/1974
+Departamento de Medicina
+Larissa
+26/08/1989
+Departamento de Administracao
+Luiz
+07/09/1986
+Departamento de Engenharia Civil
+Beatriz
+14/01/1983
+Departamento de Design Grafico
+Casos/3/database.bin

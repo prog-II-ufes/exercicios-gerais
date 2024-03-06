@@ -1,0 +1,49 @@
+5
+Joao
+15/05/1998
+Engenharia Eletrica
+0.9
+9.5
+Ana
+10/08/2001
+Psicologia
+0.7
+7.8
+Pedro
+25/03/1995
+Medicina
+0.95
+9.7
+Camila
+03/11/1999
+Administracao
+0.75
+8.0
+Rafael
+12/06/2002
+Direito
+0.85
+8.9
+7
+Fernando
+18/06/1982
+Departamento de Engenharia Eletrica
+Carlos
+30/09/1973
+Departamento de Economia
+Juliano
+15/12/1987
+Departamento de Psicologia
+Isabela
+02/05/1975
+Departamento de Arquitetura
+Vanessa
+20/11/1980
+Departamento de Fisica
+Gustavo
+08/04/1979
+Departamento de Matematica
+Patricia
+25/07/1989
+Departamento de Jornalismo
+Casos/2/database.bin

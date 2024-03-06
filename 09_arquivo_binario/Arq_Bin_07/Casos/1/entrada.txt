@@ -1,0 +1,37 @@
+5
+Maria
+02/01/2000
+Ciencia da computacao
+0.8
+8.2
+Luisa
+18/09/1997
+Arquitetura
+0.8
+8.3
+Gabriel
+05/12/2000
+Biologia
+0.65
+7.2
+Isabela
+28/04/1996
+Engenharia Química
+0.75
+8.1
+Thiago
+22/07/2003
+Economia
+0.6
+7.5
+3
+Tiago
+25/10/1990
+Departamento de informatica
+Mariana
+12/03/1985
+Departamento de Biologia
+Rafaela
+05/08/1978
+Departamento de Química
+Casos/1/database.bin

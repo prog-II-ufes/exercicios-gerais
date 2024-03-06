@@ -1,0 +1,14 @@
+Numero de bytes salvos: 908
+Numero de bytes lidos: 908
+
+Alunos:
+Gabriel
+Isabela
+Luisa
+Maria
+Thiago
+
+Professores:
+Mariana
+Rafaela
+Tiago

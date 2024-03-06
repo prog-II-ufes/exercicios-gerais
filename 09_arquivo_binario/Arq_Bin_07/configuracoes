@@ -1,0 +1,11 @@
+Arquivos
+	saida.txt=10
+Valgrind
+	desconto=0.5
+Validações
+	main=1.66
+	completo=1.70
+    aluno=1.66
+    database=1.66
+    professor=1.66
+    vector=1.66
