@@ -5,7 +5,7 @@ Este repositório contém os exercícios que serão utilizados durante a discipl
 Os exercícios estão dividos por pastas que seguem a mesma ordem do cronograma da disciplina. A intenção que você solucione os exercícios na medida que a disciplina avance, uma vez que a dificuldade vai aumentando.
 
 ___
-:construction: **Nota:** como essa é a primeira turma em que os exercícios serão apresentados desta forma, este repositório está em construção. Os monitores e professores vão adicionar os exercícios na medida que os temas forem abordados em sala de aula.
+:construction: **Nota:** como essa é a segunda turma em que os exercícios serão apresentados desta forma, este repositório está em constante construção. Possíveis problemas podem ser reportados em sala de aula.
 ___
 
 ## Descrição das pastas
