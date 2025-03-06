@@ -7,7 +7,7 @@ Periodo Ingresso: 2023/1
 % Conclusao do Curso: 85
 CRA: 8.70
 Aluno 1:
-Nome: Draven Obsidianara
+Nome: Draven Obsidian
 Data Nascimento: 04 de setembro de 3008
 Curso: Astrobiologia Avancada
 Periodo Ingresso: 2023/2

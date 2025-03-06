@@ -23,14 +23,14 @@ CRA: 9.80
 Aluno 3:
 Nome: Silas Nebulon
 Data Nascimento: 10/07/2990
-Curso: Engenharia de NanorrobosAvancada
+Curso: Engenharia de Nanorrobos
 Periodo Ingresso: 2023/1
 % Conclusao do Curso: 80
 CRA: 7.60
 Aluno 4:
 Nome: Lumiara Eclipse
 Data Nascimento: 29/02/2996
-Curso: Astronomia HolograficaosAvancada
+Curso: Astronomia Holografica
 Periodo Ingresso: 2023/2
 % Conclusao do Curso: 89
 CRA: 8.30

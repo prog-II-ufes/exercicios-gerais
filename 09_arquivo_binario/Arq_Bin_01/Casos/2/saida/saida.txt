@@ -8,14 +8,14 @@ Periodo Ingresso: 2023/1
 CRA: 7.80
 Aluno 1:
 Nome: Zephyr Vanguard
-Data Nascimento: 09 de outubro de 301280
+Data Nascimento: 09 de outubro de 3012
 Curso: Inteligencia Artificial etica
 Periodo Ingresso: 2023/2
 % Conclusao do Curso: 88
 CRA: 8.90
 Aluno 2:
-Nome: Nova Stardustrd
-Data Nascimento: 05 de maio de 300201280
+Nome: Nova Stardust
+Data Nascimento: 05 de maio de 3002
 Curso: Engenharia Genetica Intergalactica
 Periodo Ingresso: 2023/1
 % Conclusao do Curso: 96
