@@ -13,7 +13,7 @@ void matrix_read(int rows, int cols, int matrix[rows][cols]);
  * @brief Imprime a matriz especificada na saída padrão.
  * @param rows Número de linhas da matriz.
  * @param cols Número de colunas da matriz.
- * @param matrix Matriz a ser impressa.
+ * @param matrix Matriz a ser impressa. Após a impressão da matriz, deve ser impressa uma quebra de linha.
  */
 void matrix_print(int rows, int cols, int matrix[rows][cols]);
 
@@ -46,7 +46,7 @@ int possible_matrix_sub(int rows1, int cols1, int rows2, int cols2);
 int possible_matrix_multiply(int cols1, int rows2);
 
 /**
- * @brief Soma duas matrizes e armazena o resultado na primeira matriz.
+ * @brief Soma duas matrizes e armazena o resultado em result. Não é feito teste de possibilidade de soma.
  * @param rows1 Número de linhas da primeira matriz.
  * @param cols1 Número de colunas da primeira matriz.
  * @param matrix1 Primeira matriz.
@@ -58,7 +58,7 @@ int possible_matrix_multiply(int cols1, int rows2);
 void matrix_add(int rows1, int cols1, int matrix1[rows1][cols1], int rows2, int cols2, int matrix2[rows2][cols2], int result[rows1][cols1]);
 
 /**
- * @brief Subtrai duas matrizes e armazena o resultado na primeira matriz.
+ * @brief Subtrai duas matrizes e armazena o resultado em result. Não é feito teste de verificação de subtração.
  * @param rows1 Número de linhas da primeira matriz.
  * @param cols1 Número de colunas da primeira matriz.
  * @param matrix1 Primeira matriz.
@@ -70,7 +70,8 @@ void matrix_add(int rows1, int cols1, int matrix1[rows1][cols1], int rows2, int 
 void matrix_sub(int rows1, int cols1, int matrix1[rows1][cols1], int rows2, int cols2, int matrix2[rows2][cols2], int result[rows1][cols1]);
 
 /**
- * @brief Multiplica duas matrizes e armazena o resultado na primeira matriz.
+ * @brief Multiplica duas matrizes e armazena o resultado em result. Não é feito teste de verificação para a multiplicação. 
+ *  A matriz result deve ser inicializada com 0 dentro desta função.
  * @param rows1 Número de linhas da primeira matriz.
  * @param cols1 Número de colunas da primeira matriz.
  * @param matrix1 Primeira matriz.
@@ -82,7 +83,7 @@ void matrix_sub(int rows1, int cols1, int matrix1[rows1][cols1], int rows2, int 
 void matrix_multiply(int rows1, int cols1, int matrix1[rows1][cols1], int rows2, int cols2, int matrix2[rows2][cols2], int result[rows1][cols2]);
 
 /**
- * @brief Transpõe a matriz especificada.
+ * @brief Transpõe a matriz especificada. O resultado da transposta deve ser armazenado em result.
  * @param rows Número de linhas da matriz.
  * @param cols Número de colunas da matriz.
  * @param matrix Matriz a ser transposta.
@@ -91,7 +92,7 @@ void matrix_multiply(int rows1, int cols1, int matrix1[rows1][cols1], int rows2,
 void transpose_matrix(int rows, int cols, int matrix[rows][cols], int result[cols][rows]);
 
 /**
- * @brief Multiplica a matriz especificada por um escalar.
+ * @brief Multiplica a matriz especificada por um escalar, mantendo o resultado na própria matriz.
  * @param rows Número de linhas da matriz.
  * @param cols Número de colunas da matriz.
  * @param matrix Matriz a ser multiplicada.
