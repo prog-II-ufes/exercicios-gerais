@@ -5,7 +5,7 @@
 5 - Imprimir string ao contrario
 6 - Encerrar o programa
 Opcao escolhida: 
-Tamanho da string: 16
+Tamanho da string: 14
 
 1 - Tamanho da string
 2 - Copiar string
