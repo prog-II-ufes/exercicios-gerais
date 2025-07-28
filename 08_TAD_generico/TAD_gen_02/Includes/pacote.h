@@ -3,7 +3,7 @@
 
 typedef enum {
     INT = 1,
-    CHAR = 2
+    CHAR = 0
 } Type;
 
 typedef struct pacote tPacote;
