@@ -1,29 +1,8 @@
 Arquivos Esperados Corretos: 9 de 9
-Pastas Compiladas Corretamente: 4 de 6 
-Pastas Linkadas Corretamente: 4 de 6
-Teste main
-  - Resultados corretos: 0 de 6
-  - Valgrinds corretos: 6 de 6
-Nota de CaioFraga para o teste main: 0
-Teste completo
-  - Resultados corretos: 0 de 6
-  - Valgrinds corretos: 6 de 6
-Nota de CaioFraga para o teste completo: 0
+Pastas Compiladas Corretamente: 1 de 1 
+Pastas Linkadas Corretamente: 1 de 1
 Teste jogada
-  - Resultados corretos: 0 de 6
-  - Valgrinds corretos: 6 de 6
-Nota de CaioFraga para o teste jogada: 0
-Teste jogador
-  - Resultados corretos: 0 de 6
-  - Valgrinds corretos: 0 de 6
-Nota de CaioFraga para o teste jogador: 0
-Teste tabuleiro
-  - Resultados corretos: 0 de 6
-  - Valgrinds corretos: 6 de 6
-Nota de CaioFraga para o teste tabuleiro: 0
-Teste jogo
-  - Resultados corretos: 0 de 6
-  - Valgrinds corretos: 0 de 6
-Nota de CaioFraga para o teste jogo: 0
-Nota de CaioFraga: 0+(0)+(0)+(0)+(0)+(0)+(0)
-Nota de CaioFraga: 0
+  - Resultados corretos: 6 de 6
+Nota de CaioFraga para o teste jogada: 1.67
+Nota de CaioFraga: 0+(1.67)
+Nota de CaioFraga: 1.67

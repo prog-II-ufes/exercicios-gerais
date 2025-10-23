@@ -3,7 +3,8 @@
 
 tJogada LeJogada(){
     tJogada j;
-    if (FoiJogadaBemSucedida(j)){
+    printf("Digite uma posicao (x e y):\n");
+    if (scanf("%d %d", &j.x, &j.y) == 2){
         j.sucesso = 1;
     } else {
         j.sucesso = 0;
@@ -20,9 +21,5 @@ int ObtemJogadaY(tJogada jogada){
 }
 
 int FoiJogadaBemSucedida(tJogada jogada){
-    int x, y;
-    if (scanf("%d %d", &x, &y) == 2){
-        return 1;
-    }
-    return 0;
+    return jogada.sucesso;
 }

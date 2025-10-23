@@ -1,9 +1,0 @@
-jogador.c: In function ‘JogaJogador’:
-jogador.c:18:21: error: too few arguments to function ‘MarcaPosicaoTabuleiro’
-   18 |         tabuleiro = MarcaPosicaoTabuleiro(tabuleiro, jogador.id);
-      |                     ^~~~~~~~~~~~~~~~~~~~~
-In file included from jogador.h:4,
-                 from jogador.c:2:
-tabuleiro.h:34:12: note: declared here
-   34 | tTabuleiro MarcaPosicaoTabuleiro(tTabuleiro tabuleiro, int peca, int x, int y);
-      |            ^~~~~~~~~~~~~~~~~~~~~

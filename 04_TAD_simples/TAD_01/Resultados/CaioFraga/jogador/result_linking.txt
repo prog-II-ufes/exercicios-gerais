@@ -1,9 +1,0 @@
-/usr/bin/ld: Resultados/CaioFraga/jogador/jogo.o: in function `CriaJogo':
-jogo.c:(.text+0x3e): undefined reference to `CriaJogador'
-/usr/bin/ld: jogo.c:(.text+0x4b): undefined reference to `CriaJogador'
-/usr/bin/ld: Resultados/CaioFraga/jogador/jogo.o: in function `ComecaJogo':
-jogo.c:(.text+0xaf): undefined reference to `JogaJogador'
-/usr/bin/ld: jogo.c:(.text+0xd2): undefined reference to `VenceuJogador'
-/usr/bin/ld: jogo.c:(.text+0x135): undefined reference to `JogaJogador'
-/usr/bin/ld: jogo.c:(.text+0x158): undefined reference to `VenceuJogador'
-collect2: error: ld returned 1 exit status

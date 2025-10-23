@@ -1,5 +1,0 @@
-/usr/bin/ld: Resultados/CaioFraga/jogo/main.o: in function `main':
-main.c:(.text+0x28): undefined reference to `CriaJogo'
-/usr/bin/ld: main.c:(.text+0x4d): undefined reference to `ComecaJogo'
-/usr/bin/ld: main.c:(.text+0x5b): undefined reference to `ContinuaJogo'
-collect2: error: ld returned 1 exit status

@@ -64,6 +64,7 @@
     "aluno.h": "c",
     "jogo.h": "c",
     "jogada.h": "c",
-    "candidato.h": "c"
+    "candidato.h": "c",
+    "tabuleiro.h": "c"
   }
 }

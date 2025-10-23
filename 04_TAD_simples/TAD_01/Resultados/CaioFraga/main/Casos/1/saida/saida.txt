@@ -1,2 +1,0 @@
-Digite uma posicao (x e y):
-1 1

@@ -1,10 +1,22 @@
 #include <stdio.h>
-#include "jogada.h"
 #include "jogo.h"
+#include "jogada.h"
 
 int main(){
 
-    tJogada j = LeJogada();
-    printf("%d %d", ObtemJogadaX(j), ObtemJogadaY(j));
+    tJogo j = CriaJogo();
+
+    ComecaJogo(j);
+
+    while (!AcabouJogo(j)){
+
+    }
+
+    if (ContinuaJogo(j)){
+        
+    }
+
+
+
     return 0;
 }
