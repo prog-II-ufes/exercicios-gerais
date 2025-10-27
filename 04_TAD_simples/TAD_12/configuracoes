@@ -1,0 +1,9 @@
+Arquivos
+	saida.txt=10
+Valgrind
+	desconto=0.5
+Validações
+	main=3.0
+	paciente=3.0
+	lesao=3.0
+	data=1.0
