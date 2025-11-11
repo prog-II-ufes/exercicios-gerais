@@ -1,5 +1,5 @@
-3
-1 - ola mundo   
-2 - como voce eh cruel   
-3 - precisamos melhorar isso aprendendo C   
 100
+3
+1 - ola mundo
+2 - como voce eh cruel
+3 - precisamos melhorar isso aprendendo C

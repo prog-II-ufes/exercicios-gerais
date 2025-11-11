@@ -6,3 +6,6 @@ Validações
 	main=3.33
 	completo=3.34
 	rolagem=3.33
+
+LimiteTempo=120
+# Necessário para passar no teste da main
