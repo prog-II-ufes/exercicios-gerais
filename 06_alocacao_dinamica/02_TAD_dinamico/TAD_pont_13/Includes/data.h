@@ -1,44 +1,49 @@
-#ifndef _data
-#define _data
 
 
-typedef struct data{
-    int dia, mes, ano;
-} tData;
+#ifndef _DATA_H
+#define _DATA_H
 
-/**
- * @brief Lê uma data da entrada padrão.
- * @return Um ponteiro para a data lida.
- */
-tData* LeData();
+typedef struct {
+    int dia;
+    int mes;
+    int ano;
+} Data;
 
-/**
- * @brief Cria uma data com o dia, mês e ano fornecidos. Se a alocação falhar, o programa é encerrado.
- * @param dia O dia da data.
- * @param mes O mês da data.
- * @param ano O ano da data.
- * @return Um ponteiro para a data criada.
- */
-tData* CriaData(int dia, int mes, int ano);
+/*
+Função que cria uma data a partir do dia, mês e ano fornecidos e retorna um ponteiro para a data criada
+@param dia: Dia da data.
+@param mes: Mês da data.
+@param ano: Ano da data.
+@return Data criada.
+*/
+Data *criaData(int dia, int mes, int ano);
 
-/**
- * @brief Libera a memória alocada para uma data.
- * @param d Um ponteiro para a data a ser liberada.
- */
-void LiberaData(tData* d);
+/*
+Função que lê uma data do formato DD/MM/AAAA a partir da entrada padrão e retorna um ponteiro para a data lida.
+@return Data lida.
+*/
+Data *lerData();
 
-/**
- * @brief Calcula a idade de uma pessoa com base na data de nascimento e em uma data para calcular a idade.
- * @param nascimento Um ponteiro para a data de nascimento da pessoa.
- * @param diacalc Um ponteiro para a data para calcular a idade.
- * @return A idade da pessoa.
- */
-int CalculaIdadeData(tData* nascimento, tData* diacalc);
+/*
+Função que calcula a diferença em anos entre duas datas. A diferença é calculada como o número de anos completos entre a data inicial e a data atual.
+Ex: Se a data inicial for 15/08/2000 e a data atual for 14/08/2023, a diferença será 22 anos. 
+@param inicial: Data inicial.
+@param atual: Data atual.
+@return Diferença em anos entre as duas datas.
+*/
+int diferencaAnoData(Data *inicial, Data *atual);
 
-/**
- * @brief Imprime uma data na saída padrão.
- * @param d Um ponteiro para a data a ser impressa.
- */
-void ImprimeData(tData* d);
+/*
+Função que imprime uma data no formato DD/MM/AAAA.
+@param d: Data a ser impressa.
+*/
+void imprimeData(Data *d);
+
+/*
+Função que libera a memória alocada para uma data.
+@param d: Ponteiro para a data a ser liberada.
+*/
+void liberaData(Data *d);
+
 
 #endif

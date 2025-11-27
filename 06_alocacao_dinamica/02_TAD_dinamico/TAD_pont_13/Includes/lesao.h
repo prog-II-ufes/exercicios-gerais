@@ -1,52 +1,61 @@
-#ifndef _lesao
-#define _lesao
 
-#define TAM_ID 10 /**< Tamanho máximo do identificador da lesão. */
-#define TAM_DIAG 100 /**< Tamanho máximo do diagnóstico da lesão. */
-#define TAM_REG 100 /**< Tamanho máximo da região do corpo da lesão. */
+#ifndef _LESAO_H
+#define _LESAO_H
 
-typedef struct lesao{
-    char * id; /**< O identificador da lesão. */
-    char * diagnostico; /**< O diagnóstico da lesão. */
-    char * regiao_corpo; /**< A região do corpo da lesão. */
-    int chance_malignidade; /**< A chance de malignidade da lesão. */
-} tLesao;
+#define MAX_CARTAO_LES 19
+#define MAX_ID_LES 11
+#define MAX_DIAG_LES 101
+#define MAX_REG_LES 101
 
-/**
- * @brief Cria uma estrutura do tipo lesão
- * 
- * @return ponteiro para estrutura do tipo lesão
- */ 
-tLesao* CriaLesao();
+typedef struct {
+    char cartaoSus[MAX_CARTAO_LES];
+    char id[MAX_ID_LES];
+    char diagnostico[MAX_DIAG_LES];
+    char regiao[MAX_REG_LES];
+    int malignidade;
+} Lesao;
 
-/**
- * @brief Lê informações sobre uma lesão da entrada padrão.
- * 
- * @param l ponteiro para lesão que terá seus dados preenchidos
- */
-void LeLesao(tLesao* l);
+/*
+Função que cria uma lesão a partir dos parâmetros fornecidos.
+@param cartaoSus: Cartão SUS do paciente associado à lesão.
+@param id: Identificador único da lesão.
+@param diagnostico: Diagnóstico da lesão.
+@param regiao: Região do corpo onde a lesão está localizada.
+@param malignidade: Indicador de malignidade (1 para maligna, 0 para benigna).
+@return Ponteiro para a lesão criada.
+*/
+Lesao *criaLesao(char *cartaoSus, char *id, char *diagnostico, char *regiao, int malignidade);
 
-/**
- * @brief Libera a memória alocada para uma estrutura de dados tLesao.
- * 
- * @param l Ponteiro para a estrutura de dados tLesao a ser liberada.
- */
-void LiberaLesao(tLesao* l);
+/*
+Função que lê os dados de uma lesão a partir da entrada padrão. Consulte o enunciado e/ou os casos de teste para o formato esperado.
+@return Ponteiro para a lesão lida.
+*/
+Lesao *lerLesao();
 
-/**
- * @brief Retorna o identificador da lesão.
- * 
- * @param l Ponteiro para a estrutura de dados tLesao contendo as informações da lesão.
- * @return Retorna uma string contendo o identificador da lesão.
- */
-char* GetIdLesao(tLesao* l);
+/*
+Função que obtém o cartão SUS associado a uma lesão.
+@param l: Ponteiro para a lesão da qual se deseja obter o cartão SUS.
+@param cartaoSus: String onde o cartão SUS será armazenado.
+*/
+char *getCartaoSusLesao(Lesao *l);
 
-/**
- * @brief Verifica se a lesão precisa de cirurgia.
- * 
- * @param l Ponteiro para a estrutura de dados tLesao contendo as informações da lesão.
- * @return Retorna 1 se a lesão precisa de cirurgia e 0 caso contrário.
- */
-int PrecisaCirurgiaLesao(tLesao* l);
+/*
+Função que verifica se uma lesão é cirúrgica (maligna).
+@param l: Ponteiro para a lesão a ser verificada.
+@return 1 se a lesão for cirúrgica (maligna), 0 caso contrário.
+*/
+int verificaCirurgicaLesao(Lesao *l);
+
+/*
+Função que imprime o identificador de uma lesão.
+@param l: Ponteiro para a lesão cuja identificação será impressa.
+*/
+void imprimeIdLesao(Lesao *l);
+
+/*
+Função que libera a memória alocada para uma lesão.
+@param l: Ponteiro para a lesão a ser liberada.
+*/
+void liberaLesao(Lesao *l);
 
 #endif
