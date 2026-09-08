@@ -103,7 +103,7 @@ LINKANDO OS ARQUIVOS COMPILADOS:
  - Arquivo de output gerado: Resultados/Djan/data/result_linking.txt
  - Pasta area:
  - Gerando o binário prog linkando com o(s) arquivo(s) area/*.o
- - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
  - Arquivo de output gerado: Resultados/Djan/area/result_linking.txt
  - Pasta morador:
  - Gerando o binário prog linkando com o(s) arquivo(s) morador/*.o
@@ -113,7 +113,7 @@ LINKANDO OS ARQUIVOS COMPILADOS:
  - Gerando o binário prog linkando com o(s) arquivo(s) reserva/*.o
  - Arquivos Linkados: Erro! Binário prog não gerado.
  - Arquivo de output gerado: Resultados/Djan/reserva/result_linking.txt
- - Arquivos Linkados: Erro! 3 arquivos com erros de linkagem.
+ - Arquivos Linkados: Erro! 2 arquivos com erros de linkagem.
 
 EXECUTANDO O VALGRIND EM CADA CASO:
  - Pasta main / Caso 1:
@@ -228,31 +228,38 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Nota para a pasta data (máximo 1.00) - 0 de 70 - 0% de 1.00: 0.
  -----
  - Pasta area / Caso 1:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/Djan/area/Casos/1/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 1, frees: 1, errors: 2 | Desconto do valgrind 0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
  - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta area / Caso 2:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/Djan/area/Casos/2/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 1, frees: 1, errors: 2 | Desconto do valgrind 0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
  - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta area / Caso 3:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/Djan/area/Casos/3/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 1, frees: 1, errors: 2 | Desconto do valgrind 0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
  - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta area / Caso 4:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/Djan/area/Casos/4/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 1, frees: 1, errors: 2 | Desconto do valgrind 0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
  - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta area / Caso 5:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/Djan/area/Casos/5/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 1, frees: 1, errors: 2 | Desconto do valgrind 0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
  - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta area / Caso 6:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/Djan/area/Casos/6/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 1, frees: 1, errors: 2 | Desconto do valgrind 0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
  - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta area / Caso 7:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/Djan/area/Casos/7/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 1, frees: 1, errors: 2 | Desconto do valgrind 0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
  - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Nota para a pasta area (máximo 1.00) - 0 de 70 - 0% de 1.00: 0.
@@ -326,7 +333,7 @@ RESULTADOS FINAIS
 Aluno: Djan
  - Arquivos Esperados Corretos: 9 de 9
  - Pastas Compiladas Corretamente: 6 de 6 
- - Pastas Linkadas Corretamente: 3 de 6
+ - Pastas Linkadas Corretamente: 4 de 6
  - Teste main
  - Resultados corretos: 0 de 7
  - Valgrinds corretos: 7 de 7
