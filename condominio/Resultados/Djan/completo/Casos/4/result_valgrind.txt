@@ -1,0 +1,15 @@
+==15028== Memcheck, a memory error detector
+==15028== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==15028== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==15028== Command: Resultados/Djan/completo/prog Resultados/Djan/completo/Casos/4
+==15028== Parent PID: 15027
+==15028== 
+==15028== 
+==15028== HEAP SUMMARY:
+==15028==     in use at exit: 0 bytes in 0 blocks
+==15028==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==15028== 
+==15028== All heap blocks were freed -- no leaks are possible
+==15028== 
+==15028== For lists of detected and suppressed errors, rerun with: -s
+==15028== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

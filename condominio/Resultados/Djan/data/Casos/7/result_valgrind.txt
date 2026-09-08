@@ -1,0 +1,19 @@
+==16264== Memcheck, a memory error detector
+==16264== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==16264== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==16264== Command: Resultados/Djan/data/prog Resultados/Djan/data/Casos/7
+==16264== Parent PID: 16263
+==16264== 
+==16264== Conditional jump or move depends on uninitialised value(s)
+==16264==    at 0x109F6A: main (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/RespostaMinhas_Prog2_Exerc-cos/condominio/Resultados/Djan/data/prog)
+==16264== 
+==16264== 
+==16264== HEAP SUMMARY:
+==16264==     in use at exit: 0 bytes in 0 blocks
+==16264==   total heap usage: 1 allocs, 1 frees, 4,096 bytes allocated
+==16264== 
+==16264== All heap blocks were freed -- no leaks are possible
+==16264== 
+==16264== Use --track-origins=yes to see where uninitialised values come from
+==16264== For lists of detected and suppressed errors, rerun with: -s
+==16264== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

@@ -1,0 +1,10 @@
+/usr/bin/ld: Resultados/Djan/area/main.o: in function `getAreaGrupo':
+main.c:(.text+0x1cf): undefined reference to `verificaIdArea'
+/usr/bin/ld: Resultados/Djan/area/main.o: in function `main':
+main.c:(.text+0x29c): undefined reference to `lerArea'
+/usr/bin/ld: Resultados/Djan/area/reserva.o: in function `verificaSolicitacaoReserva':
+reserva.c:(.text+0x60e): undefined reference to `comparaArea'
+/usr/bin/ld: Resultados/Djan/area/reserva.o: in function `imprimeReserva':
+reserva.c:(.text+0x802): undefined reference to `imprimeArea'
+/usr/bin/ld: reserva.c:(.text+0x8f6): undefined reference to `getCapacidadeArea'
+collect2: error: ld returned 1 exit status
