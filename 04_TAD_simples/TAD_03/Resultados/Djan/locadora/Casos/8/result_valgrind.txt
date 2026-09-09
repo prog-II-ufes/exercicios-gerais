@@ -1,0 +1,69 @@
+==59794== Memcheck, a memory error detector
+==59794== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==59794== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==59794== Command: Resultados/Djan/locadora/prog Resultados/Djan/locadora/Casos/8
+==59794== Parent PID: 59793
+==59794== 
+==59794== Conditional jump or move depends on uninitialised value(s)
+==59794==    at 0x48C90CB: __printf_buffer (vfprintf-process-arg.c:58)
+==59794==    by 0x48CA73A: __vfprintf_internal (vfprintf-internal.c:1544)
+==59794==    by 0x48BF1B2: printf (printf.c:33)
+==59794==    by 0x109783: cadastrarFilmeLocadora (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==59794==    by 0x1098FF: lerCadastroLocadora (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==59794==    by 0x10AC6B: main (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==59794== 
+==59794== Use of uninitialised value of size 8
+==59794==    at 0x48BE0BB: _itoa_word (_itoa.c:183)
+==59794==    by 0x48C8C9B: __printf_buffer (vfprintf-process-arg.c:155)
+==59794==    by 0x48CA73A: __vfprintf_internal (vfprintf-internal.c:1544)
+==59794==    by 0x48BF1B2: printf (printf.c:33)
+==59794==    by 0x109783: cadastrarFilmeLocadora (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==59794==    by 0x1098FF: lerCadastroLocadora (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==59794==    by 0x10AC6B: main (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==59794== 
+==59794== Conditional jump or move depends on uninitialised value(s)
+==59794==    at 0x48BE0CC: _itoa_word (_itoa.c:183)
+==59794==    by 0x48C8C9B: __printf_buffer (vfprintf-process-arg.c:155)
+==59794==    by 0x48CA73A: __vfprintf_internal (vfprintf-internal.c:1544)
+==59794==    by 0x48BF1B2: printf (printf.c:33)
+==59794==    by 0x109783: cadastrarFilmeLocadora (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==59794==    by 0x1098FF: lerCadastroLocadora (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==59794==    by 0x10AC6B: main (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==59794== 
+==59794== Conditional jump or move depends on uninitialised value(s)
+==59794==    at 0x48C8D85: __printf_buffer (vfprintf-process-arg.c:186)
+==59794==    by 0x48CA73A: __vfprintf_internal (vfprintf-internal.c:1544)
+==59794==    by 0x48BF1B2: printf (printf.c:33)
+==59794==    by 0x109783: cadastrarFilmeLocadora (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==59794==    by 0x1098FF: lerCadastroLocadora (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==59794==    by 0x10AC6B: main (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==59794== 
+==59794== 
+==59794== Process terminating with default action of signal 6 (SIGABRT)
+==59794==    at 0x48FDC0C: __pthread_kill_implementation (pthread_kill.c:44)
+==59794==    by 0x48FDC0C: __pthread_kill_internal (pthread_kill.c:78)
+==59794==    by 0x48FDC0C: pthread_kill@@GLIBC_2.34 (pthread_kill.c:89)
+==59794==    by 0x48A427D: raise (raise.c:26)
+==59794==    by 0x48878FE: abort (abort.c:79)
+==59794==    by 0x48887B5: __libc_message_impl.cold (libc_fatal.c:134)
+==59794==    by 0x4995D48: __fortify_fail (fortify_fail.c:24)
+==59794==    by 0x4996FD3: __stack_chk_fail (stack_chk_fail.c:24)
+==59794==    by 0x109342: leFilme (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==59794==    by 0x1098AB: lerCadastroLocadora (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==59794== 
+==59794== HEAP SUMMARY:
+==59794==     in use at exit: 8,192 bytes in 2 blocks
+==59794==   total heap usage: 2 allocs, 0 frees, 8,192 bytes allocated
+==59794== 
+==59794== LEAK SUMMARY:
+==59794==    definitely lost: 0 bytes in 0 blocks
+==59794==    indirectly lost: 0 bytes in 0 blocks
+==59794==      possibly lost: 0 bytes in 0 blocks
+==59794==    still reachable: 8,192 bytes in 2 blocks
+==59794==         suppressed: 0 bytes in 0 blocks
+==59794== Reachable blocks (those to which a pointer was found) are not shown.
+==59794== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==59794== 
+==59794== Use --track-origins=yes to see where uninitialised values come from
+==59794== For lists of detected and suppressed errors, rerun with: -s
+==59794== ERROR SUMMARY: 4 errors from 4 contexts (suppressed: 0 from 0)

@@ -1,0 +1,15 @@
+==23346== Memcheck, a memory error detector
+==23346== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==23346== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==23346== Command: Resultados/Djan/completo/prog Resultados/Djan/completo/Casos/6
+==23346== Parent PID: 23345
+==23346== 
+==23346== 
+==23346== HEAP SUMMARY:
+==23346==     in use at exit: 0 bytes in 0 blocks
+==23346==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==23346== 
+==23346== All heap blocks were freed -- no leaks are possible
+==23346== 
+==23346== For lists of detected and suppressed errors, rerun with: -s
+==23346== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

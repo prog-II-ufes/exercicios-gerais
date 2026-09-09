@@ -1,0 +1,9 @@
+Arquivos Esperados Corretos: 3 de 3
+Pastas Compiladas Corretamente: 1 de 1 
+Pastas Linkadas Corretamente: 1 de 1
+Teste completo
+  - Resultados corretos: 4 de 4
+  - Valgrinds corretos: 4 de 4
+Nota de Djan para o teste completo: 10.00
+Nota de Djan: 0+(10.00)
+Nota de Djan: 10.00
