@@ -1,0 +1,15 @@
+==263561== Memcheck, a memory error detector
+==263561== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==263561== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==263561== Command: Resultados/Djan/main/prog Resultados/Djan/main/Casos/3
+==263561== Parent PID: 263560
+==263561== 
+==263561== 
+==263561== HEAP SUMMARY:
+==263561==     in use at exit: 0 bytes in 0 blocks
+==263561==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==263561== 
+==263561== All heap blocks were freed -- no leaks are possible
+==263561== 
+==263561== For lists of detected and suppressed errors, rerun with: -s
+==263561== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
