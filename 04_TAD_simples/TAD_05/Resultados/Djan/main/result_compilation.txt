@@ -1,0 +1,8 @@
+main.c: In function ‘main’:
+main.c:39:20: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   39 |                 if(strcmp(contas[i].user.cpf, cpf) == 0){
+      |                    ^~~~~~
+main.c:4:1: note: include ‘<string.h>’ or provide a declaration of ‘strcmp’
+    3 | #include "conta.h"
+  +++ |+#include <string.h>
+    4 | 
