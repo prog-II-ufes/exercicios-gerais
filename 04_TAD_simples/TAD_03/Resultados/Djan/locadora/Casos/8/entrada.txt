@@ -1,0 +1,12 @@
+Cadastrar
+1,Donnie Darko,5,1
+2,Shrek,4,1
+#
+Alugar
+2
+#
+Devolver
+2
+#
+Estoque
+#

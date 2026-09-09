@@ -1,0 +1,66 @@
+Filme cadastrado 1 - 
+
+
+~ESTOQUE~
+1 - 
+ Fitas em estoque: 0
+
+Filme 2 nao cadastrado.
+Filme 3 nao cadastrado.
+Filme 1 - 
+ nao disponivel no estoque. Volte mais tarde.
+
+~ESTOQUE~
+1 - 
+ Fitas em estoque: 0
+
+Nao e possivel devolver o filme 1 - 
+.
+Nao e possivel devolver o filme 1 - 
+.
+
+~ESTOQUE~
+1 - 
+ Fitas em estoque: 0
+
+Filme 2 nao cadastrado.
+
+Filme 15 nao cadastrado.
+
+Filme cadastrado 15 - 
+
+
+Filme 15 - 
+ nao disponivel no estoque. Volte mais tarde.
+
+Filme 5 nao cadastrado.
+
+~ESTOQUE~
+15 - 
+ Fitas em estoque: 0
+1 - 
+ Fitas em estoque: 0
+
+Filme 2 nao cadastrado.
+Filme 2 nao cadastrado.
+
+Filme 1 - 
+ nao disponivel no estoque. Volte mais tarde.
+Filme 1 - 
+ nao disponivel no estoque. Volte mais tarde.
+
+~ESTOQUE~
+1 - 
+ Fitas em estoque: 0
+15 - 
+ Fitas em estoque: 0
+
+Filme 2 nao cadastrado.
+
+Filme 2 nao cadastrado.
+
+~ESTOQUE~
+15 - 
+ Fitas em estoque: 0
+1 - 
+ Fitas em estoque: 0

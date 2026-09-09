@@ -1,0 +1,10 @@
+Filme cadastrado 1 - 
+
+
+Filme 1 - 
+ nao disponivel no estoque. Volte mais tarde.
+Filme 2 nao cadastrado.
+
+~ESTOQUE~
+1 - 
+ Fitas em estoque: 0

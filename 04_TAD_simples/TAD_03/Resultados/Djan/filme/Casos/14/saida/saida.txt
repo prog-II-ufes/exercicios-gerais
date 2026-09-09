@@ -1,0 +1,41 @@
+Filme cadastrado 2 - 
+
+
+Filme 1 nao cadastrado.
+
+~ESTOQUE~
+2 - 
+ Fitas em estoque: 0
+
+Filme cadastrado 4 - 
+
+
+~ESTOQUE~
+4 - 
+ Fitas em estoque: 0
+2 - 
+ Fitas em estoque: 0
+
+Filme 4 - 
+ nao disponivel no estoque. Volte mais tarde.
+
+Filme 4 - 
+ nao disponivel no estoque. Volte mais tarde.
+
+Nao e possivel devolver o filme 4 - 
+.
+
+Filme 4 - 
+ nao disponivel no estoque. Volte mais tarde.
+
+Filme 2 - 
+ nao disponivel no estoque. Volte mais tarde.
+
+Nao e possivel devolver o filme 2 - 
+.
+
+~ESTOQUE~
+2 - 
+ Fitas em estoque: 0
+4 - 
+ Fitas em estoque: 0

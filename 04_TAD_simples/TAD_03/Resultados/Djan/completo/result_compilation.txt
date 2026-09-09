@@ -1,0 +1,28 @@
+filme.c: In function ‘leFilme’:
+filme.c:42:13: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+   42 |     scanf("%d,%[^,],%d,%d",filme.codigo,filme.nome,filme.valor,filme.qtdEstoque);
+      |            ~^              ~~~~~~~~~~~~
+      |             |                   |
+      |             int *               int
+filme.c:42:22: warning: format ‘%d’ expects argument of type ‘int *’, but argument 4 has type ‘int’ [-Wformat=]
+   42 |     scanf("%d,%[^,],%d,%d",filme.codigo,filme.nome,filme.valor,filme.qtdEstoque);
+      |                     ~^                             ~~~~~~~~~~~
+      |                      |                                  |
+      |                      int *                              int
+filme.c:42:25: warning: format ‘%d’ expects argument of type ‘int *’, but argument 5 has type ‘int’ [-Wformat=]
+   42 |     scanf("%d,%[^,],%d,%d",filme.codigo,filme.nome,filme.valor,filme.qtdEstoque);
+      |                        ~^                                      ~~~~~~~~~~~~~~~~
+      |                         |                                           |
+      |                         int *                                       int
+filme.c:42:5: warning: ‘filme.qtdEstoque’ is used uninitialized [-Wuninitialized]
+   42 |     scanf("%d,%[^,],%d,%d",filme.codigo,filme.nome,filme.valor,filme.qtdEstoque);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+filme.c:38:12: note: ‘filme’ declared here
+   38 |     tFilme filme;
+      |            ^~~~~
+filme.c:42:5: warning: ‘filme.valor’ is used uninitialized [-Wuninitialized]
+   42 |     scanf("%d,%[^,],%d,%d",filme.codigo,filme.nome,filme.valor,filme.qtdEstoque);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+filme.c:38:12: note: ‘filme’ declared here
+   38 |     tFilme filme;
+      |            ^~~~~
