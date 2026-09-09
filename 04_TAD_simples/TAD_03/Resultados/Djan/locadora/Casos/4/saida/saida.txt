@@ -1,1 +1,9 @@
-valgrind: Resultados/Djan/locadora/prog: No such file or directory
+Filme cadastrado 0 -  Do Anel
+
+Filme 1 nao cadastrado
+Total de filmes alugados 0 com custo de R$0
+
+~ESTOQUE~
+0 -  Do Anel Fitas em estoque: 1
+
+Lucro total R$0

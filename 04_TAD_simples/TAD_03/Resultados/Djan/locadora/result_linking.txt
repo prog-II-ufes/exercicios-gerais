@@ -1,9 +1,0 @@
-/usr/bin/ld: Resultados/Djan/locadora/main.o: in function `main':
-main.c:(.text+0x3a): undefined reference to `criarLocadora'
-/usr/bin/ld: main.c:(.text+0xab): undefined reference to `lerCadastroLocadora'
-/usr/bin/ld: main.c:(.text+0x136): undefined reference to `lerAluguelLocadora'
-/usr/bin/ld: main.c:(.text+0x1b7): undefined reference to `lerDevolucaoLocadora'
-/usr/bin/ld: main.c:(.text+0x23c): undefined reference to `ordenarFilmesLocadora'
-/usr/bin/ld: main.c:(.text+0x28a): undefined reference to `consultarEstoqueLocadora'
-/usr/bin/ld: main.c:(.text+0x2f3): undefined reference to `consultarLucroLocadora'
-collect2: error: ld returned 1 exit status

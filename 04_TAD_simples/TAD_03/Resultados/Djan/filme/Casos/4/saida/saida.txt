@@ -1,9 +1,6 @@
-Filme cadastrado 1 - 
+Filme cadastrado 1 - A Sociedade Do Anel
 
-
-Filme 1 - 
- nao disponivel no estoque. Volte mais tarde.
+Total de filmes alugados: 1 com custo de R$5
 
 ~ESTOQUE~
-1 - 
- Fitas em estoque: 0
+1 - A Sociedade Do Anel Fitas em estoque: 0

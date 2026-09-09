@@ -1,82 +1,15 @@
-==245836== Memcheck, a memory error detector
-==245836== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
-==245836== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
-==245836== Command: Resultados/Djan/filme/prog Resultados/Djan/filme/Casos/7
-==245836== Parent PID: 245835
-==245836== 
-==245836== Conditional jump or move depends on uninitialised value(s)
-==245836==    at 0x484F229: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==245836==    by 0x4901CDC: puts (ioputs.c:35)
-==245836==    by 0x10936D: imprimirNomeFilme (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/04_TAD_simples/TAD_03/Resultados/Djan/filme/prog)
-==245836==    by 0x1097B6: cadastrarFilmeLocadora (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/04_TAD_simples/TAD_03/Resultados/Djan/filme/prog)
-==245836==    by 0x1098A8: lerCadastroLocadora (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/04_TAD_simples/TAD_03/Resultados/Djan/filme/prog)
-==245836==    by 0x10A8D5: main (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/04_TAD_simples/TAD_03/Resultados/Djan/filme/prog)
-==245836== 
-==245836== Conditional jump or move depends on uninitialised value(s)
-==245836==    at 0x109A7C: alugarFilmesLocadora (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/04_TAD_simples/TAD_03/Resultados/Djan/filme/prog)
-==245836==    by 0x109DFB: lerAluguelLocadora (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/04_TAD_simples/TAD_03/Resultados/Djan/filme/prog)
-==245836==    by 0x10A960: main (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/04_TAD_simples/TAD_03/Resultados/Djan/filme/prog)
-==245836== 
-==245836== Conditional jump or move depends on uninitialised value(s)
-==245836==    at 0x484F229: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==245836==    by 0x4901CDC: puts (ioputs.c:35)
-==245836==    by 0x10936D: imprimirNomeFilme (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/04_TAD_simples/TAD_03/Resultados/Djan/filme/prog)
-==245836==    by 0x109C33: alugarFilmesLocadora (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/04_TAD_simples/TAD_03/Resultados/Djan/filme/prog)
-==245836==    by 0x109DFB: lerAluguelLocadora (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/04_TAD_simples/TAD_03/Resultados/Djan/filme/prog)
-==245836==    by 0x10A960: main (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/04_TAD_simples/TAD_03/Resultados/Djan/filme/prog)
-==245836== 
-==245836== Conditional jump or move depends on uninitialised value(s)
-==245836==    at 0x484F229: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==245836==    by 0x4901CDC: puts (ioputs.c:35)
-==245836==    by 0x10936D: imprimirNomeFilme (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/04_TAD_simples/TAD_03/Resultados/Djan/filme/prog)
-==245836==    by 0x10A76D: consultarEstoqueLocadora (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/04_TAD_simples/TAD_03/Resultados/Djan/filme/prog)
-==245836==    by 0x10AAB4: main (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/04_TAD_simples/TAD_03/Resultados/Djan/filme/prog)
-==245836== 
-==245836== Conditional jump or move depends on uninitialised value(s)
-==245836==    at 0x48E40CB: __printf_buffer (vfprintf-process-arg.c:58)
-==245836==    by 0x48E573A: __vfprintf_internal (vfprintf-internal.c:1544)
-==245836==    by 0x48DA1B2: printf (printf.c:33)
-==245836==    by 0x10A7DA: consultarEstoqueLocadora (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/04_TAD_simples/TAD_03/Resultados/Djan/filme/prog)
-==245836==    by 0x10AAB4: main (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/04_TAD_simples/TAD_03/Resultados/Djan/filme/prog)
-==245836== 
-==245836== Use of uninitialised value of size 8
-==245836==    at 0x48D90BB: _itoa_word (_itoa.c:183)
-==245836==    by 0x48E3C9B: __printf_buffer (vfprintf-process-arg.c:155)
-==245836==    by 0x48E573A: __vfprintf_internal (vfprintf-internal.c:1544)
-==245836==    by 0x48DA1B2: printf (printf.c:33)
-==245836==    by 0x10A7DA: consultarEstoqueLocadora (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/04_TAD_simples/TAD_03/Resultados/Djan/filme/prog)
-==245836==    by 0x10AAB4: main (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/04_TAD_simples/TAD_03/Resultados/Djan/filme/prog)
-==245836== 
-==245836== Conditional jump or move depends on uninitialised value(s)
-==245836==    at 0x48D90CC: _itoa_word (_itoa.c:183)
-==245836==    by 0x48E3C9B: __printf_buffer (vfprintf-process-arg.c:155)
-==245836==    by 0x48E573A: __vfprintf_internal (vfprintf-internal.c:1544)
-==245836==    by 0x48DA1B2: printf (printf.c:33)
-==245836==    by 0x10A7DA: consultarEstoqueLocadora (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/04_TAD_simples/TAD_03/Resultados/Djan/filme/prog)
-==245836==    by 0x10AAB4: main (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/04_TAD_simples/TAD_03/Resultados/Djan/filme/prog)
-==245836== 
-==245836== Conditional jump or move depends on uninitialised value(s)
-==245836==    at 0x48E3D85: __printf_buffer (vfprintf-process-arg.c:186)
-==245836==    by 0x48E573A: __vfprintf_internal (vfprintf-internal.c:1544)
-==245836==    by 0x48DA1B2: printf (printf.c:33)
-==245836==    by 0x10A7DA: consultarEstoqueLocadora (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/04_TAD_simples/TAD_03/Resultados/Djan/filme/prog)
-==245836==    by 0x10AAB4: main (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/04_TAD_simples/TAD_03/Resultados/Djan/filme/prog)
-==245836== 
-==245836== Conditional jump or move depends on uninitialised value(s)
-==245836==    at 0x484F229: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==245836==    by 0x4901CDC: puts (ioputs.c:35)
-==245836==    by 0x10936D: imprimirNomeFilme (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/04_TAD_simples/TAD_03/Resultados/Djan/filme/prog)
-==245836==    by 0x10A214: devolverFilmesLocadora (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/04_TAD_simples/TAD_03/Resultados/Djan/filme/prog)
-==245836==    by 0x10A3A6: lerDevolucaoLocadora (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/04_TAD_simples/TAD_03/Resultados/Djan/filme/prog)
-==245836==    by 0x10A9E1: main (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/04_TAD_simples/TAD_03/Resultados/Djan/filme/prog)
-==245836== 
-==245836== 
-==245836== HEAP SUMMARY:
-==245836==     in use at exit: 0 bytes in 0 blocks
-==245836==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
-==245836== 
-==245836== All heap blocks were freed -- no leaks are possible
-==245836== 
-==245836== Use --track-origins=yes to see where uninitialised values come from
-==245836== For lists of detected and suppressed errors, rerun with: -s
-==245836== ERROR SUMMARY: 14 errors from 9 contexts (suppressed: 0 from 0)
+==61922== Memcheck, a memory error detector
+==61922== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==61922== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==61922== Command: Resultados/Djan/filme/prog Resultados/Djan/filme/Casos/7
+==61922== Parent PID: 61921
+==61922== 
+==61922== 
+==61922== HEAP SUMMARY:
+==61922==     in use at exit: 0 bytes in 0 blocks
+==61922==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==61922== 
+==61922== All heap blocks were freed -- no leaks are possible
+==61922== 
+==61922== For lists of detected and suppressed errors, rerun with: -s
+==61922== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

@@ -1,14 +1,17 @@
 #include <stdio.h>
 #include <string.h>
+#include "filme.h"
+
 #define MAX_CARACTERES 20 
 
-typedef struct Filme {
+/*typedef struct Filme {
     int codigo; 
     char nome[MAX_CARACTERES]; 
     int valor; 
     int qtdEstoque; 
     int qtdAlugada; 
 } tFilme;
+*/
 
 /**
  * @brief Cria um novo filme.
@@ -25,6 +28,7 @@ tFilme criarFilme (char* nome, int codigo, int valor, int quantidade){
     f.codigo = codigo;
     f.valor = valor;
     f.qtdEstoque = quantidade;
+    f.qtdAlugada = 0;
 
     return f;
 }
@@ -35,13 +39,15 @@ tFilme criarFilme (char* nome, int codigo, int valor, int quantidade){
  * @return Filme lido.
 */
 tFilme leFilme(int codigo){
-    tFilme filme;
+    tFilme f;
 
-    scanf("%d",&filme.codigo);
+    f.codigo = codigo;
+    //leia qualquer caractere enquanto não for ,.
+    scanf("%[^,],%d,%d", f.nome, &f.valor, &f.qtdEstoque);
 
-    filme.qtdAlugada = 0;
+    f.qtdAlugada = 0;
 
-    return filme;
+    return f;
 }
 
 /**
@@ -58,7 +64,7 @@ int obterCodigoFilme (tFilme filme){
  * @param filme Filme a ser impresso.
  */
 void imprimirNomeFilme (tFilme filme){
-    printf("%s\n",filme.nome);
+    printf("%s",filme.nome);
 }
 
 /**
@@ -108,7 +114,8 @@ int ehMesmoCodigoFilme (tFilme filme, int codigo){
  * @return Filme com a quantidade alugada atualizada.
  */
 tFilme alugarFilme (tFilme filme){
-    filme.qtdAlugada = filme.qtdAlugada + 1;
+    filme.qtdEstoque--;
+    filme.qtdAlugada++;
     return filme;
 }
 
@@ -118,7 +125,8 @@ tFilme alugarFilme (tFilme filme){
  * @return Filme com a quantidade alugada atualizada.
  */
 tFilme devolverFilme (tFilme filme){ 
-    filme.qtdAlugada = filme.qtdAlugada - 1;
+    filme.qtdEstoque++;
+    filme.qtdAlugada--;
     return filme;
 }
 
@@ -129,9 +137,5 @@ tFilme devolverFilme (tFilme filme){
  * @return 0 se os nomes são iguais, um valor negativo se o nome do primeiro filme é menor que o do segundo, um valor positivo caso contrário.
  */
 int compararNomesFilmes (tFilme filme1, tFilme filme2){
-    if(strcmp(filme1.nome,filme2.nome) == 0){
-        return 0; //valor negativo
-    }else{
-        return 1;//valor positivo
-    }
+    return strcmp(filme1.nome, filme2.nome);
 }

@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include "usuario.h"
-
+//pronto
 /**
  * @struct tUsuario
  * @brief Estrutura que representa um usuário do sistema bancário.
