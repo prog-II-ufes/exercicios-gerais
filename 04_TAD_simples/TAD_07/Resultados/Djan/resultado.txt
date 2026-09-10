@@ -1,0 +1,17 @@
+Arquivos Esperados Corretos: 3 de 3
+Pastas Compiladas Corretamente: 3 de 3 
+Pastas Linkadas Corretamente: 3 de 3
+Teste main
+  - Resultados corretos: 1 de 6
+  - Valgrinds corretos: 6 de 6
+Nota de Djan para o teste main: .53
+Teste completo
+  - Resultados corretos: 1 de 6
+  - Valgrinds corretos: 0 de 6
+Nota de Djan para o teste completo: .26
+Teste data
+  - Resultados corretos: 6 de 6
+  - Valgrinds corretos: 6 de 6
+Nota de Djan para o teste data: 3.33
+Nota de Djan: 0+(.53)+(.26)+(3.33)
+Nota de Djan: 4.12
