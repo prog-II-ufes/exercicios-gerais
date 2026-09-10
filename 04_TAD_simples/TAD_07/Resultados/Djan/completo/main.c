@@ -6,8 +6,8 @@ int main(){
     tData d1, d2;
     int totalDias = 0;
 
-    scanf("%d/%d/%d",&d1.dia,&d1.mes,&d1.dia);
-    scanf("%d/%d/%d",&d2.dia,&d2.mes,&d2.dia);
+    scanf("%d/%d/%d",&d1.dia,&d1.mes,&d1.ano);
+    scanf("%d/%d/%d",&d2.dia,&d2.mes,&d2.ano);
 
     if(VerificaDataValida(d1) && VerificaDataValida(d2)){
 

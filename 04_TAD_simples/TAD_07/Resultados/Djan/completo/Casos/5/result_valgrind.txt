@@ -1,20 +1,15 @@
-==110280== Memcheck, a memory error detector
-==110280== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
-==110280== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
-==110280== Command: Resultados/Djan/completo/prog Resultados/Djan/completo/Casos/5
-==110280== Parent PID: 110279
-==110280== 
-==110280== Conditional jump or move depends on uninitialised value(s)
-==110280==    at 0x109203: VerificaDataValida (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/04_TAD_simples/TAD_07/Resultados/Djan/completo/prog)
-==110280==    by 0x1098E2: main (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/04_TAD_simples/TAD_07/Resultados/Djan/completo/prog)
-==110280== 
-==110280== 
-==110280== HEAP SUMMARY:
-==110280==     in use at exit: 0 bytes in 0 blocks
-==110280==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
-==110280== 
-==110280== All heap blocks were freed -- no leaks are possible
-==110280== 
-==110280== Use --track-origins=yes to see where uninitialised values come from
-==110280== For lists of detected and suppressed errors, rerun with: -s
-==110280== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+==114647== Memcheck, a memory error detector
+==114647== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==114647== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==114647== Command: Resultados/Djan/completo/prog Resultados/Djan/completo/Casos/5
+==114647== Parent PID: 114646
+==114647== 
+==114647== 
+==114647== HEAP SUMMARY:
+==114647==     in use at exit: 0 bytes in 0 blocks
+==114647==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==114647== 
+==114647== All heap blocks were freed -- no leaks are possible
+==114647== 
+==114647== For lists of detected and suppressed errors, rerun with: -s
+==114647== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
