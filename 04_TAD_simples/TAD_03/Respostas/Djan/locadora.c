@@ -1,13 +1,15 @@
 #include <stdio.h>
+#include "locadora.h"
 #include "filme.h"
+
 #define MAX_FILMES 100
 
-
-typedef struct Locadora {
+/*typedef struct Locadora {
     tFilme filme[MAX_FILMES]; 
     int numFilmes; 
     int lucro; 
 } tLocadora;
+*/
 
 /**
  * @brief Cria uma nova locadora.
@@ -15,8 +17,11 @@ typedef struct Locadora {
  */
 tLocadora criarLocadora (){
     tLocadora l;
-    l.numFilmes;
-    l.lucro;
+
+    l.numFilmes = 0;
+    l.lucro = 0;
+
+    return l;
 }
 
 /**
@@ -26,7 +31,17 @@ tLocadora criarLocadora (){
  * @return 1 se o filme está cadastrado, 0 caso contrário.
  */
 int verificarFilmeCadastrado (tLocadora locadora, int codigo){
-    if(locadora.filme)
+    
+    int i;
+    
+    for(i = 0; i < locadora.numFilmes; i++){ 
+        
+        if(ehMesmoCodigoFilme(locadora.filme[i], codigo)){     
+            return 1; 
+        }else{
+            return 0;
+        }
+    } 
 }
 
 /**
@@ -36,7 +51,7 @@ int verificarFilmeCadastrado (tLocadora locadora, int codigo){
  * @return Locadora atualizada.
 */
 tLocadora cadastrarFilmeLocadora (tLocadora locadora, tFilme filme){
-    return locadora.filme[]
+
 }
 
 /**
@@ -45,6 +60,7 @@ tLocadora cadastrarFilmeLocadora (tLocadora locadora, tFilme filme){
  * @return Locadora atualizada.
  */
 tLocadora lerCadastroLocadora (tLocadora locadora){
+    
 }
 
 /**

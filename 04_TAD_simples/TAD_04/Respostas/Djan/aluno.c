@@ -1,12 +1,7 @@
 #include <stdio.h>
 #include <string.h>
-
-typedef struct Aluno {
-    char nome[50]; /**< Nome do aluno */
-    int matricula; /**< Matrícula do aluno */
-    int n1, n2, n3; /**< Notas das avaliações */
-} tAluno;
-
+#include "aluno.h"
+//PRonto
 /**
  * @brief Cria um novo aluno com os dados informados.
  * 
