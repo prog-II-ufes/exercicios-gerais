@@ -1,0 +1,42 @@
+==20606== Memcheck, a memory error detector
+==20606== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==20606== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==20606== Command: Resultados/Djan/utils/prog Resultados/Djan/utils/Casos/1
+==20606== Parent PID: 20605
+==20606== 
+==20606== Conditional jump or move depends on uninitialised value(s)
+==20606==    at 0x48E40CB: __printf_buffer (vfprintf-process-arg.c:58)
+==20606==    by 0x48E573A: __vfprintf_internal (vfprintf-internal.c:1544)
+==20606==    by 0x48DA1B2: printf (printf.c:33)
+==20606==    by 0x109204: main (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/05_ponteiros/pont_02/pont_02/Resultados/Djan/utils/prog)
+==20606== 
+==20606== Use of uninitialised value of size 8
+==20606==    at 0x48D90BB: _itoa_word (_itoa.c:183)
+==20606==    by 0x48E3C9B: __printf_buffer (vfprintf-process-arg.c:155)
+==20606==    by 0x48E573A: __vfprintf_internal (vfprintf-internal.c:1544)
+==20606==    by 0x48DA1B2: printf (printf.c:33)
+==20606==    by 0x109204: main (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/05_ponteiros/pont_02/pont_02/Resultados/Djan/utils/prog)
+==20606== 
+==20606== Conditional jump or move depends on uninitialised value(s)
+==20606==    at 0x48D90CC: _itoa_word (_itoa.c:183)
+==20606==    by 0x48E3C9B: __printf_buffer (vfprintf-process-arg.c:155)
+==20606==    by 0x48E573A: __vfprintf_internal (vfprintf-internal.c:1544)
+==20606==    by 0x48DA1B2: printf (printf.c:33)
+==20606==    by 0x109204: main (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/05_ponteiros/pont_02/pont_02/Resultados/Djan/utils/prog)
+==20606== 
+==20606== Conditional jump or move depends on uninitialised value(s)
+==20606==    at 0x48E3D89: __printf_buffer (vfprintf-process-arg.c:186)
+==20606==    by 0x48E573A: __vfprintf_internal (vfprintf-internal.c:1544)
+==20606==    by 0x48DA1B2: printf (printf.c:33)
+==20606==    by 0x109204: main (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/05_ponteiros/pont_02/pont_02/Resultados/Djan/utils/prog)
+==20606== 
+==20606== 
+==20606== HEAP SUMMARY:
+==20606==     in use at exit: 0 bytes in 0 blocks
+==20606==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==20606== 
+==20606== All heap blocks were freed -- no leaks are possible
+==20606== 
+==20606== Use --track-origins=yes to see where uninitialised values come from
+==20606== For lists of detected and suppressed errors, rerun with: -s
+==20606== ERROR SUMMARY: 72 errors from 4 contexts (suppressed: 0 from 0)
