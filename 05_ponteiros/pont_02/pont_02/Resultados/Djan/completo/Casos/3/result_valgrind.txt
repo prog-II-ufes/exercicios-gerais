@@ -1,0 +1,42 @@
+==155859== Memcheck, a memory error detector
+==155859== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==155859== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==155859== Command: Resultados/Djan/completo/prog Resultados/Djan/completo/Casos/3
+==155859== Parent PID: 155858
+==155859== 
+==155859== Conditional jump or move depends on uninitialised value(s)
+==155859==    at 0x48E40CB: __printf_buffer (vfprintf-process-arg.c:58)
+==155859==    by 0x48E573A: __vfprintf_internal (vfprintf-internal.c:1544)
+==155859==    by 0x48DA1B2: printf (printf.c:33)
+==155859==    by 0x10920B: main (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/05_ponteiros/pont_02/Resultados/Djan/completo/prog)
+==155859== 
+==155859== Use of uninitialised value of size 8
+==155859==    at 0x48D90BB: _itoa_word (_itoa.c:183)
+==155859==    by 0x48E3C9B: __printf_buffer (vfprintf-process-arg.c:155)
+==155859==    by 0x48E573A: __vfprintf_internal (vfprintf-internal.c:1544)
+==155859==    by 0x48DA1B2: printf (printf.c:33)
+==155859==    by 0x10920B: main (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/05_ponteiros/pont_02/Resultados/Djan/completo/prog)
+==155859== 
+==155859== Conditional jump or move depends on uninitialised value(s)
+==155859==    at 0x48D90CC: _itoa_word (_itoa.c:183)
+==155859==    by 0x48E3C9B: __printf_buffer (vfprintf-process-arg.c:155)
+==155859==    by 0x48E573A: __vfprintf_internal (vfprintf-internal.c:1544)
+==155859==    by 0x48DA1B2: printf (printf.c:33)
+==155859==    by 0x10920B: main (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/05_ponteiros/pont_02/Resultados/Djan/completo/prog)
+==155859== 
+==155859== Conditional jump or move depends on uninitialised value(s)
+==155859==    at 0x48E3D89: __printf_buffer (vfprintf-process-arg.c:186)
+==155859==    by 0x48E573A: __vfprintf_internal (vfprintf-internal.c:1544)
+==155859==    by 0x48DA1B2: printf (printf.c:33)
+==155859==    by 0x10920B: main (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/05_ponteiros/pont_02/Resultados/Djan/completo/prog)
+==155859== 
+==155859== 
+==155859== HEAP SUMMARY:
+==155859==     in use at exit: 0 bytes in 0 blocks
+==155859==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==155859== 
+==155859== All heap blocks were freed -- no leaks are possible
+==155859== 
+==155859== Use --track-origins=yes to see where uninitialised values come from
+==155859== For lists of detected and suppressed errors, rerun with: -s
+==155859== ERROR SUMMARY: 120 errors from 4 contexts (suppressed: 0 from 0)
