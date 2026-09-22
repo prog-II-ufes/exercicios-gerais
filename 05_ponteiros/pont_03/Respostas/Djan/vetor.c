@@ -60,5 +60,5 @@ void TrocaSeAcharMenor(int * vet, int tam, int * paraTrocar){
  * @param tam Tamanho do vetor.
  */
 void OrdeneCrescente(int * vet, int tam){
-
+    
 }
