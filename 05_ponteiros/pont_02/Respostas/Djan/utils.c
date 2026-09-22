@@ -23,25 +23,19 @@ void LeIntervalo(int * m, int * n){
  */
 int EhPrimo(int n){
 
-    int i, eh_primo = 1;
+   int i;
 
-    if (n <= 1) {
-        eh_primo = 0;
-    } else {
-        for (i = 2; i <= n / 2; i++) {
-            if (n % i == 0) {
-                eh_primo = 0;
-                break;   
-            }
-        }
-    }
-
-    if (eh_primo) {
-        return 1;
-    } else {
+    if(n <= 1){
         return 0;
     }
 
+    for(i = 2; i <= n / 2; i++){
+        if (n % i == 0){
+            return 0;
+        }
+    }
+
+    return 1;
 }
 
 /**
@@ -58,12 +52,24 @@ int EhPrimo(int n){
  * @param maior Ponteiro para a variável que receberá o maior número primo encontrado.
  */
 void ObtemMaiorEMenorPrimo(int m, int n, int *menor, int *maior){
-    
-    EhPrimo(m);
-    EhPrimo(n);
 
-    if(EhPrimo(m) < EhPrimo(m+1)){
+    int i;
+    int encontrou = 0;
 
+    for(i = m; i <= n; i++){
+        if (EhPrimo(i)){
+            if(!encontrou){
+                *menor = i;
+                *maior = i;
+                encontrou = 1;
+            }else{
+                if(i < *menor){
+                    *menor = i;
+                }
+                if(i > *maior){
+                    *maior = i;
+                }
+            }
+        }
     }
-    
 }

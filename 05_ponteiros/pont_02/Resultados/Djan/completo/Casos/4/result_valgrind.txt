@@ -1,42 +1,15 @@
-==20375== Memcheck, a memory error detector
-==20375== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
-==20375== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
-==20375== Command: Resultados/Djan/completo/prog Resultados/Djan/completo/Casos/4
-==20375== Parent PID: 20374
-==20375== 
-==20375== Conditional jump or move depends on uninitialised value(s)
-==20375==    at 0x48E40CB: __printf_buffer (vfprintf-process-arg.c:58)
-==20375==    by 0x48E573A: __vfprintf_internal (vfprintf-internal.c:1544)
-==20375==    by 0x48DA1B2: printf (printf.c:33)
-==20375==    by 0x10920B: main (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/05_ponteiros/pont_02/pont_02/Resultados/Djan/completo/prog)
-==20375== 
-==20375== Use of uninitialised value of size 8
-==20375==    at 0x48D90BB: _itoa_word (_itoa.c:183)
-==20375==    by 0x48E3C9B: __printf_buffer (vfprintf-process-arg.c:155)
-==20375==    by 0x48E573A: __vfprintf_internal (vfprintf-internal.c:1544)
-==20375==    by 0x48DA1B2: printf (printf.c:33)
-==20375==    by 0x10920B: main (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/05_ponteiros/pont_02/pont_02/Resultados/Djan/completo/prog)
-==20375== 
-==20375== Conditional jump or move depends on uninitialised value(s)
-==20375==    at 0x48D90CC: _itoa_word (_itoa.c:183)
-==20375==    by 0x48E3C9B: __printf_buffer (vfprintf-process-arg.c:155)
-==20375==    by 0x48E573A: __vfprintf_internal (vfprintf-internal.c:1544)
-==20375==    by 0x48DA1B2: printf (printf.c:33)
-==20375==    by 0x10920B: main (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/05_ponteiros/pont_02/pont_02/Resultados/Djan/completo/prog)
-==20375== 
-==20375== Conditional jump or move depends on uninitialised value(s)
-==20375==    at 0x48E3D89: __printf_buffer (vfprintf-process-arg.c:186)
-==20375==    by 0x48E573A: __vfprintf_internal (vfprintf-internal.c:1544)
-==20375==    by 0x48DA1B2: printf (printf.c:33)
-==20375==    by 0x10920B: main (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/05_ponteiros/pont_02/pont_02/Resultados/Djan/completo/prog)
-==20375== 
-==20375== 
-==20375== HEAP SUMMARY:
-==20375==     in use at exit: 0 bytes in 0 blocks
-==20375==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
-==20375== 
-==20375== All heap blocks were freed -- no leaks are possible
-==20375== 
-==20375== Use --track-origins=yes to see where uninitialised values come from
-==20375== For lists of detected and suppressed errors, rerun with: -s
-==20375== ERROR SUMMARY: 96 errors from 4 contexts (suppressed: 0 from 0)
+==15513== Memcheck, a memory error detector
+==15513== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==15513== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==15513== Command: Resultados/Djan/completo/prog Resultados/Djan/completo/Casos/4
+==15513== Parent PID: 15512
+==15513== 
+==15513== 
+==15513== HEAP SUMMARY:
+==15513==     in use at exit: 0 bytes in 0 blocks
+==15513==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==15513== 
+==15513== All heap blocks were freed -- no leaks are possible
+==15513== 
+==15513== For lists of detected and suppressed errors, rerun with: -s
+==15513== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
