@@ -59,7 +59,9 @@ void ObtemMaiorEMenorPrimo(int m, int n, int *menor, int *maior){
     for(i = m; i <= n; i++){
         if (EhPrimo(i)){
             if(!encontrou){
-                *menor = i;
+                *menor = i;git add .
+git commit -m "Resolvendo conflitos de merge"
+
                 *maior = i;
                 encontrou = 1;
             }else{
