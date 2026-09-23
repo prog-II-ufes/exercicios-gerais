@@ -21,11 +21,11 @@ tJogo* CriaJogo();
 
 
 /**
- * Inicia o jogo, definindo o tabuleiro e os jogadores.
+ * Executa o jogo, alternando as jogadas entre os jogadores até que haja um vencedor ou o jogo termine sem vencedor.
  * 
  * @param jogo o jogo a ser iniciado.
  */
-void ComecaJogo(tJogo* jogo);
+void ExecutaJogo(tJogo* jogo);
 
 
 /**

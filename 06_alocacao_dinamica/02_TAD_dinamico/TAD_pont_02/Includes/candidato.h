@@ -38,7 +38,7 @@ void LeCandidato(tCandidato *candidato);
 int VerificaIdCandidato(tCandidato *candidato, int id);
 
 /**
- * @brief Verifica se dois candidatos são iguais (dica: utilize para verificar se houve empate).
+ * @brief Verifica se dois candidatos são iguais (dica: utilize essa função para verificar se houve empate).
  * @param candidato1 Primeiro candidato a ser comparado.
  * @param candidato2 Segundo candidato a ser comparado.
  * @return 1 se os candidatos são iguais, 0 caso contrário.
