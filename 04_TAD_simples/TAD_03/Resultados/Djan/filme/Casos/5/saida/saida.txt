@@ -1,0 +1,8 @@
+Filme cadastrado 1 - Final Fantasy
+Filme cadastrado 2 - Shrek
+
+Total de filmes alugados: 2 com custo de R$9
+
+~ESTOQUE~
+1 - Final Fantasy Fitas em estoque: 0
+2 - Shrek Fitas em estoque: 0

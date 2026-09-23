@@ -1,0 +1,21 @@
+Arquivos Esperados Corretos: 5 de 5
+Pastas Compiladas Corretamente: 4 de 4 
+Pastas Linkadas Corretamente: 2 de 4
+Teste main
+  - Resultados corretos: 0 de 5
+  - Valgrinds corretos: 0 de 5
+Nota de Djan para o teste main: 0
+Teste completo
+  - Resultados corretos: 0 de 5
+  - Valgrinds corretos: 0 de 5
+Nota de Djan para o teste completo: 0
+Teste empresa
+  - Resultados corretos: 0 de 5
+  - Valgrinds corretos: 5 de 5
+Nota de Djan para o teste empresa: 0
+Teste funcionario
+  - Resultados corretos: 5 de 5
+  - Valgrinds corretos: 5 de 5
+Nota de Djan para o teste funcionario: 2.50
+Nota de Djan: 0+(0)+(2.50)+(0)+(0)
+Nota de Djan: 2.50

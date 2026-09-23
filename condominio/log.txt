@@ -1,0 +1,369 @@
+- Arquivo de configuração encontrado!
+ - Arquivos header necessários do professor existem na pasta Includes
+ - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+
+#######################################
+ALUNO: Djan
+#######################################
+
+CRIANDO O DIRETÓRIO DE RESULTADO PARA Djan:
+ - Diretório Resultados/Djan criado com sucesso!
+ - Diretório Resultados/Djan/main criado com sucesso!
+ - Diretório Resultados/Djan/completo criado com sucesso!
+ - Diretório Resultados/Djan/data criado com sucesso!
+ - Diretório Resultados/Djan/area criado com sucesso!
+ - Diretório Resultados/Djan/morador criado com sucesso!
+ - Diretório Resultados/Djan/reserva criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/Djan/area.c' encontrado!
+ - Arquivo esperado 'Respostas/Djan/area.h' encontrado!
+ - Arquivo esperado 'Respostas/Djan/data.c' encontrado!
+ - Arquivo esperado 'Respostas/Djan/data.h' encontrado!
+ - Arquivo esperado 'Respostas/Djan/main.c' encontrado!
+ - Arquivo esperado 'Respostas/Djan/morador.c' encontrado!
+ - Arquivo esperado 'Respostas/Djan/morador.h' encontrado!
+ - Arquivo esperado 'Respostas/Djan/reserva.c' encontrado!
+ - Arquivo esperado 'Respostas/Djan/reserva.h' encontrado!
+ - Arquivos esperados enviados: Ok!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/Djan/main
+ - Copiando os Includes/area.h Includes/data.h Includes/morador.h Includes/reserva.h do professor para a pasta Resultados/Djan/main
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Djan/main
+ - Removendo o main.o do professor da pasta Resultados/Djan/main
+ - Copiando o Respostas/Djan/main.c do aluno para a pasta Resultados/Djan/main
+ - Pasta completo:
+ - Copiando os Casos de teste para a pasta Resultados/Djan/completo
+ - Copiando os Respostas/Djan/area.c do aluno para a pasta Resultados/Djan/completo
+ - Copiando os Respostas/Djan/area.h do aluno para a pasta Resultados/Djan/completo
+ - Copiando os Respostas/Djan/data.c do aluno para a pasta Resultados/Djan/completo
+ - Copiando os Respostas/Djan/data.h do aluno para a pasta Resultados/Djan/completo
+ - Copiando os Respostas/Djan/main.c do aluno para a pasta Resultados/Djan/completo
+ - Copiando os Respostas/Djan/morador.c do aluno para a pasta Resultados/Djan/completo
+ - Copiando os Respostas/Djan/morador.h do aluno para a pasta Resultados/Djan/completo
+ - Copiando os Respostas/Djan/reserva.c do aluno para a pasta Resultados/Djan/completo
+ - Copiando os Respostas/Djan/reserva.h do aluno para a pasta Resultados/Djan/completo
+ - Pasta data:
+ - Copiando os Casos de teste para a pasta Resultados/Djan/data
+ - Copiando os Includes/area.h Includes/data.h Includes/morador.h Includes/reserva.h do professor para a pasta Resultados/Djan/data
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Djan/data
+ - Removendo o data.o do professor da pasta Resultados/Djan/data
+ - Copiando o Respostas/Djan/data.c do aluno para a pasta Resultados/Djan/data
+ - Pasta area:
+ - Copiando os Casos de teste para a pasta Resultados/Djan/area
+ - Copiando os Includes/area.h Includes/data.h Includes/morador.h Includes/reserva.h do professor para a pasta Resultados/Djan/area
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Djan/area
+ - Removendo o area.o do professor da pasta Resultados/Djan/area
+ - Copiando o Respostas/Djan/area.c do aluno para a pasta Resultados/Djan/area
+ - Pasta morador:
+ - Copiando os Casos de teste para a pasta Resultados/Djan/morador
+ - Copiando os Includes/area.h Includes/data.h Includes/morador.h Includes/reserva.h do professor para a pasta Resultados/Djan/morador
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Djan/morador
+ - Removendo o morador.o do professor da pasta Resultados/Djan/morador
+ - Copiando o Respostas/Djan/morador.c do aluno para a pasta Resultados/Djan/morador
+ - Pasta reserva:
+ - Copiando os Casos de teste para a pasta Resultados/Djan/reserva
+ - Copiando os Includes/area.h Includes/data.h Includes/morador.h Includes/reserva.h do professor para a pasta Resultados/Djan/reserva
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Djan/reserva
+ - Removendo o reserva.o do professor da pasta Resultados/Djan/reserva
+ - Copiando o Respostas/Djan/reserva.c do aluno para a pasta Resultados/Djan/reserva
+ - Copiando Arquivos Extras do Aluno:
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Compilação dos arquivos do aluno na pasta main ok!
+ - Arquivo de output gerado: Resultados/Djan/main/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta completo ok!
+ - Arquivo de output gerado: Resultados/Djan/completo/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta data ok!
+ - Arquivo de output gerado: Resultados/Djan/data/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta area ok!
+ - Arquivo de output gerado: Resultados/Djan/area/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta morador ok!
+ - Arquivo de output gerado: Resultados/Djan/morador/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta reserva ok!
+ - Arquivo de output gerado: Resultados/Djan/reserva/result_compilation.txt
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Djan/main/result_linking.txt
+ - Pasta completo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Djan/completo/result_linking.txt
+ - Pasta data:
+ - Gerando o binário prog linkando com o(s) arquivo(s) data/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Djan/data/result_linking.txt
+ - Pasta area:
+ - Gerando o binário prog linkando com o(s) arquivo(s) area/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Djan/area/result_linking.txt
+ - Pasta morador:
+ - Gerando o binário prog linkando com o(s) arquivo(s) morador/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/Djan/morador/result_linking.txt
+ - Pasta reserva:
+ - Gerando o binário prog linkando com o(s) arquivo(s) reserva/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/Djan/reserva/result_linking.txt
+ - Arquivos Linkados: Erro! 2 arquivos com erros de linkagem.
+
+EXECUTANDO O VALGRIND EM CADA CASO:
+ - Pasta main / Caso 1:
+ - Arquivo de output gerado: Resultados/Djan/main/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 0, frees: 0, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 2:
+ - Arquivo de output gerado: Resultados/Djan/main/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 0, frees: 0, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 3:
+ - Arquivo de output gerado: Resultados/Djan/main/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 0, frees: 0, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 4:
+ - Arquivo de output gerado: Resultados/Djan/main/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 0, frees: 0, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 5:
+ - Arquivo de output gerado: Resultados/Djan/main/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 0, frees: 0, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 6:
+ - Arquivo de output gerado: Resultados/Djan/main/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 0, frees: 0, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 7:
+ - Arquivo de output gerado: Resultados/Djan/main/Casos/7/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 0, frees: 0, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta main (máximo 4.00) - 0 de 70 - 0% de 4.00: 0.
+ -----
+ - Pasta completo / Caso 1:
+ - Arquivo de output gerado: Resultados/Djan/completo/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 0, frees: 0, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 2:
+ - Arquivo de output gerado: Resultados/Djan/completo/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 0, frees: 0, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 3:
+ - Arquivo de output gerado: Resultados/Djan/completo/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 0, frees: 0, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 4:
+ - Arquivo de output gerado: Resultados/Djan/completo/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 0, frees: 0, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 5:
+ - Arquivo de output gerado: Resultados/Djan/completo/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 0, frees: 0, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 6:
+ - Arquivo de output gerado: Resultados/Djan/completo/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 0, frees: 0, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 7:
+ - Arquivo de output gerado: Resultados/Djan/completo/Casos/7/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 0, frees: 0, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta completo (máximo 0.0) - 0 de 70 - 0% de 0.0: 0.
+ -----
+ - Pasta data / Caso 1:
+ - Arquivo de output gerado: Resultados/Djan/data/Casos/1/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 1, frees: 1, errors: 1 | Desconto do valgrind 0%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta data / Caso 2:
+ - Arquivo de output gerado: Resultados/Djan/data/Casos/2/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 1, frees: 1, errors: 667 | Desconto do valgrind 0%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta data / Caso 3:
+ - Arquivo de output gerado: Resultados/Djan/data/Casos/3/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 1, frees: 1, errors: 1 | Desconto do valgrind 0%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta data / Caso 4:
+ - Arquivo de output gerado: Resultados/Djan/data/Casos/4/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 1, frees: 1, errors: 1 | Desconto do valgrind 0%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta data / Caso 5:
+ - Arquivo de output gerado: Resultados/Djan/data/Casos/5/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 1, frees: 1, errors: 1 | Desconto do valgrind 0%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta data / Caso 6:
+ - Arquivo de output gerado: Resultados/Djan/data/Casos/6/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 1, frees: 1, errors: 1 | Desconto do valgrind 0%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta data / Caso 7:
+ - Arquivo de output gerado: Resultados/Djan/data/Casos/7/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 1, frees: 1, errors: 1 | Desconto do valgrind 0%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta data (máximo 1.00) - 0 de 70 - 0% de 1.00: 0.
+ -----
+ - Pasta area / Caso 1:
+ - Arquivo de output gerado: Resultados/Djan/area/Casos/1/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 1, frees: 1, errors: 2 | Desconto do valgrind 0%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta area / Caso 2:
+ - Arquivo de output gerado: Resultados/Djan/area/Casos/2/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 1, frees: 1, errors: 2 | Desconto do valgrind 0%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta area / Caso 3:
+ - Arquivo de output gerado: Resultados/Djan/area/Casos/3/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 1, frees: 1, errors: 2 | Desconto do valgrind 0%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta area / Caso 4:
+ - Arquivo de output gerado: Resultados/Djan/area/Casos/4/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 1, frees: 1, errors: 2 | Desconto do valgrind 0%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta area / Caso 5:
+ - Arquivo de output gerado: Resultados/Djan/area/Casos/5/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 1, frees: 1, errors: 2 | Desconto do valgrind 0%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta area / Caso 6:
+ - Arquivo de output gerado: Resultados/Djan/area/Casos/6/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 1, frees: 1, errors: 2 | Desconto do valgrind 0%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta area / Caso 7:
+ - Arquivo de output gerado: Resultados/Djan/area/Casos/7/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 1, frees: 1, errors: 2 | Desconto do valgrind 0%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta area (máximo 1.00) - 0 de 70 - 0% de 1.00: 0.
+ -----
+ - Pasta morador / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta morador / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta morador / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta morador / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta morador / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta morador / Caso 6:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta morador / Caso 7:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta morador (máximo 1.00) - 0 de 70 - 0% de 1.00: 0.
+ -----
+ - Pasta reserva / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta reserva / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta reserva / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta reserva / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta reserva / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta reserva / Caso 6:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta reserva / Caso 7:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta reserva (máximo 3.00) - 0 de 70 - 0% de 3.00: 0.
+ -----
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Aluno: Djan
+ - Arquivos Esperados Corretos: 9 de 9
+ - Pastas Compiladas Corretamente: 6 de 6 
+ - Pastas Linkadas Corretamente: 4 de 6
+ - Teste main
+ - Resultados corretos: 0 de 7
+ - Valgrinds corretos: 7 de 7
+ - Nota de Djan para o teste main: 0
+ - Teste completo
+ - Resultados corretos: 0 de 7
+ - Valgrinds corretos: 7 de 7
+ - Nota de Djan para o teste completo: 0
+ - Teste data
+ - Resultados corretos: 0 de 7
+ - Valgrinds corretos: 0 de 7
+ - Nota de Djan para o teste data: 0
+ - Teste area
+ - Resultados corretos: 0 de 7
+ - Valgrinds corretos: 0 de 7
+ - Nota de Djan para o teste area: 0
+ - Teste morador
+ - Resultados corretos: 0 de 7
+ - Valgrinds corretos: 0 de 7
+ - Nota de Djan para o teste morador: 0
+ - Teste reserva
+ - Resultados corretos: 0 de 7
+ - Valgrinds corretos: 0 de 7
+ - Nota de Djan para o teste reserva: 0
+ - Nota de Djan: 0+(0)+(0)+(0)+(0)+(0)+(0)
+ - Nota de Djan: 0
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+
+

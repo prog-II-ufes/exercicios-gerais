@@ -1,0 +1,24 @@
+Cadastrar
+1,A Sociedade Do Anel,5,1
+#
+Alugar
+1
+#
+Estoque
+#
+Cadastrar
+15,Shrek,4,1
+#
+Estoque
+#
+Devolver
+1
+#
+Alugar
+15
+#
+Devolver
+15
+#
+Estoque
+#

@@ -1,0 +1,15 @@
+==22425== Memcheck, a memory error detector
+==22425== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==22425== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==22425== Command: Resultados/Djan/main/prog Resultados/Djan/main/Casos/4
+==22425== Parent PID: 22424
+==22425== 
+==22425== 
+==22425== HEAP SUMMARY:
+==22425==     in use at exit: 0 bytes in 0 blocks
+==22425==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==22425== 
+==22425== All heap blocks were freed -- no leaks are possible
+==22425== 
+==22425== For lists of detected and suppressed errors, rerun with: -s
+==22425== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

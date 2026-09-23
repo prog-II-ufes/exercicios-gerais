@@ -1,0 +1,13 @@
+Arquivos
+	saida.txt=10
+Valgrind
+	desconto=0.0
+Validações
+	main=4.00
+	completo=0.0
+	data=1.00
+	area=1.00
+    morador=1.00
+    reserva=3.00
+
+LimiteTempo=15

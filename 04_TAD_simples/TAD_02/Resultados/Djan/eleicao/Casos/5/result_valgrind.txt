@@ -1,0 +1,28 @@
+==210854== Memcheck, a memory error detector
+==210854== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==210854== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==210854== Command: Resultados/Djan/eleicao/prog Resultados/Djan/eleicao/Casos/5
+==210854== Parent PID: 210853
+==210854== 
+==210854== Use of uninitialised value of size 8
+==210854==    at 0x1097E2: InicializaEleicao (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/04_TAD_simples/TAD_02/Resultados/Djan/eleicao/prog)
+==210854==    by 0x109B27: main (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/04_TAD_simples/TAD_02/Resultados/Djan/eleicao/prog)
+==210854== 
+==210854== Conditional jump or move depends on uninitialised value(s)
+==210854==    at 0x109944: RealizaEleicao (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/04_TAD_simples/TAD_02/Resultados/Djan/eleicao/prog)
+==210854==    by 0x109B66: main (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/04_TAD_simples/TAD_02/Resultados/Djan/eleicao/prog)
+==210854== 
+==210854== Use of uninitialised value of size 8
+==210854==    at 0x109974: RealizaEleicao (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/04_TAD_simples/TAD_02/Resultados/Djan/eleicao/prog)
+==210854==    by 0x109B66: main (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/04_TAD_simples/TAD_02/Resultados/Djan/eleicao/prog)
+==210854== 
+==210854== 
+==210854== HEAP SUMMARY:
+==210854==     in use at exit: 0 bytes in 0 blocks
+==210854==   total heap usage: 1 allocs, 1 frees, 4,096 bytes allocated
+==210854== 
+==210854== All heap blocks were freed -- no leaks are possible
+==210854== 
+==210854== Use --track-origins=yes to see where uninitialised values come from
+==210854== For lists of detected and suppressed errors, rerun with: -s
+==210854== ERROR SUMMARY: 22 errors from 3 contexts (suppressed: 0 from 0)

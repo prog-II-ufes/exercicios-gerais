@@ -1,0 +1,10 @@
+/usr/bin/ld: Resultados/Djan/morador/main.o: in function `getMoradorGrupo':
+main.c:(.text+0xe1): undefined reference to `verificaCPFMorador'
+/usr/bin/ld: Resultados/Djan/morador/main.o: in function `main':
+main.c:(.text+0x3a9): undefined reference to `lerMorador'
+/usr/bin/ld: Resultados/Djan/morador/reserva.o: in function `verificaSolicitacaoReserva':
+reserva.c:(.text+0x323): undefined reference to `calculaIdadeMorador'
+/usr/bin/ld: reserva.c:(.text+0x4b3): undefined reference to `comparaMorador'
+/usr/bin/ld: Resultados/Djan/morador/reserva.o: in function `imprimeReserva':
+reserva.c:(.text+0x74a): undefined reference to `imprimeMorador'
+collect2: error: ld returned 1 exit status

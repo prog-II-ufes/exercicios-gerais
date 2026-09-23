@@ -1,0 +1,48 @@
+--------- RESERVA -----------
+Morador: 
+Nome: Vi Pereira
+CPF: 456.123.789-99
+Data de Nascimento: 11/9/1994
+Residência: 108-B
+
+Area reservada: 
+Nome: Sauna
+Id: A4
+Capacidade: 4 convidado(s)
+Data da reserva: 10/10/2024
+
+Quantidade de convidados: 2
+Taxa de ocupação: 50%
+------------------------------
+--------- RESERVA -----------
+Morador: 
+Nome: Viktor Oliveira
+CPF: 123.456.789-12
+Data de Nascimento: 5/6/1985
+Residência: 402-C
+
+Area reservada: 
+Nome: Churrasqueira
+Id: A1
+Capacidade: 30 convidado(s)
+Data da reserva: 10/10/2024
+
+Quantidade de convidados: 25
+Taxa de ocupação: 83%
+------------------------------
+--------- RESERVA -----------
+Morador: 
+Nome: Jayce Sousa
+CPF: 987.321.654-00
+Data de Nascimento: 23/1/1990
+Residência: 305-A
+
+Area reservada: 
+Nome: Sauna
+Id: A4
+Capacidade: 4 convidado(s)
+Data da reserva: 11/12/2024
+
+Quantidade de convidados: 1
+Taxa de ocupação: 25%
+------------------------------
