@@ -20,7 +20,8 @@ tAgencia* CriaAgencia();
 void DestroiAgencia(tAgencia* agencia);
 
 /**
- * @brief Le as informações de uma agencia - contas e operações, no formato especificado no roteiro
+ * @brief Le as informações de uma agencia - contas e operações, no formato especificado no roteiro. 
+ * Assim como imprime as possíveis mensagens de erro para essa ação.
  *
  * @param agencia - A variável do tipo agencia que salvará os dados lidos
  */

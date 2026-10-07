@@ -6,7 +6,7 @@
 typedef struct Sistema tSistema;
 
 /**
- * @brief Cria um sistema de gerenciamento de tíquetes de um estacionamento
+ * @brief Cria um sistema de gerenciamento de tíquetes de um estacionamento.
  * 
  * @return Uma variável do tipo tSistema;
  */
@@ -20,7 +20,8 @@ tSistema* CriaSistema();
 void DestroiSistema(tSistema* sys);
 
 /**
- * @brief Lê os dados do sistema e os tíquetes a serem processados
+ * @brief Le de stdin e processa os tiquetes ate uma linha vazia ou EOF.
+ * Para cada tiquete lido, é impresso na tela o seu preço e o soma ao faturamento.
  * 
  * @param sys - A variável que armazenará os dados do sistema e os tíquetes
 
@@ -28,7 +29,8 @@ void DestroiSistema(tSistema* sys);
 void LeSistema(tSistema* sys);
 
 /**
- * @brief Processa um tíquete e faz as contas para saber o valor que o motorista deve pagar.
+ * @brief Calcula e retorna o preco de um tiquete, sem imprimir.
+
  * 
  * @param sys A variável que representa o sistema e seus dados.
  * @param dataEntrada - Uma variável que representa os dados da data de entrada do tíquete processado
