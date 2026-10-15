@@ -16,7 +16,11 @@ typedef struct Data {
  * @param ano Ano da data.
  * @param data Ponteiro para a estrutura tData que será inicializada.
  */
-void InicializaDataParam( int dia, int mes, int ano, tData *data);
+void InicializaDataParam( int dia, int mes, int ano, tData *data){
+    data->dia = dia;
+    data->mes = mes;
+    data->ano = ano;
+}
 
 /**
  * @brief Lê uma data do usuário.
@@ -25,7 +29,9 @@ void InicializaDataParam( int dia, int mes, int ano, tData *data);
  * 
  * @param data Ponteiro para a estrutura tData que será preenchida com os valores lidos.
  */
-void LeData( tData *data );
+void LeData( tData *data ){
+    scanf("%d %d %d",&data->dia,&data->mes,&data->ano);
+}
 
 /**
  * @brief Imprime uma data na tela.
@@ -34,7 +40,9 @@ void LeData( tData *data );
  * 
  * @param data Ponteiro para a estrutura tData que será impressa.
  */
-void ImprimeData( tData *data );
+void ImprimeData( tData *data ){
+    printf("%d/%d/%d",data->dia,data->mes,data->ano);
+}
 
 /**
  * @brief Verifica se um ano é bissexto.
@@ -44,7 +52,13 @@ void ImprimeData( tData *data );
  * @param data Ponteiro para a estrutura tData que será verificada.
  * @return 1 se o ano é bissexto, 0 caso contrário.
  */
-int EhBissexto( tData *data );
+int EhBissexto( tData *data ){
+    if((data->ano%4 == 0 && data->ano%100 != 0) || (data->ano%400 == 0)){
+        return 1;
+    }else{
+        return 0;
+    }
+}
 
 /**
  * @brief Informa a quantidade de dias no mês de uma data.
@@ -54,7 +68,32 @@ int EhBissexto( tData *data );
  * @param data Ponteiro para a estrutura tData que será verificada.
  * @return Quantidade de dias no mês correspondente.
  */
-int InformaQtdDiasNoMes( tData *data );
+int InformaQtdDiasNoMes( tData *data ){
+    
+    switch(data->mes){
+    case 1:
+    case 3:
+    case 5:
+    case 7:
+    case 8:
+    case 10:
+    case 12:
+        return 31;
+    case 4:
+    case 6:
+    case 9:
+    case 11:
+        return 30;
+    case 2:
+            if(data->mes == 2 && EhBissexto(data) == 1){
+                return 29;
+            }else{
+                return 28;
+            }
+    }
+
+    return 0;
+}
 
 /**
  * @brief Avança uma data para o dia seguinte.
@@ -63,7 +102,9 @@ int InformaQtdDiasNoMes( tData *data );
  * 
  * @param data Ponteiro para a estrutura tData que será avançada.
  */
-void AvancaParaDiaSeguinte( tData *data );
+void AvancaParaDiaSeguinte( tData *data ){
+    data->dia++;
+}
 
 /**
  * @brief Verifica se duas datas são iguais.
