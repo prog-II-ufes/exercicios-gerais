@@ -1,0 +1,17 @@
+A empresa 5 ja possui um funcionario com o id 3
+A empresa 5 ja possui um funcionario com o id 7
+A empresa 5 ja possui um funcionario com o id 1
+A empresa 5 ja possui um funcionario com o id 3
+A empresa 5 ja possui um funcionario com o id 2
+A empresa 5 ja possui um funcionario com o id 4
+Empresa 5:
+- Funcionario 1: RS 2000.00
+- Funcionario 3: RS 4120.00
+- Funcionario 2: RS 510.00
+- Funcionario 4: RS 1250.00
+- Funcionario 7: RS 7894.00
+- Funcionario 9: RS 1200.00
+- Funcionario 8: RS 1350.00
+- Funcionario 10: RS 7800.00
+- Funcionario 5: RS 2100.00
+

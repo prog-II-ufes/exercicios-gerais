@@ -1,0 +1,10 @@
+4
+Linus Torvalds, Partido: Linux (Linux), G, 64
+Ada Lovelace, Gamers Unidos (GU), G, 18
+Edsger Dijkstra, Partido do Melhor Caminho (PMC), P, 10
+Alan Turing, Partido dos Avanço Intelectual (PAI), P, 42
+4
+1 10 64
+2 42 18
+3 42 18
+4 10 64

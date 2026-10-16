@@ -1,0 +1,32 @@
+--------- RESERVA -----------
+Morador: 
+Nome: Renata Glasc
+CPF: 126.458.235-32
+Data de Nascimento: 15/11/1992
+Residência: 302-B
+
+Area reservada: 
+Nome: Churrasqueira
+Id: A1
+Capacidade: 30 convidado(s)
+Data da reserva: 4/10/2024
+
+Quantidade de convidados: 20
+Taxa de ocupação: 66%
+------------------------------
+--------- RESERVA -----------
+Morador: 
+Nome: Caitlyn Dantas
+CPF: 789.654.321-11
+Data de Nascimento: 20/7/1988
+Residência: 108-B
+
+Area reservada: 
+Nome: Salao de jogos
+Id: A2
+Capacidade: 8 convidado(s)
+Data da reserva: 10/10/2024
+
+Quantidade de convidados: 5
+Taxa de ocupação: 62%
+------------------------------

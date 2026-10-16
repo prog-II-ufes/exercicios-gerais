@@ -1,0 +1,5 @@
+/usr/bin/ld: Resultados/Djan/reserva/main.o: in function `main':
+main.c:(.text+0x87d): undefined reference to `verificaSolicitacaoReserva'
+/usr/bin/ld: main.c:(.text+0x9d6): undefined reference to `criaReserva'
+/usr/bin/ld: main.c:(.text+0xac5): undefined reference to `imprimeReserva'
+collect2: error: ld returned 1 exit status

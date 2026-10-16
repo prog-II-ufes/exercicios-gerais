@@ -1,0 +1,29 @@
+Arquivos Esperados Corretos: 9 de 9
+Pastas Compiladas Corretamente: 6 de 6 
+Pastas Linkadas Corretamente: 4 de 6
+Teste main
+  - Resultados corretos: 0 de 7
+  - Valgrinds corretos: 7 de 7
+Nota de Djan para o teste main: 0
+Teste completo
+  - Resultados corretos: 0 de 7
+  - Valgrinds corretos: 7 de 7
+Nota de Djan para o teste completo: 0
+Teste data
+  - Resultados corretos: 0 de 7
+  - Valgrinds corretos: 0 de 7
+Nota de Djan para o teste data: 0
+Teste area
+  - Resultados corretos: 0 de 7
+  - Valgrinds corretos: 0 de 7
+Nota de Djan para o teste area: 0
+Teste morador
+  - Resultados corretos: 0 de 7
+  - Valgrinds corretos: 0 de 7
+Nota de Djan para o teste morador: 0
+Teste reserva
+  - Resultados corretos: 0 de 7
+  - Valgrinds corretos: 0 de 7
+Nota de Djan para o teste reserva: 0
+Nota de Djan: 0+(0)+(0)+(0)+(0)+(0)+(0)
+Nota de Djan: 0

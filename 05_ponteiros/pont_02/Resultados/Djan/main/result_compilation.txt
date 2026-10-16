@@ -1,0 +1,89 @@
+utils_test.c:1:11: error: expected ‘;’ before ‘int’
+    1 | ObtemPrimo
+      |           ^
+      |           ;
+    2 | int i;
+      | ~~~        
+utils_test.c:5:5: error: expected identifier or ‘(’ before ‘for’
+    5 |     for (i = m; i <= n; i++) {
+      |     ^~~
+utils_test.c:5:19: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘<=’ token
+    5 |     for (i = m; i <= n; i++) {
+      |                   ^~
+utils_test.c:5:26: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘++’ token
+    5 |     for (i = m; i <= n; i++) {
+      |                          ^~
+utils_test.c:22:1: error: expected identifier or ‘(’ before ‘}’ token
+   22 | }
+      | ^
+utils_test.c: In function ‘ler’:
+utils_test.c:39:5: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
+   39 |     scanf("%d", x);
+      |     ^~~~~
+utils_test.c:1:1: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+  +++ |+#include <stdio.h>
+    1 | ObtemPrimo
+utils_test.c:39:5: warning: incompatible implicit declaration of built-in function ‘scanf’ [-Wbuiltin-declaration-mismatch]
+   39 |     scanf("%d", x);
+      |     ^~~~~
+utils_test.c:39:5: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+utils_test.c: At top level:
+utils_test.c:42:1: error: unknown type name ‘não’
+   42 | não coloca & novamente, porque x já é um endereço.
+      | ^~~
+utils_test.c:42:12: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘&’ token
+   42 | não coloca & novamente, porque x já é um endereço.
+      |            ^
+utils_test.c:51:7: error: expected declaration specifiers or ‘...’ before string constant
+   51 | scanf("%d", &x);
+      |       ^~~~
+utils_test.c:51:13: error: expected declaration specifiers or ‘...’ before ‘&’ token
+   51 | scanf("%d", &x);
+      |             ^
+utils_test.c:53:4: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘for’
+   53 | Se for um ponteiro para int:
+      |    ^~~
+utils_test.c:56:7: error: expected declaration specifiers or ‘...’ before string constant
+   56 | scanf("%d", x);
+      |       ^~~~
+utils_test.c:56:13: error: unknown type name ‘x’
+   56 | scanf("%d", x);
+      |             ^
+utils_test.c:58:1: error: unknown type name ‘Uma’
+   58 | Uma forma de memorizar:
+      | ^~~
+utils_test.c:58:11: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘de’
+   58 | Uma forma de memorizar:
+      |           ^~
+utils_test.c:58:11: error: unknown type name ‘de’
+utils_test.c:61:16: error: stray ‘\342’ in program
+   61 |                <U+2191>
+      |                ^~~~~~~~
+utils_test.c:62:21: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘do’
+   62 |             precisa do &
+      |                     ^~
+utils_test.c:67:15: error: stray ‘\342’ in program
+   67 |               <U+2191>
+      |               ^~~~~~~~
+utils_test.c:68:9: error: unknown type name ‘já’
+   68 |         já é um endereço
+      |         ^~
+utils_test.c:68:14: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘um’
+   68 |         já é um endereço
+      |              ^~
+utils_test.c:68:14: error: unknown type name ‘um’; did you mean ‘enum’?
+   68 |         já é um endereço
+      |              ^~
+      |              enum
+utils_test.c:78:1: error: unknown type name ‘Para’
+   78 | Para scanf:
+      | ^~~~
+utils_test.c:78:11: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘:’ token
+   78 | Para scanf:
+      |           ^
+utils_test.c:82:1: error: unknown type name ‘Ou’
+   82 | Ou seja:
+      | ^~
+utils_test.c:82:8: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘:’ token
+   82 | Ou seja:
+      |        ^

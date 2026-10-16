@@ -1,0 +1,15 @@
+==28091== Memcheck, a memory error detector
+==28091== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==28091== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==28091== Command: Resultados/Djan/completo/prog Resultados/Djan/completo/Casos/2
+==28091== Parent PID: 28090
+==28091== 
+==28091== 
+==28091== HEAP SUMMARY:
+==28091==     in use at exit: 0 bytes in 0 blocks
+==28091==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==28091== 
+==28091== All heap blocks were freed -- no leaks are possible
+==28091== 
+==28091== For lists of detected and suppressed errors, rerun with: -s
+==28091== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

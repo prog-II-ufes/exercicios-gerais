@@ -1,0 +1,6 @@
+==157005== Memcheck, a memory error detector
+==157005== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==157005== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==157005== Command: Resultados/Djan/data/prog Resultados/Djan/data/Casos/3
+==157005== Parent PID: 157004
+==157005== 

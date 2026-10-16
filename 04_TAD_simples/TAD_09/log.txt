@@ -1,0 +1,217 @@
+- Arquivo de configuração encontrado!
+ - Arquivos header necessários do professor existem na pasta Includes
+ - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+
+#######################################
+ALUNO: Djan
+#######################################
+
+CRIANDO O DIRETÓRIO DE RESULTADO PARA Djan:
+ - Diretório Resultados/Djan criado com sucesso!
+ - Diretório Resultados/Djan/main criado com sucesso!
+ - Diretório Resultados/Djan/completo criado com sucesso!
+ - Diretório Resultados/Djan/empresa criado com sucesso!
+ - Diretório Resultados/Djan/funcionario criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/Djan/empresa.c' encontrado!
+ - Arquivo esperado 'Respostas/Djan/empresa.h' encontrado!
+ - Arquivo esperado 'Respostas/Djan/funcionario.c' encontrado!
+ - Arquivo esperado 'Respostas/Djan/funcionario.h' encontrado!
+ - Arquivo esperado 'Respostas/Djan/main.c' encontrado!
+ - Arquivos esperados enviados: Ok!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/Djan/main
+ - Copiando os Includes/empresa.h Includes/funcionario.h do professor para a pasta Resultados/Djan/main
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Djan/main
+ - Removendo o main.o do professor da pasta Resultados/Djan/main
+ - Copiando o Respostas/Djan/main.c do aluno para a pasta Resultados/Djan/main
+ - Pasta completo:
+ - Copiando os Casos de teste para a pasta Resultados/Djan/completo
+ - Copiando os Respostas/Djan/empresa.c do aluno para a pasta Resultados/Djan/completo
+ - Copiando os Respostas/Djan/empresa.h do aluno para a pasta Resultados/Djan/completo
+ - Copiando os Respostas/Djan/funcionario.c do aluno para a pasta Resultados/Djan/completo
+ - Copiando os Respostas/Djan/funcionario.h do aluno para a pasta Resultados/Djan/completo
+ - Copiando os Respostas/Djan/main.c do aluno para a pasta Resultados/Djan/completo
+ - Pasta empresa:
+ - Copiando os Casos de teste para a pasta Resultados/Djan/empresa
+ - Copiando os Includes/empresa.h Includes/funcionario.h do professor para a pasta Resultados/Djan/empresa
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Djan/empresa
+ - Removendo o empresa.o do professor da pasta Resultados/Djan/empresa
+ - Copiando o Respostas/Djan/empresa.c do aluno para a pasta Resultados/Djan/empresa
+ - Pasta funcionario:
+ - Copiando os Casos de teste para a pasta Resultados/Djan/funcionario
+ - Copiando os Includes/empresa.h Includes/funcionario.h do professor para a pasta Resultados/Djan/funcionario
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Djan/funcionario
+ - Removendo o funcionario.o do professor da pasta Resultados/Djan/funcionario
+ - Copiando o Respostas/Djan/funcionario.c do aluno para a pasta Resultados/Djan/funcionario
+ - Copiando Arquivos Extras do Aluno:
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Compilação dos arquivos do aluno na pasta main ok!
+ - Arquivo de output gerado: Resultados/Djan/main/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta completo ok!
+ - Arquivo de output gerado: Resultados/Djan/completo/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta empresa ok!
+ - Arquivo de output gerado: Resultados/Djan/empresa/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta funcionario ok!
+ - Arquivo de output gerado: Resultados/Djan/funcionario/result_compilation.txt
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/Djan/main/result_linking.txt
+ - Pasta completo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/Djan/completo/result_linking.txt
+ - Pasta empresa:
+ - Gerando o binário prog linkando com o(s) arquivo(s) empresa/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Djan/empresa/result_linking.txt
+ - Pasta funcionario:
+ - Gerando o binário prog linkando com o(s) arquivo(s) funcionario/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Djan/funcionario/result_linking.txt
+ - Arquivos Linkados: Erro! 2 arquivos com erros de linkagem.
+
+EXECUTANDO O VALGRIND EM CADA CASO:
+ - Pasta main / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta main (máximo 2.50) - 0 de 50 - 0% de 2.50: 0.
+ -----
+ - Pasta completo / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta completo (máximo 2.50) - 0 de 50 - 0% de 2.50: 0.
+ -----
+ - Pasta empresa / Caso 1:
+ - Arquivo de output gerado: Resultados/Djan/empresa/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta empresa / Caso 2:
+ - Arquivo de output gerado: Resultados/Djan/empresa/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta empresa / Caso 3:
+ - Arquivo de output gerado: Resultados/Djan/empresa/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta empresa / Caso 4:
+ - Arquivo de output gerado: Resultados/Djan/empresa/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta empresa / Caso 5:
+ - Arquivo de output gerado: Resultados/Djan/empresa/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta empresa (máximo 2.50) - 0 de 50 - 0% de 2.50: 0.
+ -----
+ - Pasta funcionario / Caso 1:
+ - Arquivo de output gerado: Resultados/Djan/funcionario/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta funcionario / Caso 2:
+ - Arquivo de output gerado: Resultados/Djan/funcionario/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta funcionario / Caso 3:
+ - Arquivo de output gerado: Resultados/Djan/funcionario/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta funcionario / Caso 4:
+ - Arquivo de output gerado: Resultados/Djan/funcionario/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta funcionario / Caso 5:
+ - Arquivo de output gerado: Resultados/Djan/funcionario/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta funcionario (máximo 2.50) - 50.00 de 50 - 100.00% de 2.50: 2.50.
+ -----
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Aluno: Djan
+ - Arquivos Esperados Corretos: 5 de 5
+ - Pastas Compiladas Corretamente: 4 de 4 
+ - Pastas Linkadas Corretamente: 2 de 4
+ - Teste main
+ - Resultados corretos: 0 de 5
+ - Valgrinds corretos: 0 de 5
+ - Nota de Djan para o teste main: 0
+ - Teste completo
+ - Resultados corretos: 0 de 5
+ - Valgrinds corretos: 0 de 5
+ - Nota de Djan para o teste completo: 0
+ - Teste empresa
+ - Resultados corretos: 0 de 5
+ - Valgrinds corretos: 5 de 5
+ - Nota de Djan para o teste empresa: 0
+ - Teste funcionario
+ - Resultados corretos: 5 de 5
+ - Valgrinds corretos: 5 de 5
+ - Nota de Djan para o teste funcionario: 2.50
+ - Nota de Djan: 0+(0)+(2.50)+(0)+(0)
+ - Nota de Djan: 2.50
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+
+

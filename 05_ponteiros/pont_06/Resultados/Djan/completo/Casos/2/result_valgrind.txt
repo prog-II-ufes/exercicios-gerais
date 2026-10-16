@@ -1,0 +1,6 @@
+==155042== Memcheck, a memory error detector
+==155042== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==155042== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==155042== Command: Resultados/Djan/completo/prog Resultados/Djan/completo/Casos/2
+==155042== Parent PID: 155041
+==155042== 

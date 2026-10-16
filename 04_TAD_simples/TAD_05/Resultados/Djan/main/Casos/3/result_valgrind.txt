@@ -1,0 +1,15 @@
+==71001== Memcheck, a memory error detector
+==71001== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==71001== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==71001== Command: Resultados/Djan/main/prog Resultados/Djan/main/Casos/3
+==71001== Parent PID: 71000
+==71001== 
+==71001== 
+==71001== HEAP SUMMARY:
+==71001==     in use at exit: 0 bytes in 0 blocks
+==71001==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==71001== 
+==71001== All heap blocks were freed -- no leaks are possible
+==71001== 
+==71001== For lists of detected and suppressed errors, rerun with: -s
+==71001== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
