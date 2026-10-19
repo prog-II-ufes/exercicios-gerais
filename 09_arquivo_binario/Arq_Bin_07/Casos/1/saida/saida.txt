@@ -1,5 +1,5 @@
-Numero de bytes salvos: 908
-Numero de bytes lidos: 908
+Numero de bytes salvos: 944
+Numero de bytes lidos: 944
 
 Alunos:
 Gabriel

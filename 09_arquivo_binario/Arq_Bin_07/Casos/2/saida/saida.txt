@@ -1,5 +1,5 @@
-Numero de bytes salvos: 1356
-Numero de bytes lidos: 1356
+Numero de bytes salvos: 1392
+Numero de bytes lidos: 1392
 
 Alunos:
 Ana

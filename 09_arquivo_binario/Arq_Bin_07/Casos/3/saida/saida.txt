@@ -1,5 +1,5 @@
-Numero de bytes salvos: 1806
-Numero de bytes lidos: 1806
+Numero de bytes salvos: 1848
+Numero de bytes lidos: 1848
 
 Alunos:
 Andre

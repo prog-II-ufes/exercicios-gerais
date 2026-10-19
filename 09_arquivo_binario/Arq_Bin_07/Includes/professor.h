@@ -19,7 +19,8 @@ tProfessor *CriaProfessor(char *nome, char *dataNascimento, char *departamento);
 void DestroiProfessor(tProfessor *prof);
 
 /**
- * @brief Lê um professor da entrada padrão.
+ * @brief Lê um professor da entrada padrão. Cada dado vem em uma linha própria, na ordem: nome, data de nascimento
+ * e departamento.
  * @return Um ponteiro para a estrutura do professor lida.
  */
 tProfessor *LeProfessor();
@@ -41,10 +42,10 @@ int ComparaNomeProfessor(tProfessor *prof1, tProfessor *prof2);
 int SalvaProfessor(tProfessor *prof, FILE *file);
 
 /**
- * @brief Carrega um professor de um arquivo binário.
+ * @brief Carrega um professor de um arquivo binário, na mesma ordem e com os mesmos tamanhos gravados por SalvaProfessor.
  * @param prof Ponteiro para a estrutura do professor a ser carregada.
  * @param file Ponteiro para o arquivo de onde o professor será carregado.
- * @return Um inteiro indicando o número de bytes lidos deste professor.
+ * @return Um inteiro indicando o número de bytes lidos deste professor (retorno de cada fread multiplicado pelo tamanho do elemento lido).
  */
 int CarregaProfessor(tProfessor *prof, FILE *file);
 

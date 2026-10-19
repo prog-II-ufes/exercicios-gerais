@@ -33,7 +33,7 @@ void DestroiPacote(tPacote* pac);
 void LePacote(tPacote* pac);
 
 /**
- * @brief Busca uma conta na agencia que possui um id específico
+ * @brief Imprime na tela um pacote que possui um id específico com seu valor calculado
  *
  * @param pac - O vetor genérico que terá seu conteúdo impresso em tela
  */
