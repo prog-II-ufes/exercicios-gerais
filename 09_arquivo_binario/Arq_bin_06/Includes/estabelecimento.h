@@ -43,8 +43,11 @@ void LeEstabelecimento(tEstabelecimento *estabelecimento);
 float GetValorTotalVendidoEstabelecimento(tEstabelecimento *estabelecimento);
 
 /**
- * @brief Função para imprimir na tela um relatório de um estabelecimento, cotendo o valor total vendido e a porcentagem de cada produto relativo ao total vendido.
- * Formato: Codigo;Nome;Preco;Quantidade vendida
+ * @brief Função para imprimir na tela um relatório de um estabelecimento, contendo o valor total vendido e a porcentagem de cada produto relativo ao total vendido.
+ * O relatório começa com as linhas "Valor total vendido: R$ X.XX", "Produtos vendidos:" e
+ * "Codigo;Nome;Preco;Quantidade vendida;Porcentagem" (cada mensagem em uma linha), 
+ * seguidas de uma linha por produto no formato
+ * Codigo;Nome;R$ Preco;Quantidade vendida;Porcentagem% (porcentagem com duas casas decimais).
  * @param estabelecimento Um ponteiro para o estabelecimento.
 */
 void ImprimeRelatorioEstabelecimento(tEstabelecimento *estabelecimento);

@@ -26,7 +26,8 @@ void DestroiJogada(tJogada* jogada);
 
 
 /**
- * Lê uma jogada e armazena em uma estrutura do tipo tJogada.
+ * Solicita ao usuário as coordenadas de uma jogada, 
+ * realiza a leitura e armazena os valores em uma estrutura do tipo tJogada.
  * 
  * @param jogada a estrutura do tipo tJogada a ser preenchida.
  */

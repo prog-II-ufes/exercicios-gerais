@@ -9,7 +9,7 @@ typedef struct Data tData;
 
 /**
  * @brief Aloca dinamicamente uma estrutura do tipo tData, e a retorna. 
- * Os campos dessa estrutura devem ser preenchidos inicialmente com -1.
+ * Os campos dessa estrutura devem ser preenchidos inicialmente com 0.
  * 
  * @return tData - Data "Vazia"
  */
@@ -39,7 +39,7 @@ void ProcessaDiaMesAno(tData* data, char* str);
 void ProcessaDiaDaSemana(tData* data, char* str);
 
 /**
- * @brief Processa hora, minuto e segundo da string str e armazena em uma estrutura tData alocada dinamicamente.
+ * @brief Processa hora e minuto da string str e armazena em uma estrutura tData alocada dinamicamente.
  * 
  * @param data - Ponteiro para a estrutura onde os dados serão armazenados. Lembre-se: Não pode ter valor NULL.
  * @param str - String que será processada
@@ -47,7 +47,8 @@ void ProcessaDiaDaSemana(tData* data, char* str);
 void ProcessaHorario(tData* data, char* str);
 
 /**
- * @brief Verifica se uma data é válida.
+ * @brief Verifica se uma data é válida (somente dia, mês e ano).
+ *
  * 
  * @param data Data a ser verificada.
  * @return int 1 se a data é válida, 0 caso contrário.
@@ -72,7 +73,7 @@ int VerificaBissexto(tData* data);
 int NumeroDiasMes(tData* data);
 
 /**
- * @brief Compara duas datas.
+ * @brief Compara somente dia, mes e ano, ignorando horario e dia da semana.
  * 
  * @param data1 Primeira data a ser comparada.
  * @param data2 Segunda data a ser comparada.
@@ -90,7 +91,8 @@ int ComparaDiaMesAno(tData* data1, tData* data2);
 int CalculaDiasAteMes(tData* data);
 
 /**
- * @brief Calcula a diferença em dias entre duas datas.
+ * @brief Calcula a diferenca absoluta de dias de calendario entre duas datas.
+ * Ignora os horarios e o dia da semana; a ordem dos argumentos nao importa.
  * 
  * @param data1 Primeira data a ser comparada.
  * @param data2 Segunda data a ser comparada.
@@ -99,7 +101,8 @@ int CalculaDiasAteMes(tData* data);
 int CalculaDiferencaDias(tData* data1, tData* data2);
 
 /**
- * @brief Calcula a diferença em horas entre duas datas.
+ * @brief Calcula a diferenca em horas, incluindo os minutos, sem arredondar.
+ * Nao aplica tarifas nem tolerancia de estacionamento.
  * 
  * @param data1 Primeira data a ser comparada.
  * @param data2 Segunda data a ser comparada.
@@ -117,6 +120,7 @@ int DataEhSabadoOuDomingo(tData* data);
 
 /**
  * @brief Atualiza a data para a data do dia seguinte (esta data deve ser válida!)
+ * Preserva o horario. O dia da semana inicial deve estar entre 0 e 6.
  * 
  * @param data Data a ser modificada.
  * 
@@ -124,7 +128,8 @@ int DataEhSabadoOuDomingo(tData* data);
 void DataDiaSeguinte(tData* data);
 
 /**
- * @brief Copia os dados de Dia/Mês/Ano de uma data src para uma data tgt.
+ * @brief Copia os dados de Dia/Mês/Ano e o dia da semana de uma data src para uma data tgt.
+ * Preserva o horario de tgt e todos os campos de src.
  * 
  * @param src Data que terá seus dados copiados
  * @param tgt Data que armazenará a cópia

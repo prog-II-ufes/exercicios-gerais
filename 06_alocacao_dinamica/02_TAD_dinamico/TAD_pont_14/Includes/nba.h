@@ -3,8 +3,8 @@
 #include "franquia.h"
 #include "partida.h"
 
-#define MAX_FR 10 // Número máximo de franquias
-#define MAX_PT 10 // Número máximo de partidas
+#define MAX_FR 30 // Número máximo de franquias
+#define MAX_PT 82 // Número máximo de partidas
 #define CAD_FRANQUIA 'F' // Caractere para cadastro de franquia
 #define CAD_PARTIDA 'P' // Caractere para cadastro de partida
 #define ENCERRAR 'E' // Caractere para encerrar a NBA

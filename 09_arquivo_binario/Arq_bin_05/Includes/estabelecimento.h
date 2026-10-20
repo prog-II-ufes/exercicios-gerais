@@ -36,7 +36,9 @@ void AdicionaProdutoEstabelecimento(tEstabelecimento *estabelecimento, tProduto 
 void LeEstabelecimento(tEstabelecimento *estabelecimento);
 
 /**
- * @brief Função para imprimir produtos que estão faltando em um estabelecimento no seguinte formato: Codigo;Nome;Preco
+ * @brief Função para imprimir os produtos que estão em falta (sem estoque) em um estabelecimento.
+ * A saída começa com as linhas "Produtos em falta:" e "Codigo;Nome;Preco" (cada mensagem em uma linha), seguidas de um produto por linha
+ * no formato Codigo;Nome;Preco. Se não houver produtos em falta, imprime "Nao ha produtos em falta!" após essas duas linhas.
  * @param estabelecimento Um ponteiro para o estabelecimento.
  */
 void ImprimeProdutosEmFaltaEstabelecimento(tEstabelecimento *estabelecimento);

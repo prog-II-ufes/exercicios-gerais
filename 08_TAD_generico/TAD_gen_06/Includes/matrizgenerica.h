@@ -67,7 +67,10 @@ void * ObtemElementoMatrizGenerica(tMatrizGenerica * mat, int linha, int coluna)
 void AtribuiElementoMatrizGenerica(tMatrizGenerica * mat, int linha, int coluna, void* elem);
 
 /**
- * @brief Imprime os elementos usando um callback para imprimir o tipo de dados da matriz
+ * @brief Imprime os elementos usando um callback para imprimir o tipo de dados da matriz.
+ * A matriz é impressa linha a linha: após cada elemento (inclusive o último da linha) é impresso um espaço
+ * e, ao final de cada linha, uma quebra de linha ('\n'). O callback deve imprimir apenas o elemento,
+ * sem espaços ou quebras de linha.
  *
  * @param mat - Ponteiro para a matriz que queremos atribuir o elemento na linha e coluna desejada
  * @param imprime_elemento - Ponteiro para a função (callback) que tem a capacidade de imprimir os dados de um elemento desta matriz

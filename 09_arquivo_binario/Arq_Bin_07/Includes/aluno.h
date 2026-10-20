@@ -44,7 +44,7 @@ int ComparaNomeAluno(tAluno *aluno1, tAluno *aluno2);
 int SalvaAluno(tAluno *aluno, FILE *file);
 
 /**
- * @brief Carrega um aluno de um arquivo binário.
+ * @brief Carrega um aluno de um arquivo binário, na mesma ordem e com os mesmos tamanhos gravados por SalvaAluno.
  * @param aluno Ponteiro para a estrutura do aluno a ser carregada.
  * @param file Ponteiro para o arquivo de onde o aluno será carregado.
  * @return Um inteiro indicando o número de bytes lidos deste aluno.

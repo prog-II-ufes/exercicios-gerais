@@ -96,11 +96,12 @@ void AlugarFilme (tFilme* filme);
 void DevolverFilme (tFilme* filme);
 
 /**
- * @brief Compara dois filmes pelo nome.
+ * @brief Compara dois filmes lexicograficamente pelo nome.
  * 
  * @param filme1 Ponteiro para o primeiro filme.
  * @param filme2 Ponteiro para o segundo filme.
- * @return 1 se o nome do primeiro filme for maior que o nome do segundo filme, -1 se o nome do primeiro filme for menor que o nome do segundo filme, 0 se os nomes forem iguais.
+ * @return 1 se o nome do primeiro filme for maior que o nome do segundo filme em ordem lexicográfica, 
+ * -1 se vier antes, 0 se os nomes forem iguais.
 */
 int CompararNomesFilmes (tFilme* filme1, tFilme* filme2);
 

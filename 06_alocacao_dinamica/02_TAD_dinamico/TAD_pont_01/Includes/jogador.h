@@ -2,7 +2,7 @@
 #define _JOGADOR_H
 
 #include "tabuleiro.h"
-
+#include "jogada.h"
 
 #define ID_JOGADOR_1 1
 #define ID_JOGADOR_2 2
@@ -29,9 +29,20 @@ tJogador* CriaJogador(int idJogador);
  */
 void DestroiJogador(tJogador* jogador);
 
+/**
+ * Verifica se a jogada foi lida corretamente, se a posição informada
+ * é válida e se está livre no tabuleiro.
+ *
+ * @param jogada a jogada a ser verificada.
+ * @param tabuleiro o tabuleiro atual.
+ *
+ * @return 1 se a jogada for válida, 0 caso contrário.
+ */
+int EhJogadaValida(tJogada* jogada, tTabuleiro* tabuleiro);
 
 /**
- * Lê uma jogada e armazena em uma estrutura do tipo tJogada.
+ * Solicita e realiza uma jogada do jogador, repetindo a leitura
+ * até que seja informada uma posição válida e livre no tabuleiro.
  * 
  * @param jogador o jogador atual.
  * @param tabuleiro o tabuleiro atual.

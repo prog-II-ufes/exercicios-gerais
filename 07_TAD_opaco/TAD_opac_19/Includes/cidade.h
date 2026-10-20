@@ -19,14 +19,15 @@
 typedef struct cidade * tCidade;
 
 /**
- * @brief Cria uma nova cidade.
+ * @brief Lê os limites da cidade da entrada padrão e cria uma nova cidade.
  * 
  * @return tCidade Ponteiro para a cidade criada.
  */
 tCidade CriaCidade();
 
 /**
- * @brief Lê a entrada do usuário e preenche a cidade com as informações lidas.
+ * @brief Lê defesas e mísseis da entrada padrão e os acrescenta à cidade. 
+ * Além disso, essa função também é responsável por ler o último caractere da entrada.
  * 
  * @param cidade Ponteiro para a cidade que será preenchida.
  * @return tCidade Ponteiro para a cidade preenchida.
@@ -38,7 +39,7 @@ tCidade LeEntrada(tCidade cidade);
  * 
  * @param cidade Ponteiro para a cidade que será impressa.
  */
-void ImprimeCidade(tCidade cidade);
+// void ImprimeCidade(tCidade cidade);
 
 /**
  * @brief Libera a memória alocada para a cidade.
@@ -48,14 +49,14 @@ void ImprimeCidade(tCidade cidade);
 void LiberaCidade(tCidade cidade);
 
 /**
- * @brief Processa os ataques na cidade.
+ * @brief Processa os ataques na cidade na ordem em que foram cadastrados.
  * 
  * @param cidade Ponteiro para a cidade que será atacada.
  */
 void ProcessaAtaques(tCidade cidade);
 
 /**
- * @brief Imprime os dados finais da cidade.
+ * @brief Imprime o relatório final na saída padrão, sem processar ataques.
  * 
  * @param cidade Ponteiro para a cidade que terá os dados impressos.
  */

@@ -12,7 +12,7 @@ typedef struct Produto tProduto;
  * @param codigo O código do produto.
  * @param nome O nome do produto.
  * @param preco O preço do produto.
- * @param quantidade A quantidade do produto em estoque.
+ * @param quantidadeVendida A quantidade vendida do produto.
  * @return Um ponteiro para o produto recém-criado. Se houver erro na alocação de memória, a função aborta o programa.
  */
 tProduto *CriaProduto(int codigo, char *nome, float preco, int quantidadeVendida);
@@ -30,13 +30,14 @@ void DestroiProduto(tProduto *produto);
  * Código (int) 
  * Nome (string) 
  * Preço (float) 
- * Quantidade (int).
+ * Quantidade vendida (int).
  * @return Um ponteiro para o produto lido.
  */
 tProduto *LeProduto(FILE *arquivo);
 
 /**
- * @brief Função para imprimir um produto no formato "Codigo;Nome;Preco;Quantidade vendida".
+ * @brief Função para imprimir um produto no formato "Codigo;Nome;R$ Preco;Quantidade vendida" (preço com duas casas decimais),
+ * sem imprimir quebra de linha ao final.
  * @param produto Um ponteiro para o produto a ser impresso.
  */
 void ImprimeProduto(tProduto *produto);

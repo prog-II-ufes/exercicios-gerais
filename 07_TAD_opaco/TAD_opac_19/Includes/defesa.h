@@ -45,7 +45,7 @@ void LiberaDefesa(tDefesa defesa);
 int VerificaSeDentroArea(tDefesa defesa, float x, float y);
 
 /**
- * @brief Usa a defesa, diminuindo seu poder de defesa.
+ * @brief Consome uma unidade de míssil da defesa.
  * 
  * @param defesa Ponteiro para a defesa que será usada.
  */
@@ -60,7 +60,7 @@ void UsaDefesa(tDefesa defesa);
 float GetDefesaPoder(tDefesa defesa);
 
 /**
- * @brief Verifica se a defesa pode defender.
+ * @brief Verifica exclusivamente se a quantidade de munição é maior que zero.
  * 
  * @param defesa Ponteiro para a defesa que será verificada.
  * @return int 1 se a defesa pode defender, 0 caso contrário.

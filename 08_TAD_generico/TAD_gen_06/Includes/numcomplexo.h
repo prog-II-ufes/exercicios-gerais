@@ -43,7 +43,7 @@ void ImprimeNumeroComplexo(tNumComplexo *cplx);
 /**
  * @brief Libera a memória alocada para um número complexo.
  *
- * @param cplx - Ponteiro para o número complexo que queremos imprimir
+ * @param cplx - Ponteiro para o número complexo que queremos liberar
  *
  */
 void DestroiNumeroComplexo(tNumComplexo *cplx);
