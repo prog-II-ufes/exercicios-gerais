@@ -1,6 +1,15 @@
-==157005== Memcheck, a memory error detector
-==157005== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
-==157005== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
-==157005== Command: Resultados/Djan/data/prog Resultados/Djan/data/Casos/3
-==157005== Parent PID: 157004
-==157005== 
+==182380== Memcheck, a memory error detector
+==182380== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==182380== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==182380== Command: Resultados/Djan/data/prog Resultados/Djan/data/Casos/3
+==182380== Parent PID: 182379
+==182380== 
+==182380== 
+==182380== HEAP SUMMARY:
+==182380==     in use at exit: 0 bytes in 0 blocks
+==182380==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==182380== 
+==182380== All heap blocks were freed -- no leaks are possible
+==182380== 
+==182380== For lists of detected and suppressed errors, rerun with: -s
+==182380== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

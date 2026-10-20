@@ -41,7 +41,7 @@ void LeData( tData *data ){
  * @param data Ponteiro para a estrutura tData que será impressa.
  */
 void ImprimeData( tData *data ){
-    printf("%d/%d/%d",data->dia,data->mes,data->ano);
+    printf("'%02d/%02d/%04d'",data->dia,data->mes,data->ano);
 }
 
 /**
@@ -103,7 +103,17 @@ int InformaQtdDiasNoMes( tData *data ){
  * @param data Ponteiro para a estrutura tData que será avançada.
  */
 void AvancaParaDiaSeguinte( tData *data ){
-    data->dia++;
+
+    if (data->dia < InformaQtdDiasNoMes(data)){
+        data->dia++;
+    }else{
+        data->dia = 01;
+        data->mes++;
+        if (data->mes > 12){
+            data->mes = 1;
+            data->ano++;
+        }
+    }
 }
 
 /**

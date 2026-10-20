@@ -6,12 +6,12 @@ Teste main
   - Valgrinds corretos: 4 de 4
 Nota de Djan para o teste main: 3.33
 Teste completo
-  - Resultados corretos: 0 de 4
+  - Resultados corretos: 2 de 4
   - Valgrinds corretos: 4 de 4
-Nota de Djan para o teste completo: 0
+Nota de Djan para o teste completo: 1.66
 Teste data
-  - Resultados corretos: 0 de 4
+  - Resultados corretos: 2 de 4
   - Valgrinds corretos: 4 de 4
-Nota de Djan para o teste data: 0
-Nota de Djan: 0+(3.33)+(0)+(0)
-Nota de Djan: 3.33
+Nota de Djan para o teste data: 1.67
+Nota de Djan: 0+(3.33)+(1.66)+(1.67)
+Nota de Djan: 6.66
