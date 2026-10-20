@@ -1,0 +1,102 @@
+==57818== Memcheck, a memory error detector
+==57818== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==57818== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==57818== Command: Resultados/Djan/locadora/prog Resultados/Djan/locadora/Casos/19
+==57818== Parent PID: 57817
+==57818== 
+==57818== Conditional jump or move depends on uninitialised value(s)
+==57818==    at 0x48C90CB: __printf_buffer (vfprintf-process-arg.c:58)
+==57818==    by 0x48CA73A: __vfprintf_internal (vfprintf-internal.c:1544)
+==57818==    by 0x48BF1B2: printf (printf.c:33)
+==57818==    by 0x109783: cadastrarFilmeLocadora (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==57818==    by 0x1098FF: lerCadastroLocadora (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==57818==    by 0x10AC6B: main (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==57818== 
+==57818== Use of uninitialised value of size 8
+==57818==    at 0x48BE0BB: _itoa_word (_itoa.c:183)
+==57818==    by 0x48C8C9B: __printf_buffer (vfprintf-process-arg.c:155)
+==57818==    by 0x48CA73A: __vfprintf_internal (vfprintf-internal.c:1544)
+==57818==    by 0x48BF1B2: printf (printf.c:33)
+==57818==    by 0x109783: cadastrarFilmeLocadora (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==57818==    by 0x1098FF: lerCadastroLocadora (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==57818==    by 0x10AC6B: main (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==57818== 
+==57818== Conditional jump or move depends on uninitialised value(s)
+==57818==    at 0x48BE0CC: _itoa_word (_itoa.c:183)
+==57818==    by 0x48C8C9B: __printf_buffer (vfprintf-process-arg.c:155)
+==57818==    by 0x48CA73A: __vfprintf_internal (vfprintf-internal.c:1544)
+==57818==    by 0x48BF1B2: printf (printf.c:33)
+==57818==    by 0x109783: cadastrarFilmeLocadora (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==57818==    by 0x1098FF: lerCadastroLocadora (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==57818==    by 0x10AC6B: main (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==57818== 
+==57818== Conditional jump or move depends on uninitialised value(s)
+==57818==    at 0x48C8D85: __printf_buffer (vfprintf-process-arg.c:186)
+==57818==    by 0x48CA73A: __vfprintf_internal (vfprintf-internal.c:1544)
+==57818==    by 0x48BF1B2: printf (printf.c:33)
+==57818==    by 0x109783: cadastrarFilmeLocadora (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==57818==    by 0x1098FF: lerCadastroLocadora (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==57818==    by 0x10AC6B: main (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==57818== 
+==57818== Conditional jump or move depends on uninitialised value(s)
+==57818==    at 0x10959D: verificarFilmeCadastrado (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==57818==    by 0x109646: cadastrarFilmeLocadora (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==57818==    by 0x1098FF: lerCadastroLocadora (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==57818==    by 0x10AC6B: main (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==57818== 
+==57818== Conditional jump or move depends on uninitialised value(s)
+==57818==    at 0x48C90CB: __printf_buffer (vfprintf-process-arg.c:58)
+==57818==    by 0x48CA73A: __vfprintf_internal (vfprintf-internal.c:1544)
+==57818==    by 0x48BF1B2: printf (printf.c:33)
+==57818==    by 0x10AAA1: consultarEstoqueLocadora (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==57818==    by 0x10AE4A: main (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==57818== 
+==57818== Conditional jump or move depends on uninitialised value(s)
+==57818==    at 0x48C8D85: __printf_buffer (vfprintf-process-arg.c:186)
+==57818==    by 0x48CA73A: __vfprintf_internal (vfprintf-internal.c:1544)
+==57818==    by 0x48BF1B2: printf (printf.c:33)
+==57818==    by 0x10AAA1: consultarEstoqueLocadora (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==57818==    by 0x10AE4A: main (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==57818== 
+==57818== Conditional jump or move depends on uninitialised value(s)
+==57818==    at 0x109A53: alugarFilmesLocadora (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==57818==    by 0x109E37: lerAluguelLocadora (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==57818==    by 0x10ACF6: main (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==57818== 
+==57818== Conditional jump or move depends on uninitialised value(s)
+==57818==    at 0x48C8D89: __printf_buffer (vfprintf-process-arg.c:186)
+==57818==    by 0x48CA73A: __vfprintf_internal (vfprintf-internal.c:1544)
+==57818==    by 0x48BF1B2: printf (printf.c:33)
+==57818==    by 0x109783: cadastrarFilmeLocadora (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==57818==    by 0x1098FF: lerCadastroLocadora (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==57818==    by 0x10AC6B: main (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==57818== 
+==57818== 
+==57818== Process terminating with default action of signal 6 (SIGABRT)
+==57818==    at 0x48FDC0C: __pthread_kill_implementation (pthread_kill.c:44)
+==57818==    by 0x48FDC0C: __pthread_kill_internal (pthread_kill.c:78)
+==57818==    by 0x48FDC0C: pthread_kill@@GLIBC_2.34 (pthread_kill.c:89)
+==57818==    by 0x48A427D: raise (raise.c:26)
+==57818==    by 0x48878FE: abort (abort.c:79)
+==57818==    by 0x48887B5: __libc_message_impl.cold (libc_fatal.c:134)
+==57818==    by 0x4995D48: __fortify_fail (fortify_fail.c:24)
+==57818==    by 0x4996FD3: __stack_chk_fail (stack_chk_fail.c:24)
+==57818==    by 0x109991: lerCadastroLocadora (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==57818==    by 0x10AC6B: main (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==57818== 
+==57818== HEAP SUMMARY:
+==57818==     in use at exit: 8,192 bytes in 2 blocks
+==57818==   total heap usage: 2 allocs, 0 frees, 8,192 bytes allocated
+==57818== 
+==57818== LEAK SUMMARY:
+==57818==    definitely lost: 0 bytes in 0 blocks
+==57818==    indirectly lost: 0 bytes in 0 blocks
+==57818==      possibly lost: 0 bytes in 0 blocks
+==57818==    still reachable: 8,192 bytes in 2 blocks
+==57818==         suppressed: 0 bytes in 0 blocks
+==57818== Reachable blocks (those to which a pointer was found) are not shown.
+==57818== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==57818== 
+==57818== Use --track-origins=yes to see where uninitialised values come from
+==57818== For lists of detected and suppressed errors, rerun with: -s
+==57818== ERROR SUMMARY: 51 errors from 9 contexts (suppressed: 0 from 0)

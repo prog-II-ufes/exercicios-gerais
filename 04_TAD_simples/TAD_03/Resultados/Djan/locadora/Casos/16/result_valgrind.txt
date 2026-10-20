@@ -1,0 +1,75 @@
+==57114== Memcheck, a memory error detector
+==57114== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==57114== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==57114== Command: Resultados/Djan/locadora/prog Resultados/Djan/locadora/Casos/16
+==57114== Parent PID: 57113
+==57114== 
+==57114== Conditional jump or move depends on uninitialised value(s)
+==57114==    at 0x48C90CB: __printf_buffer (vfprintf-process-arg.c:58)
+==57114==    by 0x48CA73A: __vfprintf_internal (vfprintf-internal.c:1544)
+==57114==    by 0x48BF1B2: printf (printf.c:33)
+==57114==    by 0x109783: cadastrarFilmeLocadora (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==57114==    by 0x1098FF: lerCadastroLocadora (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==57114==    by 0x10AC6B: main (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==57114== 
+==57114== Use of uninitialised value of size 8
+==57114==    at 0x48BE0BB: _itoa_word (_itoa.c:183)
+==57114==    by 0x48C8C9B: __printf_buffer (vfprintf-process-arg.c:155)
+==57114==    by 0x48CA73A: __vfprintf_internal (vfprintf-internal.c:1544)
+==57114==    by 0x48BF1B2: printf (printf.c:33)
+==57114==    by 0x109783: cadastrarFilmeLocadora (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==57114==    by 0x1098FF: lerCadastroLocadora (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==57114==    by 0x10AC6B: main (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==57114== 
+==57114== Conditional jump or move depends on uninitialised value(s)
+==57114==    at 0x48BE0CC: _itoa_word (_itoa.c:183)
+==57114==    by 0x48C8C9B: __printf_buffer (vfprintf-process-arg.c:155)
+==57114==    by 0x48CA73A: __vfprintf_internal (vfprintf-internal.c:1544)
+==57114==    by 0x48BF1B2: printf (printf.c:33)
+==57114==    by 0x109783: cadastrarFilmeLocadora (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==57114==    by 0x1098FF: lerCadastroLocadora (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==57114==    by 0x10AC6B: main (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==57114== 
+==57114== Conditional jump or move depends on uninitialised value(s)
+==57114==    at 0x48C8D85: __printf_buffer (vfprintf-process-arg.c:186)
+==57114==    by 0x48CA73A: __vfprintf_internal (vfprintf-internal.c:1544)
+==57114==    by 0x48BF1B2: printf (printf.c:33)
+==57114==    by 0x109783: cadastrarFilmeLocadora (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==57114==    by 0x1098FF: lerCadastroLocadora (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==57114==    by 0x10AC6B: main (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==57114== 
+==57114== Conditional jump or move depends on uninitialised value(s)
+==57114==    at 0x10959D: verificarFilmeCadastrado (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==57114==    by 0x109646: cadastrarFilmeLocadora (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==57114==    by 0x1098FF: lerCadastroLocadora (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==57114==    by 0x10AC6B: main (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==57114== 
+==57114== 
+==57114== Process terminating with default action of signal 6 (SIGABRT)
+==57114==    at 0x48FDC0C: __pthread_kill_implementation (pthread_kill.c:44)
+==57114==    by 0x48FDC0C: __pthread_kill_internal (pthread_kill.c:78)
+==57114==    by 0x48FDC0C: pthread_kill@@GLIBC_2.34 (pthread_kill.c:89)
+==57114==    by 0x48A427D: raise (raise.c:26)
+==57114==    by 0x48878FE: abort (abort.c:79)
+==57114==    by 0x48887B5: __libc_message_impl.cold (libc_fatal.c:134)
+==57114==    by 0x4995D48: __fortify_fail (fortify_fail.c:24)
+==57114==    by 0x4996FD3: __stack_chk_fail (stack_chk_fail.c:24)
+==57114==    by 0x109991: lerCadastroLocadora (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==57114==    by 0x10AC6B: main (in /mnt/d/Escola e Cursos - Junior/djaj/Prog2/04_TAD_simples/TAD_03/Resultados/Djan/locadora/prog)
+==57114== 
+==57114== HEAP SUMMARY:
+==57114==     in use at exit: 8,192 bytes in 2 blocks
+==57114==   total heap usage: 2 allocs, 0 frees, 8,192 bytes allocated
+==57114== 
+==57114== LEAK SUMMARY:
+==57114==    definitely lost: 0 bytes in 0 blocks
+==57114==    indirectly lost: 0 bytes in 0 blocks
+==57114==      possibly lost: 0 bytes in 0 blocks
+==57114==    still reachable: 8,192 bytes in 2 blocks
+==57114==         suppressed: 0 bytes in 0 blocks
+==57114== Reachable blocks (those to which a pointer was found) are not shown.
+==57114== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==57114== 
+==57114== Use --track-origins=yes to see where uninitialised values come from
+==57114== For lists of detected and suppressed errors, rerun with: -s
+==57114== ERROR SUMMARY: 5 errors from 5 contexts (suppressed: 0 from 0)
