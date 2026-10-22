@@ -1,0 +1,27 @@
+==319789== Memcheck, a memory error detector
+==319789== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==319789== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==319789== Command: Resultados/ThiagoDelfino/filme/prog Resultados/ThiagoDelfino/filme/Casos/10
+==319789== Parent PID: 319788
+==319789== 
+==319789== 
+==319789== HEAP SUMMARY:
+==319789==     in use at exit: 104 bytes in 4 blocks
+==319789==   total heap usage: 12 allocs, 8 frees, 8,424 bytes allocated
+==319789== 
+==319789== 104 (64 direct, 40 indirect) bytes in 2 blocks are definitely lost in loss record 2 of 2
+==319789==    at 0x484D953: calloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==319789==    by 0x1092A3: CriarFilme (in /home/teadelfino/Documents/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/ThiagoDelfino/filme/prog)
+==319789==    by 0x109318: LeFilme (in /home/teadelfino/Documents/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/ThiagoDelfino/filme/prog)
+==319789==    by 0x10978E: LerCadastroLocadora (in /home/teadelfino/Documents/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/ThiagoDelfino/filme/prog)
+==319789==    by 0x109FBF: main (in /home/teadelfino/Documents/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/ThiagoDelfino/filme/prog)
+==319789== 
+==319789== LEAK SUMMARY:
+==319789==    definitely lost: 64 bytes in 2 blocks
+==319789==    indirectly lost: 40 bytes in 2 blocks
+==319789==      possibly lost: 0 bytes in 0 blocks
+==319789==    still reachable: 0 bytes in 0 blocks
+==319789==         suppressed: 0 bytes in 0 blocks
+==319789== 
+==319789== For lists of detected and suppressed errors, rerun with: -s
+==319789== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

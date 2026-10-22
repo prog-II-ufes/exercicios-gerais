@@ -1,0 +1,11 @@
+filme.c: In function ‘LeFilme’:
+filme.c:33:20: warning: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘int’ [-Wformat=]
+   33 |     scanf(",%[^,],%d,%d",filme->nome,filme->valor,filme->qntdEstoque);
+      |                   ~^                 ~~~~~~~~~~~~
+      |                    |                      |
+      |                    int *                  int
+filme.c:33:23: warning: format ‘%d’ expects argument of type ‘int *’, but argument 4 has type ‘int’ [-Wformat=]
+   33 |     scanf(",%[^,],%d,%d",filme->nome,filme->valor,filme->qntdEstoque);
+      |                      ~^                           ~~~~~~~~~~~~~~~~~~
+      |                       |                                |
+      |                       int *                            int

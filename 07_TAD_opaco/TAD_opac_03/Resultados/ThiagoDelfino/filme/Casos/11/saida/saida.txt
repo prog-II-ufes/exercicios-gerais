@@ -1,0 +1,10 @@
+Filme cadastrado 0 - 
+
+Filme 1 nao cadastrado.
+Filme 2 nao cadastrado.
+Filme 3 nao cadastrado.
+
+Filme 2 nao cadastrado.
+
+~ESTOQUE~
+0 -  Fitas em estoque: 0

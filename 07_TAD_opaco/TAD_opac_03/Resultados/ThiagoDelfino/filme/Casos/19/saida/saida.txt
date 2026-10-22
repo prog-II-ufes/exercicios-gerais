@@ -1,0 +1,59 @@
+Filme cadastrado 0 - 
+
+~ESTOQUE~
+0 -  Fitas em estoque: 0
+
+Filme 21 nao cadastrado.
+Filme 22 nao cadastrado.
+Filme 23 nao cadastrado.
+
+Filme 26 nao cadastrado.
+
+Filme 24 nao cadastrado.
+Filme 25 nao cadastrado.
+Filme 22 nao cadastrado.
+
+Filme 23 nao cadastrado.
+Filme 24 nao cadastrado.
+Filme 25 nao cadastrado.
+
+~ESTOQUE~
+0 -  Fitas em estoque: 0
+
+Filme ja cadastrado no estoque
+
+~ESTOQUE~
+0 -  Fitas em estoque: 0
+
+Filme 26 nao cadastrado.
+
+Filme 24 nao cadastrado.
+Filme 25 nao cadastrado.
+
+Filme 24 nao cadastrado.
+Filme 29 nao cadastrado.
+Filme 30 nao cadastrado.
+
+Filme 24 nao cadastrado.
+Filme 29 nao cadastrado.
+
+Filme 24 nao cadastrado.
+Filme 25 nao cadastrado.
+Filme 22 nao cadastrado.
+
+Filme 21 nao cadastrado.
+Filme 22 nao cadastrado.
+Filme 23 nao cadastrado.
+
+Filme 30 nao cadastrado.
+
+Filme 29 nao cadastrado.
+Filme 30 nao cadastrado.
+
+Filme 30 nao cadastrado.
+
+Filme 30 nao cadastrado.
+Filme 29 nao cadastrado.
+
+~ESTOQUE~
+0 -  Fitas em estoque: 0

@@ -1,0 +1,8 @@
+/usr/bin/ld: Resultados/ThiagoDelfino/locadora/main.o: in function `main':
+main.c:(.text+0x67): undefined reference to `LerCadastroLocadora'
+/usr/bin/ld: main.c:(.text+0xa3): undefined reference to `LerAluguelLocadora'
+/usr/bin/ld: main.c:(.text+0xd8): undefined reference to `LerDevolucaoLocadora'
+/usr/bin/ld: main.c:(.text+0x10a): undefined reference to `OrdenarFilmesLocadora'
+/usr/bin/ld: main.c:(.text+0x116): undefined reference to `ConsultarEstoqueLocadora'
+/usr/bin/ld: main.c:(.text+0x159): undefined reference to `ConsultarLucroLocadora'
+collect2: error: ld returned 1 exit status

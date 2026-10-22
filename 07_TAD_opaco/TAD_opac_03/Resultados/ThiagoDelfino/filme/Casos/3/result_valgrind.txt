@@ -1,0 +1,27 @@
+==321606== Memcheck, a memory error detector
+==321606== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==321606== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==321606== Command: Resultados/ThiagoDelfino/filme/prog Resultados/ThiagoDelfino/filme/Casos/3
+==321606== Parent PID: 321605
+==321606== 
+==321606== 
+==321606== HEAP SUMMARY:
+==321606==     in use at exit: 52 bytes in 2 blocks
+==321606==   total heap usage: 8 allocs, 6 frees, 8,320 bytes allocated
+==321606== 
+==321606== 52 (32 direct, 20 indirect) bytes in 1 blocks are definitely lost in loss record 2 of 2
+==321606==    at 0x484D953: calloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==321606==    by 0x1092A3: CriarFilme (in /home/teadelfino/Documents/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/ThiagoDelfino/filme/prog)
+==321606==    by 0x109318: LeFilme (in /home/teadelfino/Documents/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/ThiagoDelfino/filme/prog)
+==321606==    by 0x10978E: LerCadastroLocadora (in /home/teadelfino/Documents/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/ThiagoDelfino/filme/prog)
+==321606==    by 0x109FBF: main (in /home/teadelfino/Documents/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/ThiagoDelfino/filme/prog)
+==321606== 
+==321606== LEAK SUMMARY:
+==321606==    definitely lost: 32 bytes in 1 blocks
+==321606==    indirectly lost: 20 bytes in 1 blocks
+==321606==      possibly lost: 0 bytes in 0 blocks
+==321606==    still reachable: 0 bytes in 0 blocks
+==321606==         suppressed: 0 bytes in 0 blocks
+==321606== 
+==321606== For lists of detected and suppressed errors, rerun with: -s
+==321606== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
