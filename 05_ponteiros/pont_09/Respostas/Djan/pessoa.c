@@ -62,13 +62,13 @@ void ImprimePessoa(tPessoa *pessoa){
     if(pessoa->pai != NULL) {
         printf("PAI: %s\n", pessoa->pai->nome);
     }else{
-        printf("PAI: NAO INFORMADO\n");
+        printf("PAI: NAO INFORMADO\n\n");
     }
 
     if(pessoa->mae != NULL){
-        printf("MAE: %s\n", pessoa->mae->nome);
+        printf("MAE: %s\n\n", pessoa->mae->nome);
     }else{
-        printf("MAE: NAO INFORMADO\n");
+        printf("MAE: NAO INFORMADO\n\n");
     }
 }
 
