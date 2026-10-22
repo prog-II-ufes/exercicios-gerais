@@ -1,0 +1,32 @@
+
+===== Menu =====
+1 - Cadastrar um evento
+2 - Exibir todos os eventos
+3 - Trocar data de um evento
+4 - Trocar a posicao entre dois eventos
+5 - Sair
+Nenhum evento cadastrado.
+Evento cadastrado com sucesso!
+Evento cadastrado com sucesso!
+Evento cadastrado com sucesso!
+Evento cadastrado com sucesso!
+Evento cadastrado com sucesso!
+Evento cadastrado com sucesso!
+Evento cadastrado com sucesso!
+Evento cadastrado com sucesso!
+Evento cadastrado com sucesso!
+Evento cadastrado com sucesso!
+Limite de eventos atingido!
+Eventos cadastrados:
+0 - atv1 - 12/10/2021
+1 - atv2 - 15/10/2021
+2 - atv3 - 18/10/2021
+3 - atv4 - 21/10/2021
+4 - atv5 - 24/10/2021
+5 - atv6 - 27/10/2021
+6 - atv7 - 30/10/2021
+7 - atv8 - 3/11/2021
+8 - atv9 - 6/11/2021
+9 - atv10 - 15/4/2022
+Opcao invalida!
+Saindo...
