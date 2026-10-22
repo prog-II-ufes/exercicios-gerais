@@ -1,14 +1,3 @@
-locadora.c: In function ‘DestruirLocadora’:
-locadora.c:46:31: warning: passing argument 1 of ‘DestruirFilme’ from incompatible pointer type [-Wincompatible-pointer-types]
-   46 |         DestruirFilme(locadora->filmes);
-      |                       ~~~~~~~~^~~~~~~~
-      |                               |
-      |                               tFilme ** {aka struct Filme **}
-In file included from locadora.h:4,
-                 from locadora.c:1:
-filme.h:27:29: note: expected ‘tFilme *’ {aka ‘struct Filme *’} but argument is of type ‘tFilme **’ {aka ‘struct Filme **’}
-   27 | void DestruirFilme (tFilme* filme);
-      |                     ~~~~~~~~^~~~~
 locadora.c: In function ‘CriarLocadora’:
 locadora.c:30:5: warning: ignoring return value of ‘realloc’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
    30 |     realloc(locadora->filmes,i);

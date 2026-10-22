@@ -17,7 +17,8 @@ struct Filme{
  */
 tFilme* CriarFilme(){
     tFilme *f=(tFilme*) calloc(1,sizeof(tFilme));
-    f->cod=f->qntdAlugada=f->qntdEstoque=f->valor=0;
+    if(f==NULL)
+        exit(1);
     f->nome=(char*) calloc(MAX_CARACTERES,sizeof(char));
     return f;
 }
@@ -30,7 +31,7 @@ tFilme* CriarFilme(){
 void LeFilme(tFilme *filme, int codigo){
     filme=CriarFilme();
     filme->cod=codigo;
-    scanf(",%[^,],%d,%d",filme->nome,filme->valor,filme->qntdEstoque);
+    scanf("%[^,],%d,%d",filme->nome,&filme->valor,&filme->qntdEstoque);
 }
 
 /**

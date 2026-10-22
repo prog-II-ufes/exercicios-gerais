@@ -19,8 +19,8 @@ CHECKANDO OS ARQUIVOS DO ALUNO:
  - Arquivo esperado 'Respostas/ThiagoDelfino/filme.h' encontrado!
  - Arquivo esperado 'Respostas/ThiagoDelfino/locadora.c' encontrado!
  - Arquivo esperado 'Respostas/ThiagoDelfino/locadora.h' encontrado!
- - Arquivo esperado 'Respostas/ThiagoDelfino/main.c' não encontrado!
- - Arquivos esperados enviados: Faltando!
+ - Arquivo esperado 'Respostas/ThiagoDelfino/main.c' encontrado!
+ - Arquivos esperados enviados: Ok!
 
 COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
  - Pasta main:
@@ -52,15 +52,14 @@ COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
  - Arquivos copiados: ok!
 
 COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
- - Erro de compilação! Verifique os arquivos da pasta main.
+ - Compilação dos arquivos do aluno na pasta main ok!
+ - Arquivo de output gerado: Resultados/ThiagoDelfino/main/result_compilation.txt
  - Compilação dos arquivos do aluno na pasta completo ok!
  - Arquivo de output gerado: Resultados/ThiagoDelfino/completo/result_compilation.txt
  - Compilação dos arquivos do aluno na pasta locadora ok!
  - Arquivo de output gerado: Resultados/ThiagoDelfino/locadora/result_compilation.txt
  - Compilação dos arquivos do aluno na pasta filme ok!
  - Arquivo de output gerado: Resultados/ThiagoDelfino/filme/result_compilation.txt
- - Arquivos Compilados: Erro!: 1 arquivos com erros de compilacao.
-
  - Arquivos Compilados: ok!
 
 LINKANDO OS ARQUIVOS COMPILADOS:
@@ -319,97 +318,97 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  -----
  - Pasta filme / Caso 1:
  - Arquivo de output gerado: Resultados/ThiagoDelfino/filme/Casos/1/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 8, frees: 6, errors: 1 | Desconto do valgrind 50.00%
+ - Valgrind: Incorreto! allocs: 4, frees: 0, errors: 1 | Desconto do valgrind 50.00%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
  - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta filme / Caso 10:
  - Arquivo de output gerado: Resultados/ThiagoDelfino/filme/Casos/10/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 12, frees: 8, errors: 1 | Desconto do valgrind 50.00%
+ - Valgrind: Incorreto! allocs: 4, frees: 0, errors: 1 | Desconto do valgrind 50.00%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
  - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta filme / Caso 11:
  - Arquivo de output gerado: Resultados/ThiagoDelfino/filme/Casos/11/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 8, frees: 6, errors: 1 | Desconto do valgrind 50.00%
+ - Valgrind: Incorreto! allocs: 4, frees: 0, errors: 1 | Desconto do valgrind 50.00%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
  - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta filme / Caso 12:
  - Arquivo de output gerado: Resultados/ThiagoDelfino/filme/Casos/12/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 8, frees: 6, errors: 1 | Desconto do valgrind 50.00%
+ - Valgrind: Incorreto! allocs: 4, frees: 0, errors: 1 | Desconto do valgrind 50.00%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
  - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta filme / Caso 13:
  - Arquivo de output gerado: Resultados/ThiagoDelfino/filme/Casos/13/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 8, frees: 6, errors: 1 | Desconto do valgrind 50.00%
+ - Valgrind: Incorreto! allocs: 4, frees: 0, errors: 1 | Desconto do valgrind 50.00%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
  - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta filme / Caso 14:
  - Arquivo de output gerado: Resultados/ThiagoDelfino/filme/Casos/14/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 12, frees: 8, errors: 1 | Desconto do valgrind 50.00%
+ - Valgrind: Incorreto! allocs: 4, frees: 0, errors: 1 | Desconto do valgrind 50.00%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
  - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta filme / Caso 15:
  - Arquivo de output gerado: Resultados/ThiagoDelfino/filme/Casos/15/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 8, frees: 6, errors: 1 | Desconto do valgrind 50.00%
+ - Valgrind: Incorreto! allocs: 4, frees: 0, errors: 1 | Desconto do valgrind 50.00%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
  - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta filme / Caso 16:
  - Arquivo de output gerado: Resultados/ThiagoDelfino/filme/Casos/16/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 8, frees: 6, errors: 1 | Desconto do valgrind 50.00%
+ - Valgrind: Incorreto! allocs: 4, frees: 0, errors: 1 | Desconto do valgrind 50.00%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
  - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta filme / Caso 17:
  - Arquivo de output gerado: Resultados/ThiagoDelfino/filme/Casos/17/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 8, frees: 6, errors: 1 | Desconto do valgrind 50.00%
+ - Valgrind: Incorreto! allocs: 4, frees: 0, errors: 1 | Desconto do valgrind 50.00%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
  - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta filme / Caso 18:
  - Arquivo de output gerado: Resultados/ThiagoDelfino/filme/Casos/18/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 12, frees: 8, errors: 1 | Desconto do valgrind 50.00%
+ - Valgrind: Incorreto! allocs: 4, frees: 0, errors: 1 | Desconto do valgrind 50.00%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
  - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta filme / Caso 19:
  - Arquivo de output gerado: Resultados/ThiagoDelfino/filme/Casos/19/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 12, frees: 8, errors: 1 | Desconto do valgrind 50.00%
+ - Valgrind: Incorreto! allocs: 4, frees: 0, errors: 1 | Desconto do valgrind 50.00%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
  - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta filme / Caso 2:
  - Arquivo de output gerado: Resultados/ThiagoDelfino/filme/Casos/2/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 8, frees: 6, errors: 1 | Desconto do valgrind 50.00%
+ - Valgrind: Incorreto! allocs: 4, frees: 0, errors: 1 | Desconto do valgrind 50.00%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
  - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta filme / Caso 3:
  - Arquivo de output gerado: Resultados/ThiagoDelfino/filme/Casos/3/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 8, frees: 6, errors: 1 | Desconto do valgrind 50.00%
+ - Valgrind: Incorreto! allocs: 4, frees: 0, errors: 1 | Desconto do valgrind 50.00%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
  - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta filme / Caso 4:
  - Arquivo de output gerado: Resultados/ThiagoDelfino/filme/Casos/4/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 8, frees: 6, errors: 1 | Desconto do valgrind 50.00%
+ - Valgrind: Incorreto! allocs: 4, frees: 0, errors: 1 | Desconto do valgrind 50.00%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
  - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta filme / Caso 5:
  - Arquivo de output gerado: Resultados/ThiagoDelfino/filme/Casos/5/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 8, frees: 6, errors: 1 | Desconto do valgrind 50.00%
+ - Valgrind: Incorreto! allocs: 4, frees: 0, errors: 1 | Desconto do valgrind 50.00%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
  - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta filme / Caso 6:
  - Arquivo de output gerado: Resultados/ThiagoDelfino/filme/Casos/6/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 8, frees: 6, errors: 1 | Desconto do valgrind 50.00%
+ - Valgrind: Incorreto! allocs: 4, frees: 0, errors: 1 | Desconto do valgrind 50.00%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
  - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta filme / Caso 7:
  - Arquivo de output gerado: Resultados/ThiagoDelfino/filme/Casos/7/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 8, frees: 6, errors: 1 | Desconto do valgrind 50.00%
+ - Valgrind: Incorreto! allocs: 4, frees: 0, errors: 1 | Desconto do valgrind 50.00%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
  - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta filme / Caso 8:
  - Arquivo de output gerado: Resultados/ThiagoDelfino/filme/Casos/8/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 8, frees: 6, errors: 1 | Desconto do valgrind 50.00%
+ - Valgrind: Incorreto! allocs: 4, frees: 0, errors: 1 | Desconto do valgrind 50.00%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
  - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta filme / Caso 9:
  - Arquivo de output gerado: Resultados/ThiagoDelfino/filme/Casos/9/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 8, frees: 6, errors: 1 | Desconto do valgrind 50.00%
+ - Valgrind: Incorreto! allocs: 4, frees: 0, errors: 1 | Desconto do valgrind 50.00%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
  - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
  - Nota para a pasta filme (máximo 2.50) - 0 de 190 - 0% de 2.50: 0.
@@ -421,8 +420,8 @@ RESULTADOS FINAIS
 
 ----------------------------------------------------------------------------
 Aluno: ThiagoDelfino
- - Arquivos Esperados Corretos: 4 de 5
- - Pastas Compiladas Corretamente: 3 de 4 
+ - Arquivos Esperados Corretos: 5 de 5
+ - Pastas Compiladas Corretamente: 4 de 4 
  - Pastas Linkadas Corretamente: 1 de 4
  - Teste main
  - Resultados corretos: 0 de 19

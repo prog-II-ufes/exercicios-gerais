@@ -23,7 +23,7 @@ tLocadora* CriarLocadora (){
         if(indice=='#')
             break;
         int cod;
-        scanf("%d",&cod);
+        scanf("%d,",&cod);
         LeFilme(locadora->filmes[i],cod);
         i++;
     }
@@ -43,7 +43,7 @@ void DestruirLocadora (tLocadora* locadora){
         for(int i=0;i<MAX_FILMES;i++){
             DestruirFilme(locadora->filmes[i]);
         }
-        DestruirFilme(locadora->filmes);
+        free(locadora->filmes);
         free(locadora);
     }
 }

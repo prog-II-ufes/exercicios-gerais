@@ -1,27 +1,43 @@
-==320459== Memcheck, a memory error detector
-==320459== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
-==320459== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
-==320459== Command: Resultados/ThiagoDelfino/filme/prog Resultados/ThiagoDelfino/filme/Casos/14
-==320459== Parent PID: 320458
-==320459== 
-==320459== 
-==320459== HEAP SUMMARY:
-==320459==     in use at exit: 104 bytes in 4 blocks
-==320459==   total heap usage: 12 allocs, 8 frees, 8,424 bytes allocated
-==320459== 
-==320459== 104 (64 direct, 40 indirect) bytes in 2 blocks are definitely lost in loss record 2 of 2
-==320459==    at 0x484D953: calloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==320459==    by 0x1092A3: CriarFilme (in /home/teadelfino/Documents/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/ThiagoDelfino/filme/prog)
-==320459==    by 0x109318: LeFilme (in /home/teadelfino/Documents/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/ThiagoDelfino/filme/prog)
-==320459==    by 0x10978E: LerCadastroLocadora (in /home/teadelfino/Documents/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/ThiagoDelfino/filme/prog)
-==320459==    by 0x109FBF: main (in /home/teadelfino/Documents/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/ThiagoDelfino/filme/prog)
-==320459== 
-==320459== LEAK SUMMARY:
-==320459==    definitely lost: 64 bytes in 2 blocks
-==320459==    indirectly lost: 40 bytes in 2 blocks
-==320459==      possibly lost: 0 bytes in 0 blocks
-==320459==    still reachable: 0 bytes in 0 blocks
-==320459==         suppressed: 0 bytes in 0 blocks
-==320459== 
-==320459== For lists of detected and suppressed errors, rerun with: -s
-==320459== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+==369262== Memcheck, a memory error detector
+==369262== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==369262== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==369262== Command: Resultados/ThiagoDelfino/filme/prog Resultados/ThiagoDelfino/filme/Casos/14
+==369262== Parent PID: 369261
+==369262== 
+==369262== Invalid write of size 4
+==369262==    at 0x48EA146: __vfscanf_internal (vfscanf-internal.c:1976)
+==369262==    by 0x48D9EC5: __isoc99_scanf (isoc99_scanf.c:30)
+==369262==    by 0x109321: LeFilme (in /home/teadelfino/Documents/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/ThiagoDelfino/filme/prog)
+==369262==    by 0x10975D: LerCadastroLocadora (in /home/teadelfino/Documents/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/ThiagoDelfino/filme/prog)
+==369262==    by 0x109F8E: main (in /home/teadelfino/Documents/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/ThiagoDelfino/filme/prog)
+==369262==  Address 0x0 is not stack'd, malloc'd or (recently) free'd
+==369262== 
+==369262== 
+==369262== Process terminating with default action of signal 11 (SIGSEGV)
+==369262==  Access not within mapped region at address 0x0
+==369262==    at 0x48EA146: __vfscanf_internal (vfscanf-internal.c:1976)
+==369262==    by 0x48D9EC5: __isoc99_scanf (isoc99_scanf.c:30)
+==369262==    by 0x109321: LeFilme (in /home/teadelfino/Documents/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/ThiagoDelfino/filme/prog)
+==369262==    by 0x10975D: LerCadastroLocadora (in /home/teadelfino/Documents/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/ThiagoDelfino/filme/prog)
+==369262==    by 0x109F8E: main (in /home/teadelfino/Documents/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/ThiagoDelfino/filme/prog)
+==369262==  If you believe this happened as a result of a stack
+==369262==  overflow in your program's main thread (unlikely but
+==369262==  possible), you can try to increase the size of the
+==369262==  main thread stack using the --main-stacksize= flag.
+==369262==  The main thread stack size used in this run was 8388608.
+==369262== 
+==369262== HEAP SUMMARY:
+==369262==     in use at exit: 4,164 bytes in 4 blocks
+==369262==   total heap usage: 4 allocs, 0 frees, 4,164 bytes allocated
+==369262== 
+==369262== LEAK SUMMARY:
+==369262==    definitely lost: 0 bytes in 0 blocks
+==369262==    indirectly lost: 0 bytes in 0 blocks
+==369262==      possibly lost: 0 bytes in 0 blocks
+==369262==    still reachable: 4,164 bytes in 4 blocks
+==369262==         suppressed: 0 bytes in 0 blocks
+==369262== Reachable blocks (those to which a pointer was found) are not shown.
+==369262== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==369262== 
+==369262== For lists of detected and suppressed errors, rerun with: -s
+==369262== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

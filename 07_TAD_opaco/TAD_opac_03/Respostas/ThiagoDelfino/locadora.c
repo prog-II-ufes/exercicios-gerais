@@ -23,7 +23,7 @@ tLocadora* CriarLocadora (){
         if(indice=='#')
             break;
         int cod;
-        scanf("%d",&cod);
+        scanf("%d,",&cod);
         LeFilme(locadora->filmes[i],cod);
         i++;
     }
