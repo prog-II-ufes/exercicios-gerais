@@ -4,7 +4,6 @@ MAE: NAO INFORMADO
 
 NOME COMPLETO: Lucas Pereira
 PAI: NAO INFORMADO
-
 MAE: Sofia Pereira
 
 NOME COMPLETO: Isabela Alves
@@ -17,6 +16,5 @@ MAE: Laura Rodrigues
 
 NOME COMPLETO: Felipe Oliveira
 PAI: NAO INFORMADO
-
 MAE: Ana Oliveira
 
