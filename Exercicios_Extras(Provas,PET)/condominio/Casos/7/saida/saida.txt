@@ -1,0 +1,32 @@
+--------- RESERVA -----------
+Morador: 
+Nome: Vayne Rodrigues
+CPF: 543.210.876-54
+Data de Nascimento: 26/9/1990
+Residência: 204-A
+
+Area reservada: 
+Nome: Area Verde
+Id: AV1
+Capacidade: 100 convidado(s)
+Data da reserva: 9/10/2025
+
+Quantidade de convidados: 90
+Taxa de ocupação: 90%
+------------------------------
+--------- RESERVA -----------
+Morador: 
+Nome: Yasuo Almeida
+CPF: 456.789.123-32
+Data de Nascimento: 9/11/1989
+Residência: 109-D
+
+Area reservada: 
+Nome: Churrasqueira
+Id: Chu1
+Capacidade: 40 convidado(s)
+Data da reserva: 8/5/2025
+
+Quantidade de convidados: 40
+Taxa de ocupação: 100%
+------------------------------

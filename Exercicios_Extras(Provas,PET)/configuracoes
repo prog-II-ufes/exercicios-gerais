@@ -1,0 +1,87 @@
+# Arquivo de configuração do script de correção automática v2
+# Comentários são precedidos por #
+#
+# Na secao Arquivos, defina os arquivos de saida que devem ser testados pelo programa. (OBRIGATÓRIO)
+# O script redireciona a saída padrão para o arquivo "saida.txt". Então, se quiser considerar a saída padrão do seu programa
+# Mantenha a linha "saida.txt" na seção arquivos.
+# Para o caso de outros arquivos, o aluno deve salvar o arquivo corretamente na subpasta "saida" da pasta passada via primeiro argumento: argv[1]/saida
+# O intervalo de valores é livre (na teoria), pois após os testes as notas são normalizadas de 0 a 1.
+# Isto é, se o aluno acertar o saida.txt mas não o teste.txt no exemplo abaixo, ele terá nota 5/15 = 0,33.
+#
+# Na seção Validações, defina as validações que você quer fazer (OBRIGATÓRIO)
+# A palavra "completo" é reservada significa que você quer testar o código completo do aluno. 
+# Desta forma, não é permitido que tenha um arquivo completo.c no exercício a ser enviado aos alunos.
+# Exemplo abaixo serve para um problema com solução onde existem os arquivos "main.c" e "ponto.c".
+# Retirar "ponto" significa que você não quer VALIDAR a modularização do código "ponto.c/ponto.h" do aluno.
+# Validar o código "completo" do aluno significa testar se ele funciona da forma esperada.
+# A validação da implementação do "ponto" do aluno é feita da seguinte forma:
+#   Outros código do professor + ponto.c do aluno (que será compilado e linkado) aos objs do professor. E os demais testes serão feitos
+# Os valores também são livres, na teoria (ver seção "Nota" abaixo).
+# A nota de um teste é a % dos arquivos acertados em todos os casos (levando em consideração os pesos acima) multiplicado pela nota máxima definida abaixo.
+#
+# Na seção Valgrind, defina se você quer usar o valgrind ou não.
+# Comentar a seção valgrind significa que você não quer testar o programa com o valgrind.
+# A opção desconto serve para dizer o quanto de pontuação você quer tirar do aluno caso haja problemas de vazamento de memória.
+# O valor padrão para o desconto é de 0.5.
+#
+# Na seção Nota, defina como você quer calcular a nota do aluno. Utilize os campos que você definiu na seção "Validações"
+# (além do "completo", que é adicionado automaticamente caso não seja definido) para definir a nota. 
+# Utilize a sintaxe aceita pelo programa "bc" para definir sua nota.
+# Teste se a conta irá funcionar antes no terminal de um linux qualquer: digitando
+# echo "scale=2; EQUAÇÃO_QUE_VOCÊ_DESEJA" | bc
+# (Utilize números no lugar das variáveis)
+# Essa seção é opcional, e caso você opte por não definir uma nota, o script irá somar as notas de cada validação.
+#
+# A opção "IgnoraResultados" deve ser descomentada caso você não queira levar os arquivos de saída em consideração (herdado do script original)
+#
+# A opção "InterfaceFixa" garante que apenas os .c/.h definidos pelo professor sejam considerados nos testes realizados pelo script.
+# Caso ela seja comentada, o script irá utilizar outros .c/.h do aluno em seus testes.
+#
+# A seção LimiteTempo define o tempo máximo que o programa do aluno pode executar (para evitar que o script trave em loops infinitos)
+#
+# A opção "MainAgrupada" define que o professor quer agrupar todos os TADs não listados na seção "Validações" em um arquivo objeto único "main.o".
+# Essa opção é mais utilizada em Trabalhos e tem duas características:
+# 1)    Não deve ser usada com a opção InterfaceFixa - O aluno irá implementar as coisas que estão agrupadas na main.o do jeito dele, e portanto o
+#       script deve aceitar arquivos de interface não esperados.
+# 2)    O aluno não pode alterar nem incluir nada "extra" (includes apenas de bibliotecas do C) nas implementações dos TADs listados em "Validações".
+#       Caso contrário a chance de dar "múltiplas definições" de funções será alta.
+#
+# A opção "ContinuaCorrecao" diz para o script continuar a correção de onde parou, avaliando apenas os que ainda não foram avaliados.
+# O indicativo que a avaliação de um aluno foi finalizada é a existência de um arquivo resultados.txt na pasta
+# Resultados/nome_do_aluno. Caso essa opção não exista no arquivo de configurações (ou esteja comentada), os códigos de todas as subpastas
+# presentes na pasta Respostas serão avaliados.
+#
+# A opção "NaoRedirecionaStdOut" serve para dizer para o script não gerar um arquivo de saida.txt com a saída padrão.
+# Cuidado, se essa opção estiver presente (e não comentada) no arquivo de configurações, e o programa avaliar o arquivo "saida.txt"
+# (Na seção Arquivos) o script não irá executar. Caso ela esteja presente, toda a saída padrão será descartada.
+
+
+
+Arquivos
+    saida.txt=10.0
+#    receita.txt=1.0
+#    biopsia.txt=1.0
+#    encaminhamento.txt=1.0
+#    lista_busca.txt=3.0
+#    relatorio_geral.txt=4.0
+
+Validações
+#    main=7.5
+#    tDocumento=1.0
+#    tFila=1.0
+#    tReceita=0.5
+    completo=10.0
+
+Valgrind
+    desconto=0.4 # 40% de desconto se vazar memoria
+
+#Nota
+    #main
+    #(main+ponto)/2
+
+#IgnoraResultados
+#InterfaceFixa
+LimiteTempo=30
+#MainAgrupada
+#ContinuaCorrecao
+#NaoRedirecionaStdOut

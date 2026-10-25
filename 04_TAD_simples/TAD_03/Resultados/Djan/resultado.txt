@@ -1,0 +1,21 @@
+Arquivos Esperados Corretos: 5 de 5
+Pastas Compiladas Corretamente: 4 de 4 
+Pastas Linkadas Corretamente: 4 de 4
+Teste main
+  - Resultados corretos: 0 de 19
+  - Valgrinds corretos: 19 de 19
+Nota de Djan para o teste main: 0
+Teste completo
+  - Resultados corretos: 0 de 19
+  - Valgrinds corretos: 19 de 19
+Nota de Djan para o teste completo: 0
+Teste locadora
+  - Resultados corretos: 0 de 19
+  - Valgrinds corretos: 0 de 19
+Nota de Djan para o teste locadora: 0
+Teste filme
+  - Resultados corretos: 19 de 19
+  - Valgrinds corretos: 19 de 19
+Nota de Djan para o teste filme: 2.50
+Nota de Djan: 0+(0)+(0)+(0)+(2.50)
+Nota de Djan: 2.50

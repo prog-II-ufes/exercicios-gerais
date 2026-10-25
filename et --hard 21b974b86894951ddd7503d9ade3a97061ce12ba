@@ -1,0 +1,283 @@
+[33mcommit 03582c68738fae303682935054b719b6b8075611[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 21b974b 69520b0
+Author: djanferreira-dotcom <djan.ferreira@edu.ufes.br>
+Date:   Tue Oct 20 13:42:40 2026 -0300
+
+    Merge branch 'prog-II-ufes:main' into main
+
+[33mcommit 69520b0fcc1ddf29e0df9ea1dd74f1e6da13802e[m
+Author: jhonatanleao <jhony_leao@hotmail.com>
+Date:   Mon Oct 19 13:13:56 2026 -0300
+
+    atualizacao nos pdfs e atualizacoes em alguns exercicios de 08_TAD_generico e 09_arquivo_binario
+
+[33mcommit 21b974b86894951ddd7503d9ade3a97061ce12ba[m
+Author: Djan <djan.ferreira@edu.ufes.br>
+Date:   Thu Oct 15 14:03:15 2026 -0300
+
+    Respondendo
+
+[33mcommit ed606442b60447bf058fa98c5f8454c51b0933a5[m
+Author: jhonatanleao <jhony_leao@hotmail.com>
+Date:   Wed Oct 7 09:27:40 2026 -0300
+
+    ajustes no TAD opaco e no filmes.h do TAD dinamico
+
+[33mcommit 0a85694497081ff7de2365012289adbd75e1e964[m
+Author: Djan <djan.ferreira@edu.ufes.br>
+Date:   Tue Oct 6 14:48:10 2026 -0300
+
+    Trabalhando
+
+[33mcommit 9ced47d6ed7ccdf9190ce1c812d82b09df1c3fa3[m
+Author: Djan <djan.ferreira@edu.ufes.br>
+Date:   Tue Oct 6 14:27:06 2026 -0300
+
+    Resolvendo
+
+[33mcommit 927c6dfb5d8d4a9ed3e244c75acc90c2b96c281c[m
+Author: Djan <djan.ferreira@edu.ufes.br>
+Date:   Tue Oct 6 14:08:59 2026 -0300
+
+    Resposta
+
+[33mcommit c35558158398f7bcb3119d9ebc01e7a238d7db62[m
+Author: Djan <djan.ferreira@edu.ufes.br>
+Date:   Fri Oct 2 10:53:07 2026 -0300
+
+    Resolvido
+
+[33mcommit 60fc63244c5cdbfab21a37fc63fef117c2c10f06[m
+Author: Djan <djan.ferreira@edu.ufes.br>
+Date:   Fri Oct 2 10:10:26 2026 -0300
+
+    Resolvido + lógica
+
+[33mcommit 37a330462a91db8c40fc435572f536d82d15663e[m
+Author: Djan <djan.ferreira@edu.ufes.br>
+Date:   Fri Oct 2 09:42:55 2026 -0300
+
+    Resolvido
+
+[33mcommit b694eae22b2fe665262dbce3542cadfbd9a71cd9[m
+Author: jhonatanleao <jhony_leao@hotmail.com>
+Date:   Wed Sep 23 12:55:01 2026 -0300
+
+    atualizacao nos pdfs e atualizacoes em alguns exercicios de 06_alocacao_dinamica
+
+[33mcommit 485c1fa41aaf8200a6041e93d527c61c933d21e5[m
+Author: Djan <djan.ferreira@edu.ufes.br>
+Date:   Tue Sep 22 14:39:44 2026 -0300
+
+    Resolvendo
+
+[33mcommit 381f6593a0f34085131d352dd26cf0134b2e64a3[m
+Author: Djan <djan.ferreira@edu.ufes.br>
+Date:   Tue Sep 22 14:33:47 2026 -0300
+
+    Resolvendo
+
+[33mcommit 88a01adc4029f1b4a32c12509a7f26f15451d1a6[m
+Author: Djan <djan.ferreira@edu.ufes.br>
+Date:   Tue Sep 22 14:21:13 2026 -0300
+
+    Resolvendo conflitos de merge
+
+[33mcommit 80de6ec0e6c045d5996d5b2687aa3f8b9aa0147f[m
+Author: Djan <djan.ferreira@edu.ufes.br>
+Date:   Tue Sep 22 14:21:00 2026 -0300
+
+    Resolvendo conflitos de merge
+
+[33mcommit a28fac45b3bab98f436da4e1f74f1f4d0f370a4d[m
+Merge: 7d835ce b832f42
+Author: Djan <djan.ferreira@edu.ufes.br>
+Date:   Tue Sep 22 14:20:36 2026 -0300
+
+    Merge branch 'main' of github.com:djanferreira-dotcom/RespostaMinhas_Prog2_Exerc-cos
+
+[33mcommit 7d835ceab25dd924bfb3d32485f50b90db115b16[m
+Author: Djan <djan.ferreira@edu.ufes.br>
+Date:   Tue Sep 22 14:18:52 2026 -0300
+
+    Pronto
+
+[33mcommit b832f42e0214045f229a2fc36fddf1b9365544be[m
+Author: djanferreira-dotcom <djan.ferreira@edu.ufes.br>
+Date:   Tue Sep 22 14:16:09 2026 -0300
+
+    Add files via upload
+
+[33mcommit 91762d5757caf252d543ebf616ccb6ef4776d20d[m
+Author: jhonatanleao <jhony_leao@hotmail.com>
+Date:   Tue Sep 22 12:35:10 2026 -0300
+
+    correcao no pdf do pont_14
+
+[33mcommit 0b51e868071d84474aede4b0fc2982347e0758ae[m
+Author: djanferreira-dotcom <djan.ferreira@edu.ufes.br>
+Date:   Tue Sep 22 11:48:44 2026 -0300
+
+    Add files via upload
+
+[33mcommit 934cfdc0636049097965722604c61610e3941572[m
+Author: jhonatanleao <jhony_leao@hotmail.com>
+Date:   Mon Sep 21 15:30:00 2026 -0300
+
+    atualizando o PDF do exercicios de ponteiros e alocacao dinamica/01_geral e a correcao no utils.h do pont_01
+
+[33mcommit 589db671cf2b482351ea3c912284883c49259a4e[m
+Author: djanferreira-dotcom <djan.ferreira@edu.ufes.br>
+Date:   Thu Sep 17 14:46:08 2026 -0300
+
+    Add files via upload
+
+[33mcommit 43964617474caa4015532ff0200cf08fb754abd6[m
+Author: djanferreira-dotcom <djan.ferreira@edu.ufes.br>
+Date:   Thu Sep 17 14:23:42 2026 -0300
+
+    Add files via upload
+
+[33mcommit e8f8e96ac68d258647a0c3cc03136a2f8e813520[m
+Author: djanferreira-dotcom <djan.ferreira@edu.ufes.br>
+Date:   Tue Sep 15 14:49:08 2026 -0300
+
+    Add files via upload
+
+[33mcommit 174231e1caa8686867d861a24f246d142fb4c832[m
+Author: Djan <djan.ferreira@edu.ufes.br>
+Date:   Thu Sep 10 11:51:03 2026 -0300
+
+    Falta terminar
+
+[33mcommit 7440204122a7a919f91debcce893488b84342f2b[m
+Author: Djan <djan.ferreira@edu.ufes.br>
+Date:   Thu Sep 10 10:53:25 2026 -0300
+
+    Trabalhar e entender os conceitos
+
+[33mcommit a48b9b7e4ea9da741c23f7806b8115fcf4b4eb37[m
+Author: Djan <djan.ferreira@edu.ufes.br>
+Date:   Thu Sep 10 10:52:56 2026 -0300
+
+    Pronto
+
+[33mcommit 5a602f78c6f8166f7ab5fa979f8f6f9088946e63[m
+Author: Djan <djan.ferreira@edu.ufes.br>
+Date:   Thu Sep 10 10:51:26 2026 -0300
+
+    Quase pronto
+
+[33mcommit 3ea7198142826deaeb2ed2225874ca90ec181d0d[m
+Merge: a8f324d 347ba73
+Author: djanferreira-dotcom <djan.ferreira@edu.ufes.br>
+Date:   Thu Sep 10 09:12:37 2026 -0300
+
+    Merge pull request #1 from djanferreira-dotcom/master
+    
+    Master
+
+[33mcommit 347ba73d3f385947944bff5a527f0fd5f2c770ac[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Djan <djan.ferreira@edu.ufes.br>
+Date:   Wed Sep 9 19:06:43 2026 -0300
+
+    Atualização
+
+[33mcommit b71043bd4671b84a6b0a870ab516d16ce9609c9f[m
+Merge: bd7215f 2d185d1
+Author: Djan <djan.ferreira@edu.ufes.br>
+Date:   Wed Sep 9 18:53:32 2026 -0300
+
+    Merge branch 'master' of github.com:djanferreira-dotcom/RespostaMinhas_Prog2_Exerc-cos
+
+[33mcommit bd7215fd95d70a9c2e1dbbf2252a675b3645cd17[m
+Author: Djan <djan.ferreira@edu.ufes.br>
+Date:   Wed Sep 9 18:50:34 2026 -0300
+
+    Pronto
+
+[33mcommit 59d6a7eb12960c21c146a8d101967bdcaa81c670[m
+Author: Djan <djan.ferreira@edu.ufes.br>
+Date:   Wed Sep 9 15:06:57 2026 -0300
+
+    Pronto
+
+[33mcommit a8f324d0398d4b9fceba1d2cc3bdb3e516d0be08[m
+Author: Djan <djan.ferreira@edu.ufes.br>
+Date:   Wed Sep 9 12:38:18 2026 -0300
+
+    Quase pronto
+
+[33mcommit 8a519110351132a5e657255d7f7448f611813546[m
+Author: Djan <djan.ferreira@edu.ufes.br>
+Date:   Wed Sep 9 11:55:55 2026 -0300
+
+    Trabalhando
+
+[33mcommit d3efd7acc67ce8aadb960041b52fe19c65e24381[m
+Author: Djan <djan.ferreira@edu.ufes.br>
+Date:   Tue Sep 8 18:42:10 2026 -0300
+
+    Trabalhando
+
+[33mcommit 83972f33470877b7cb9db422f9ee7579c7b9edc8[m
+Author: Djan <djan.ferreira@edu.ufes.br>
+Date:   Tue Sep 8 18:13:43 2026 -0300
+
+    Trabalhando
+
+[33mcommit 2e7b41a118dd0c4a0716f6c48a65906ba7f4c25a[m
+Author: jhonatanleao <jhony_leao@hotmail.com>
+Date:   Sun Sep 6 22:16:47 2026 -0300
+
+    pequenas correcoes e traducao de alguns termos de bibli_02, bibli_05, TAD_03 e TAD_06
+
+[33mcommit c154d039939ea51d5b907b4b214c8cf334987d05[m
+Author: Djan <djan.ferreira@edu.ufes.br>
+Date:   Thu Sep 3 14:56:22 2026 -0300
+
+    Indo
+
+[33mcommit 78010704deb91b1a19b372d2fd414a1396408e4d[m
+Author: Djan <djan.ferreira@edu.ufes.br>
+Date:   Wed Sep 2 11:55:52 2026 -0300
+
+    Em prgresso...
+
+[33mcommit c5426c9fb55bad0a4ed81e4246ac9a2e87e81f80[m
+Author: Djan <djan.ferreira@edu.ufes.br>
+Date:   Wed Sep 2 11:22:16 2026 -0300
+
+    Pronto
+
+[33mcommit 27d4c8eac87ccadcd3610e7ce9e7d396b1654d72[m
+Author: Djan <djan.ferreira@edu.ufes.br>
+Date:   Tue Sep 1 15:02:28 2026 -0300
+
+    Quase Pronto
+
+[33mcommit 857c86406a1809917e628bbd600843726936f9f3[m
+Author: jhonatanleao <jhony_leao@hotmail.com>
+Date:   Tue Sep 1 12:38:38 2026 -0300
+
+    Retirando callback do bibli_06
+
+[33mcommit 79487685a60ae4058c42a5786b1e52b5ad5a806d[m
+Author: Djan <djan.ferreira@edu.ufes.br>
+Date:   Tue Sep 1 11:36:09 2026 -0300
+
+    Pronto
+
+[33mcommit c5f9adeef92c04361c4c7729fe0e824b308b42fb[m
+Author: Djan <djan.ferreira@edu.ufes.br>
+Date:   Tue Sep 1 11:33:03 2026 -0300
+
+    Pronto
+
+[33mcommit f674106362019437492f2cf4b51604ddcd424b31[m
+Author: Djan <djan.ferreira@edu.ufes.br>
+Date:   Tue Sep 1 10:47:02 2026 -0300
+
+    Completo
+
+[33mcommit ebdb0ecf62341f45b8f5ca5

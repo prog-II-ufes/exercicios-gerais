@@ -1,0 +1,15 @@
+Cadastrar
+1,Hannibal,10,1
+2,Tomb Raider,5,1
+3,Sword Fish,8,1
+#
+Alugar
+2
+1
+#
+Devolver
+2
+1
+#
+Estoque
+#

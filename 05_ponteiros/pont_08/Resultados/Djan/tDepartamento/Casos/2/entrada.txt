@@ -1,0 +1,13 @@
+2
+Informatica
+Patricia
+CC
+EC
+SI
+9 8 7
+Eletrica
+Eliete
+Potencia
+Eletronica
+Telecom
+7 7 7

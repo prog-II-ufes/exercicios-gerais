@@ -1,0 +1,6 @@
+Filme cadastrado 2 - Shrek
+Filme cadastrado 1 - Donnie Darko
+
+~ESTOQUE~
+1 - Donnie Darko Fitas em estoque: 2
+2 - Shrek Fitas em estoque: 1

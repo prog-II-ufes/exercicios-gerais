@@ -1,0 +1,42 @@
+==211480== Memcheck, a memory error detector
+==211480== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==211480== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==211480== Command: Resultados/Djan/eleicao/prog Resultados/Djan/eleicao/Casos/8
+==211480== Parent PID: 211478
+==211480== 
+==211480== Use of uninitialised value of size 8
+==211480==    at 0x109660: InicializaEleicao (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/04_TAD_simples/TAD_02/Resultados/Djan/eleicao/prog)
+==211480==    by 0x109B27: main (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/04_TAD_simples/TAD_02/Resultados/Djan/eleicao/prog)
+==211480== 
+==211480== Invalid write of size 8
+==211480==    at 0x109660: InicializaEleicao (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/04_TAD_simples/TAD_02/Resultados/Djan/eleicao/prog)
+==211480==    by 0x109B27: main (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/04_TAD_simples/TAD_02/Resultados/Djan/eleicao/prog)
+==211480==  Address 0x1f8efdee50 is not stack'd, malloc'd or (recently) free'd
+==211480== 
+==211480== 
+==211480== Process terminating with default action of signal 11 (SIGSEGV)
+==211480==  Access not within mapped region at address 0x1F8EFDEE50
+==211480==    at 0x109660: InicializaEleicao (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/04_TAD_simples/TAD_02/Resultados/Djan/eleicao/prog)
+==211480==    by 0x109B27: main (in /home/dcmfjunior/Downloads/RespostaMinhas_Prog2_Exerc-cos/04_TAD_simples/TAD_02/Resultados/Djan/eleicao/prog)
+==211480==  If you believe this happened as a result of a stack
+==211480==  overflow in your program's main thread (unlikely but
+==211480==  possible), you can try to increase the size of the
+==211480==  main thread stack using the --main-stacksize= flag.
+==211480==  The main thread stack size used in this run was 8388608.
+==211480== 
+==211480== HEAP SUMMARY:
+==211480==     in use at exit: 4,096 bytes in 1 blocks
+==211480==   total heap usage: 1 allocs, 0 frees, 4,096 bytes allocated
+==211480== 
+==211480== LEAK SUMMARY:
+==211480==    definitely lost: 0 bytes in 0 blocks
+==211480==    indirectly lost: 0 bytes in 0 blocks
+==211480==      possibly lost: 0 bytes in 0 blocks
+==211480==    still reachable: 4,096 bytes in 1 blocks
+==211480==         suppressed: 0 bytes in 0 blocks
+==211480== Reachable blocks (those to which a pointer was found) are not shown.
+==211480== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==211480== 
+==211480== Use --track-origins=yes to see where uninitialised values come from
+==211480== For lists of detected and suppressed errors, rerun with: -s
+==211480== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)

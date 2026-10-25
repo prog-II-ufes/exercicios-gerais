@@ -1,0 +1,15 @@
+Filme cadastrado 1 - Hannibal
+Filme cadastrado 2 - Tomb Raider
+Filme cadastrado 3 - Sword Fish
+
+~ESTOQUE~
+1 - Hannibal Fitas em estoque: 1
+3 - Sword Fish Fitas em estoque: 1
+2 - Tomb Raider Fitas em estoque: 1
+
+Total de filmes alugados: 2 com custo de R$15
+
+~ESTOQUE~
+1 - Hannibal Fitas em estoque: 0
+3 - Sword Fish Fitas em estoque: 1
+2 - Tomb Raider Fitas em estoque: 0
