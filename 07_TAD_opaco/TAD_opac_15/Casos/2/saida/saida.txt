@@ -3,4 +3,4 @@ Quantidade de descartadas: 0
 Quantidade de lutas: 4
 Lutas que foram desempatadas: 0
 Carta mais vitoriosa: Dragao Mestre
-Luta com Maior Diferença: 2
+Luta com Maior Diferenca: 2

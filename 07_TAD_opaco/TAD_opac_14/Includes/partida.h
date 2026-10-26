@@ -14,56 +14,55 @@
 #define TIME_FORA 2
 
 /**
- * @brief Estrutura que representa uma partida.
- * 
- * A estrutura partida contém informações sobre os times que jogaram e o vencedor da partida.
- * 
+ * @brief Tamanho dos vetores usados para ler nomes de times e de conferências:
+ * até 32 caracteres (+1 para o '\0').
  */
-typedef struct partida * tPartida;
+#define MAX_NOME 33
 
 /**
- * @brief Lê uma partida do teclado.
- * 
- * @return tPartida Retorna um ponteiro para a partida lida.
+ * @brief Tipo opaco que representa uma partida: os dois times e os pontos de cada um.
  */
-tPartida LePartida();
+typedef struct Partida tPartida;
+
+/**
+ * @brief Lê uma partida da entrada padrão.
+ *
+ * Esta função lê apenas informações de uma partida: o time visitante (fora de casa), o caractere '@', 
+ * o time da casa, os pontos do visitante e os pontos do time da casa.
+ *
+ * @return tPartida* Ponteiro para a partida lida (alocado dinamicamente).
+ */
+tPartida* LePartida();
 
 /**
  * @brief Libera a memória alocada para uma partida.
- * 
+ *
  * @param p Ponteiro para a partida a ser liberada.
  */
-void LiberaPartida(tPartida p);
-
-/**
- * @brief Imprime as informações de uma partida.
- * 
- * @param p Ponteiro para a partida a ser impressa.
- */
-void ImprimePartida(tPartida p);
+void LiberaPartida(tPartida* p);
 
 /**
  * @brief Retorna o nome do time da casa.
- * 
+ *
  * @param p Ponteiro para a partida.
- * @return char* Retorna o nome do time da casa.
+ * @return char* O nome do time da casa.
  */
-char * GetTime1Partida(tPartida p);
+char * GetTimeCasaPartida(tPartida* p);
 
 /**
  * @brief Retorna o nome do time visitante.
- * 
+ *
  * @param p Ponteiro para a partida.
- * @return char* Retorna o nome do time visitante.
+ * @return char* O nome do time visitante.
  */
-char * GetTime2Partida(tPartida p);
+char * GetTimeForaPartida(tPartida* p);
 
 /**
- * @brief Retorna o vencedor da partida.
- * 
+ * @brief Retorna o vencedor da partida (o time que fez mais pontos; não há empate).
+ *
  * @param p Ponteiro para a partida.
- * @return int Retorna a constante que representa o vencedor da partida (TIME_CASA ou TIME_FORA).
+ * @return int TIME_CASA se o time da casa venceu, TIME_FORA caso contrário.
  */
-int GetVencedorPartida(tPartida p);
+int GetVencedorPartida(tPartida* p);
 
 #endif

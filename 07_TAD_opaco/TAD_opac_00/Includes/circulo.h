@@ -21,59 +21,59 @@
 ********************************************************************/
 
 /* TAD Opaco */
-typedef struct circulo *tCirculo;
+typedef struct Circulo tCirculo;
 
 /* Funcoes exportadas */
 
 /**
- * @brief Retorna um circulo com centro nas coordenadas (x,y) e raio r
+ * @brief Cria um circulo com centro nas coordenadas (x,y) e raio r
  * @param x Posição x do centro do círculo
  * @param y Posição y do centro do círculo
  * @param r Raio do Círculo
- * @return Ponteiro para a estrutura tCirculo criada 
+ * @return Ponteiro para o círculo criado.
  */
-tCirculo Circulo_Cria (float x, float y, float r);
+tCirculo* Circulo_Cria (float x, float y, float r);
 
 /**
- * @brief Libera a memória alocada pelo círculo
- * @param c Variável do tipo tCírculo que será apagada.
+ * @brief Libera a memória alocada pelo círculo (e do seu centro com sua respectiva funçãos)
+ * @param c Círculo que será apagado.
  */
-void Circulo_Apaga (tCirculo c);
+void Circulo_Apaga (tCirculo* c);
 
 /**
  * @brief Retorna o ponto que representa o centro do circulo
  * @param c Círculo que terá o seu centro retornado
  * @return Variável do tipo ponto que representa o centro de "c"
  */
-tPonto Circulo_Acessa_Centro (tCirculo c);
+tPonto* Circulo_Acessa_Centro (tCirculo* c);
 
 /**
  * @brief Funcao que acessa o raio do círculo
  * @param c Círculo que terá o seu raio retornado
  * @return o raio do círculo
  */
-float Circulo_Acessa_Raio (tCirculo c);
+float Circulo_Acessa_Raio (tCirculo* c);
 
 /**
- * @brief Funcao que atribui um novo centro para um círculo
+ * @brief Funcao que atribui um novo centro para um círculo utilizando as repesctivas funções do ponto.
  * @param c Círculo que terá o seu centro atualizado
- * @param p Ponto que representará o novo centro do círculo
+ * @param p Ponto com as coordenadas do novo centro do círculo
  */
-void Circulo_Atribui_Centro (tCirculo c, tPonto p);
+void Circulo_Atribui_Centro (tCirculo* c, tPonto* p);
 
 /**
  * @brief Funcao que atribui um novo raio para um círculo
  * @param c Círculo que terá o seu raio atualizado
  * @param r Novo raio do círculo
  */
-void Circulo_Atribui_Raio (tCirculo c, float r);
+void Circulo_Atribui_Raio (tCirculo* c, float r);
 
 /**
- * @brief Funcao que indica se um ponto p está dentro do círculo c.
+ * @brief Funcao que indica se um ponto p está dentro do círculo c (ou sobre a circunferência).
  * @param c Círculo que será acessado e comparado com o ponto
- * @param p Novo raio do círculo
- * @return Uma variável inteira com valor zero se o ponto p estiver fora do círculo, e 1 caso contrário.
+ * @param p Ponto que será testado
+ * @return 1 se a distância de p ao centro for menor ou igual ao raio, e 0 caso contrário.
  */
-int Circulo_Interior (tCirculo c, tPonto p);
+int Circulo_Interior (tCirculo* c, tPonto* p);
 
 #endif /* _CIRCULO */
