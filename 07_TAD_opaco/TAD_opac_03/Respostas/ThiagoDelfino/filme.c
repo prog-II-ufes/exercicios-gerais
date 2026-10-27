@@ -31,7 +31,7 @@ tFilme* CriarFilme(){
 void LeFilme(tFilme *filme, int codigo){
     filme=CriarFilme();
     filme->cod=codigo;
-    scanf("%[^,],%d,%d",filme->nome,&filme->valor,&filme->qntdEstoque);
+    scanf("%d,%[^,],%d,%d",codigo,filme->nome,&filme->valor,&filme->qntdEstoque);
 }
 
 /**
@@ -62,7 +62,7 @@ int ObterCodigoFilme (tFilme* filme){
  * @param filme Ponteiro para o filme.
 */
 void ImprimirNomeFilme (tFilme* filme){
-    printf("%s",filme->nome);
+    printf("%s em estoque: %d\n",filme->nome,filme->qntdEstoque);
 }
 
 /**
@@ -136,16 +136,11 @@ void DevolverFilme (tFilme* filme){
  * @return 1 se o nome do primeiro filme for maior que o nome do segundo filme, -1 se o nome do primeiro filme for menor que o nome do segundo filme, 0 se os nomes forem iguais.
 */
 int CompararNomesFilmes (tFilme* filme1, tFilme* filme2){
-    int tamF1=0, tamF2=0;
-    while(filme1->nome[tamF1]!='\0'){
-        tamF1++;
-    }
-    while(filme2->nome[tamF2]!='\0'){
-        tamF2++;
-    }
-    if(tamF1>tamF2)
+    if(filme2->nome[0]-filme1->nome[0]<0){
         return 1;
-    if(tamF1<tamF2)
+    }
+    if(filme2->nome[0]-filme1->nome[0]>0){
         return -1;
+    }
     return 0;
 }
