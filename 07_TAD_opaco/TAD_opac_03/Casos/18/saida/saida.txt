@@ -16,7 +16,7 @@ Total de filmes alugados: 3 com custo de R$23
 2 - Tomb Raider - Fitas em estoque: 5
 
 Filme 1 - Hannibal Devolvido!
-Nao e possivel devolver o filme 1 - Hannibal.
+Nao e possivel devolver o filme 1 - Hannibal
 
 ~ESTOQUE~
 1 - Hannibal - Fitas em estoque: 1
@@ -25,13 +25,13 @@ Nao e possivel devolver o filme 1 - Hannibal.
 
 Filme 2 - Tomb Raider Devolvido!
 
-Filme 15 nao cadastrado.
+Filme 15 nao cadastrado
 
 Filme cadastrado - 15 - Shrek
 
 Total de filmes alugados: 1 com custo de R$4
 
-Filme 5 nao cadastrado.
+Filme 5 nao cadastrado
 
 ~ESTOQUE~
 1 - Hannibal - Fitas em estoque: 1

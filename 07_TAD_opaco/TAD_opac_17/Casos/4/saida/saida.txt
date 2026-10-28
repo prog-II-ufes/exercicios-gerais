@@ -1,7 +1,7 @@
-Jogo de adivinhação
-Forneca um numero no intervalo entre 1 e 10000: 
-Forneca um numero no intervalo entre 1 e 10000: 
-Forneca um numero no intervalo entre 1 e 10000: 
+Jogo de adivinhacao
+Forneca um numero no intervalo entre 1 e 10: 
+Forneca um numero no intervalo entre 1 e 10: 
+Forneca um numero no intervalo entre 1 e 10: 
 Forneca um intervalo de numeros naturais: 
 O segundo numero do intervalo deve ser menor que 1.000.000.000
 Forneca um intervalo de numeros naturais: 
@@ -16,7 +16,7 @@ Tentativa 4:
 Alta
 Voce perdeu! O numero escolhido foi 0
 Deseja continuar a jogar (s/n): 
-Forneca um numero no intervalo entre 1 e 10000: 
+Forneca um numero no intervalo entre 1 e 10: 
 Forneca um intervalo de numeros naturais: 
 O primeiro numero do intervalo deve ser inferior ao segundo
 Forneca um intervalo de numeros naturais: 
@@ -26,7 +26,7 @@ Baixa
 Tentativa 2: 
 Parabens, voce ganhou!
 Deseja continuar a jogar (s/n): 
-Forneca um numero no intervalo entre 1 e 10000: 
+Forneca um numero no intervalo entre 1 e 10: 
 Forneca um intervalo de numeros naturais: 
 Voce tem direito a 4 tentativas
 Tentativa 1: 

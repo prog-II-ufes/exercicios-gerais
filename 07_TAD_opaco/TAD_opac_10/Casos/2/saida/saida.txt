@@ -5,7 +5,6 @@ Lista de operacoes:
 
 Livro adicionado com sucesso!
 Livro adicionado com sucesso!
-
 Lista de Livros na Biblioteca:
 Titulo: Prisao
 Autor: John
@@ -16,7 +15,6 @@ Autor: Familia
 Ano de Publicacao: 2020
 
 Livro nao encontrado na biblioteca.
-
 Lista de Livros na Biblioteca:
 Titulo: Prisao
 Autor: John

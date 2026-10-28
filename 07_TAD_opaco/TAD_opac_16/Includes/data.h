@@ -1,140 +1,97 @@
 #ifndef _data
 #define _data
 
-/*
-  Esse .h foi adaptado do TAD_pont_07
-*/
-
+/**
+ * @brief Tipo opaco que representa uma data com horário que possui pelo menos os seguintes atributos:
+ * dia, mês, ano, horas, minutos e dia da semana (0 = domingo, 1 = segunda, ..., 6 = sábado).
+ */
 typedef struct Data tData;
 
 /**
- * @brief Aloca dinamicamente uma estrutura do tipo tData, e a retorna. 
- * Os campos dessa estrutura devem ser preenchidos inicialmente com 0.
- * 
- * @return tData - Data "Vazia"
+ * @brief Cria uma data "vazia".
+ * Todos os campos da estrutura devem ser inicializados aqui com 0.
+ *
+ * @return tData* Ponteiro para a data criada.
  */
 tData* CriaData();
 
 /**
- * @brief Libera toda a memoria alocada dinamicamente para armazenar uma data
- * 
- * @param tData - Data que será liberada
+ * @brief Libera a memória de uma data.
+ *
+ * @param data Ponteiro para a data a ser destruída.
  */
 void DestroiData(tData* data);
 
 /**
- * @brief Processa o dia, mês e ano da string str e armazena em uma estrutura tData alocada dinamicamente.
- * 
- * @param data - Ponteiro para a estrutura onde os dados serão armazenados. Lembre-se: Não pode ter valor NULL.
- * @param str - String que será processada
- */
-void ProcessaDiaMesAno(tData* data, char* str);
-
-/**
- * @brief Processa o dia da semana da string str e armazena em uma estrutura tData alocada dinamicamente.
- * 
- * @param data - Ponteiro para a estrutura onde os dados serão armazenados. Lembre-se: Não pode ter valor NULL.
- * @param str - String que será processada
- */
-void ProcessaDiaDaSemana(tData* data, char* str);
-
-/**
- * @brief Processa hora e minuto da string str e armazena em uma estrutura tData alocada dinamicamente.
- * 
- * @param data - Ponteiro para a estrutura onde os dados serão armazenados. Lembre-se: Não pode ter valor NULL.
- * @param str - String que será processada
- */
-void ProcessaHorario(tData* data, char* str);
-
-/**
- * @brief Verifica se uma data é válida (somente dia, mês e ano).
+ * @brief Lê o dia, o mês e o ano de uma string no formato "DD/MM/AAAA" e os guarda na data.
+ * A string vinda da entrada padrão pode começar com espaços.
  *
- * 
- * @param data Data a ser verificada.
- * @return int 1 se a data é válida, 0 caso contrário.
+ * @param data Ponteiro para a data.
+ * @param str String a ser lida.
  */
-int VerificaDataValida(tData* data);
-
+void LeDiaMesAno(tData* data, char* str);
 
 /**
- * @brief Verifica se um ano é bissexto.
- * 
- * @param data Data cujo ano será verificado.
- * @return int 1 se o ano é bissexto, 0 caso contrário.
+ * @brief Lê o dia da semana (inteiro de 0 a 6) de uma string e o guarda na data.
+ * A string pode começar com espaços. Os demais campos da data não são alterados.
+ *
+ * @param data Ponteiro para a data.
+ * @param str String a ser lida.
  */
-int VerificaBissexto(tData* data);
+void LeDiaDaSemana(tData* data, char* str);
 
 /**
- * @brief Retorna o número de dias de um determinado mês.
- * 
- * @param data Data cujo mês terá o número de dias retornado.
- * @return int Número de dias do mês da data.
+ * @brief Lê as horas e os minutos de uma string no formato "HH:MM" e os guarda na data.
+ * A string pode começar com espaços. Os demais campos da data não são alterados.
+ *
+ * @param data Ponteiro para a data.
+ * @param str String a ser lida.
  */
-int NumeroDiasMes(tData* data);
+void LeHorario(tData* data, char* str);
 
 /**
- * @brief Compara somente dia, mes e ano, ignorando horario e dia da semana.
- * 
- * @param data1 Primeira data a ser comparada.
- * @param data2 Segunda data a ser comparada.
- * @return int 1 se data1 é maior que data2, -1 se data1 é menor que data2, 0 se as datas são iguais.
- * A data ser maior significa que ela é mais recente.
+ * @brief Compara somente o dia, o mês e o ano de duas datas, ignorando o horário e o dia da semana.
+ *
+ * @param data1 Ponteiro para a primeira data.
+ * @param data2 Ponteiro para a segunda data.
+ * @return int 1 se data1 é posterior a data2, -1 se data1 é anterior a data2 e 0 se são o mesmo dia.
  */
 int ComparaDiaMesAno(tData* data1, tData* data2);
 
 /**
- * @brief Calcula o número de dias até o início do mês de uma determinada data.
- * 
- * @param data Data cujo número de dias até o início do mês será calculado.
- * @return int Número de dias até o início do mês da data.
+ * @brief Calcula quantos minutos se passaram de data1 até data2, considerando dia, mês, ano,
+ * horas e minutos (o dia da semana é ignorado). O resultado é negativo se data2 for anterior a data1.
+ * Ex.: de 23/10/2023 23:50 até 24/10/2023 00:10 se passaram 20 minutos.
+ *
+ * @param data1 Ponteiro para a data inicial.
+ * @param data2 Ponteiro para a data final.
+ * @return int Número de minutos de data1 até data2.
  */
-int CalculaDiasAteMes(tData* data);
+int CalculaMinutosEntreDatas(tData* data1, tData* data2);
 
 /**
- * @brief Calcula a diferenca absoluta de dias de calendario entre duas datas.
- * Ignora os horarios e o dia da semana; a ordem dos argumentos nao importa.
- * 
- * @param data1 Primeira data a ser comparada.
- * @param data2 Segunda data a ser comparada.
- * @return int Número de dias entre as duas datas.
- */
-int CalculaDiferencaDias(tData* data1, tData* data2);
-
-/**
- * @brief Calcula a diferenca em horas, incluindo os minutos, sem arredondar.
- * Nao aplica tarifas nem tolerancia de estacionamento.
- * 
- * @param data1 Primeira data a ser comparada.
- * @param data2 Segunda data a ser comparada.
- * @return float número de horas entre as duas datas (2,5 horas = 2h30)
- */
-float CalculaHorasEntreDatas(tData* data1, tData* data2);
-
-/**
- * @brief Verifica se uma data corresponde a um sábado ou domingo
- * 
- * @param data1 Primeira data a ser comparada.
- * @return int 1 se é sábado ou domingo, 0 caso contrário
+ * @brief Verifica se uma data corresponde a um sábado ou a um domingo, de acordo com o seu dia da semana.
+ *
+ * @param data Ponteiro para a data.
+ * @return int 1 se é sábado ou domingo, 0 caso contrário.
  */
 int DataEhSabadoOuDomingo(tData* data);
 
 /**
- * @brief Atualiza a data para a data do dia seguinte (esta data deve ser válida!)
- * Preserva o horario. O dia da semana inicial deve estar entre 0 e 6.
- * 
- * @param data Data a ser modificada.
- * 
+ * @brief Avança a data para o dia seguinte, atualizando também o dia da semana
+ * (depois do sábado vem o domingo). O horário não é alterado. Considera os anos bissextos.
+ *
+ * @param data Ponteiro para a data a ser modificada.
  */
 void DataDiaSeguinte(tData* data);
 
 /**
- * @brief Copia os dados de Dia/Mês/Ano e o dia da semana de uma data src para uma data tgt.
- * Preserva o horario de tgt e todos os campos de src.
- * 
- * @param src Data que terá seus dados copiados
- * @param tgt Data que armazenará a cópia
+ * @brief Copia o dia, o mês, o ano e o dia da semana da data src para a data tgt.
+ * O horário de tgt não é alterado, e src não é modificada.
+ *
+ * @param src Ponteiro para a data que terá seus dados copiados.
+ * @param tgt Ponteiro para a data que receberá a cópia.
  */
 void CopiaDiaMesAno(tData* src, tData* tgt);
 
 #endif
-

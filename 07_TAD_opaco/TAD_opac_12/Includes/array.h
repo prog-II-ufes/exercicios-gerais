@@ -2,41 +2,55 @@
 #define _ARRAY_H_
 
 
-typedef struct Array Array;
+/**
+ * @brief Tipo opaco que representa um array que possui pelo menos os seguintes atributos:
+ * o vetor de elementos (inteiros) e o seu tamanho.
+ */
+typedef struct Array tArray;
 
 
 /**
- * @brief Inicializa um novo array, apontando data para NULL e tamanho para 0.
- * @return Ponteiro para a estrutura Array criada ou encerra caso não seja possível alocar memória.
+ * @brief Cria um array vazio (sem elementos).
+ * Todos os campos da estrutura devem ser inicializados aqui.
+ * Se não for possível alocar memória, o programa é encerrado.
+ *
+ * @return tArray* Ponteiro para o array criado.
  */
-Array *CriarArray();
+tArray *CriarArray();
 
 
 /**
- * @brief Libera a memória alocada para o array.
- * @param array Ponteiro para a estrutura Array a ser destruída.
+ * @brief Libera a memória de um array.
+ *
+ * @param array Ponteiro para o array a ser destruído.
  */
-void DestruirArray(Array *array);
+void DestruirArray(tArray *array);
 
 /**
- * @brief Lê os elementos do array a partir da entrada padrão e aloca memória para eles.
- * @details A leitura é feita até encontrar um ponto final (.) na entrada.
- * @param array Ponteiro para a estrutura Array a ser preenchida.
+ * @brief Lê os elementos do array da entrada padrão.
+ * Os elementos são inteiros separados por espaço, e o último é seguido de um ponto final,
+ * sem espaço. Ex.: "8 7 12 102 5 67." (6 elementos). A leitura termina no ponto final,
+ * que também é consumido. Os elementos são todos diferentes entre si.
+ *
+ * @param array Ponteiro para o array a ser preenchido.
  */
-void LerArray(Array *array);
+void LerArray(tArray *array);
 
 /**
  * @brief Ordena os elementos do array em ordem crescente.
- * @param array Ponteiro para a estrutura Array a ser ordenada.
+ *
+ * @param array Ponteiro para o array a ser ordenado.
  */
-void OrdenarArray(Array *array);
+void OrdenarArray(tArray *array);
 
 /**
  * @brief Realiza uma busca binária no array pelo elemento especificado.
- * @param array Ponteiro para a estrutura Array a ser buscada.
+ * O array já deve estar ordenado (utilizando sua função apropriada). Os índices começam em 0.
+ *
+ * @param array Ponteiro para o array onde o elemento será buscado.
  * @param elementoBuscado Elemento a ser buscado no array.
- * @return Índice do elemento buscado no array, ou -1 caso não seja encontrado.
+ * @return int Índice do elemento buscado no array, ou -1 caso não seja encontrado.
  */
-int BuscaBinariaArray(Array *array, int elementoBuscado);
+int BuscaBinariaArray(tArray *array, int elementoBuscado);
 
 #endif

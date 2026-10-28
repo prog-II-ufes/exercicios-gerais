@@ -5,7 +5,6 @@ Lista de operacoes:
 
 Livro adicionado com sucesso!
 Livro adicionado com sucesso!
-
 Lista de Livros na Biblioteca:
 Titulo: Oz
 Autor: Magico
@@ -16,7 +15,6 @@ Autor: Potter
 Ano de Publicacao: 2020
 
 Livro removido com sucesso!
-
 Lista de Livros na Biblioteca:
 Titulo: Harry
 Autor: Potter

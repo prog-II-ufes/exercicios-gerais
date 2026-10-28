@@ -1,40 +1,47 @@
 #ifndef _funcionario
 #define _funcionario
 
-typedef struct funcionario tFuncionario;
+/**
+ * @brief Tipo opaco que representa um funcionário que possui pelo menos os seguintes atributos:
+ * o seu id e o seu salário.
+ */
+typedef struct Funcionario tFuncionario;
 
 /**
- * @brief Cria um funcionario "vazio" 
- * Seus atributos devem ser inicializados com NULL (ponteiros), ou -1 caso contrário
- * @return TFuncionario Ponteiro para Funcionario criado a partir do nome e salario fornecidos.
+ * @brief Cria um funcionário "vazio".
+ * Todos os campos da estrutura devem ser inicializados aqui.
+ *
+ * @return tFuncionario* Ponteiro para o funcionário criado.
  */
 tFuncionario* CriaFuncionario();
 
 /**
- * @brief Libera a memória alocada dinamicamente por um funcionário
- * @param funcionario Ponteiro para Funcionario que terá sua memória liberada
+ * @brief Libera a memória de um funcionário.
+ *
+ * @param funcionario Ponteiro para o funcionário a ser apagado.
  */
 void ApagaFuncionario(tFuncionario* funcionario);
 
 /**
- * @brief Le os dados de um funcionario da entrada padrao.
- * 
- * @param funcionario Funcionario criado a partir dos dados lidos.
+ * @brief Lê os dados de um funcionário da entrada padrão: o id (inteiro) e o salário (real).
+ *
+ * @param funcionario Ponteiro para o funcionário que terá seus dados preenchidos.
  */
 void LeFuncionario(tFuncionario* funcionario);
 
 /**
- * @brief Obtem o Id de um funcionario.
- * 
- * @param funcionario Funcionario que deseja obter o id.
- * @return int representando o id do funcionario fornecido.
+ * @brief Obtém o id de um funcionário.
+ *
+ * @param funcionario Ponteiro para o funcionário.
+ * @return int O id do funcionário.
  */
-int GetIdFuncionario(tFuncionario* funcionario);
+int ObtemIdFuncionario(tFuncionario* funcionario);
 
 /**
- * @brief Imprime todos os dados de um funcionario.
- * 
- * @param funcionario Funcionario a ser impresso no terminal.
+ * @brief Imprime os dados de um funcionário no formato "- Funcionario <id>: R$ <salario>\n",
+ * com o salário com duas casas decimais.
+ *
+ * @param funcionario Ponteiro para o funcionário a ser impresso.
  */
 void ImprimeFuncionario(tFuncionario* funcionario);
 

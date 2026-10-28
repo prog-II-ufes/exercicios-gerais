@@ -1,64 +1,59 @@
 #ifndef _conta
 #define _conta
 
+/**
+ * @brief Tipo opaco que representa uma conta que possui pelo menos os seguintes atributos:
+ * id (número da conta) e saldo.
+ */
 typedef struct Conta tConta;
 
 /**
- * @brief Cria uma variável (alocada dinamicamente) do tipo tConta. Ponteiros devem ser inicializados com NULL e variáveis numéricas com valor zero (exceto aquelas passadas como parâmetro para a função).
+ * @brief Cria uma conta com o id informado e saldo zero.
+ * Todos os campos da estrutura devem ser inicializados aqui.
  *
- * @param id - o Id da conta que será criada
- *
- * @return A variável do tipo tConta inicializada.
+ * @param id Id da conta.
+ * @return tConta* Ponteiro para a conta criada.
  */
 tConta* CriaConta(int id);
 
 /**
- * @brief Libera toda a memória alocada para armazenar dados de uma conta.
+ * @brief Libera a memória de uma conta.
  *
- * @param A variável do tipo tConta que será apagada.
+ * @param conta Ponteiro para a conta a ser destruída.
  */
 void DestroiConta(tConta* conta);
 
-
 /**
- * @brief Função que altera o saldo de uma conta específica.
+ * @brief Soma um valor ao saldo da conta (o valor é negativo nas operações de débito).
  *
- * @param conta - A conta que terá seu saldo alterado
- * @param valor - O valor a ser alterado no saldo atual da conta
- *
+ * @param conta Ponteiro para a conta.
+ * @param valor Valor a ser somado ao saldo.
  */
 void AlteraSaldoConta(tConta* conta, float valor);
 
 /**
- * @brief Função que confere se uma conta possui um id específico
+ * @brief Verifica se uma conta possui o id informado.
  *
- * @param conta - A conta que terá seu id conferido
- * @param id - O id a ser comparado com a conta
- *
- * @return Uma variável inteira com 1 caso o id da conta seja igual ao parâmetro id, e 0 caso contrárioconferido
- *
+ * @param conta Ponteiro para a conta.
+ * @param id Id a ser comparado.
+ * @return int 1 se a conta possui o id informado, 0 caso contrário.
  */
 int ConfereIdConta(tConta* conta, int id);
 
 /**
- * @brief Função que retorna o Id de uma conta
+ * @brief Obtém o id de uma conta.
  *
- * @param conta - A conta que terá seu id retornado.
- *
- * @return O id da conta passada como parâmetro.
- *
+ * @param conta Ponteiro para a conta.
+ * @return int Id da conta.
  */
-int RetornaIdConta(tConta* conta);
-
+int ObtemIdConta(tConta* conta);
 
 /**
- * @brief Função que retorna o Saldo de uma conta.
+ * @brief Obtém o saldo de uma conta.
  *
- * @param conta - A conta que terá seu saldo retornado
- *
- * @return O saldo da conta passada como parâmetro.
- *
+ * @param conta Ponteiro para a conta.
+ * @return float Saldo da conta.
  */
-float RetornaSaldoConta(tConta* conta);
+float ObtemSaldoConta(tConta* conta);
 
 #endif

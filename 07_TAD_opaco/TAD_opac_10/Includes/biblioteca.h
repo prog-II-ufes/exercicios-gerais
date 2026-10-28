@@ -3,43 +3,43 @@
 
 #include "livro.h"
 
-
-#define NUM_INICIAL_LIVROS 5
-
-// Estrutura que representa uma biblioteca de livros
+/**
+ * @brief Tipo opaco que representa uma biblioteca que possui pelo menos os seguintes atributos:
+ * a lista de livros cadastrados. Não há limite para a quantidade de livros
+ * (a lista deve crescer conforme a necessidade).
+ */
 typedef struct Biblioteca tBiblioteca;
 
 
 /**
- * Inicializa uma biblioteca vazia.
- * Ponteiros são inicializados com NULL; 
- * @return A biblioteca inicializada.
+ * @brief Cria uma biblioteca vazia (sem livros).
+ * Todos os campos da estrutura devem ser inicializados aqui.
+ *
+ * @return tBiblioteca* Ponteiro para a biblioteca criada.
  */
 tBiblioteca* InicializarBiblioteca();
 
 /**
- * Apaga toda a memória alocada dinamicamente dentro de uma biblioteca
- * Ponteiros são inicializados com NULL; 
- * @return A biblioteca inicializada.
+ * @brief Libera a memória de uma biblioteca, inclusive a dos seus livros (utilizando sua função apropriada).
+ *
+ * @param biblioteca Ponteiro para a biblioteca a ser apagada.
  */
 void ApagaBiblioteca(tBiblioteca* biblioteca);
 
 /**
- * Adiciona um livro à biblioteca.
- * Se estiver dentro do tamanho máximo de livros, imprime "Livro adicionado com sucesso!"
- * Senão, imprime "A biblioteca está cheia. Não é possível adicionar mais livros."
+ * @brief Adiciona um livro ao final da lista de livros da biblioteca e imprime
+ * "Livro adicionado com sucesso!\n".
  *
  * @param biblioteca Ponteiro para a biblioteca onde o livro será adicionado.
  * @param livro Ponteiro para o livro a ser adicionado.
  */
-void AdicionarLivroNaBiblioteca(tBiblioteca* biblioteca, tLivros* livro);
-
-
+void AdicionarLivroNaBiblioteca(tBiblioteca* biblioteca, tLivro* livro);
 
 /**
- * Remove um livro da biblioteca pelo título. 
- * Se o título for encontrado, imprime "Livro removido com sucesso!",
- * Senão, imprime "Livro não encontrado na biblioteca."
+ * @brief Remove um livro da biblioteca pelo título (o primeiro com esse título, na ordem de
+ * cadastro), mantendo a ordem dos demais livros.
+ * Se o título for encontrado, libera o livro (utilizando sua função apropriada) e imprime
+ * "Livro removido com sucesso!\n". Senão, imprime "Livro nao encontrado na biblioteca.\n".
  *
  * @param biblioteca Ponteiro para a biblioteca da qual o livro será removido.
  * @param titulo O título do livro a ser removido.
@@ -47,22 +47,12 @@ void AdicionarLivroNaBiblioteca(tBiblioteca* biblioteca, tLivros* livro);
 void RemoverLivroDaBiblioteca(tBiblioteca* biblioteca, char *titulo);
 
 /**
- * Verifica se o título digitado é igual ao título do livro.
- * 
- * @param livro Ponteiro para o livro cujo título será verificado.
- * @param titulo O título digitado pelo usuário.
- * @return se o título for igual, retorna 0.
-*/
-int VerificaTituloDoLivroNaBiblioteca(tLivros* livro, char* titulo);
-
-/**
- * Lista todos os livros presentes na biblioteca.
- * Se não houver livros na biblioteca, imprime "A biblioteca esta vazia!"
+ * @brief Lista todos os livros da biblioteca: primeiro a linha "Lista de Livros na Biblioteca:\n"
+ * e, em seguida, os livros (utilizando sua função apropriada) na ordem de cadastro.
+ * Se não houver livros na biblioteca, imprime apenas "A biblioteca esta vazia!\n".
  *
  * @param biblioteca Ponteiro para a biblioteca cujos livros serão listados.
  */
 void ListarLivrosDaBiblioteca(tBiblioteca* biblioteca);
-
-
 
 #endif

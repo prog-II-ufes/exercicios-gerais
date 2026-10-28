@@ -13,18 +13,18 @@ Conta Invalida! Repita a operacao, mas com uma conta valida!
 Conta Invalida! Repita a operacao, mas com uma conta valida!
 Conta Invalida! Repita a operacao, mas com uma conta valida!
 Conta Invalida! Repita a operacao, mas com uma conta valida!
-A lista de operações suspeitas:
-Operação na conta 25 com valor 23507.00
-Operação na conta 20 com valor -20708.00
-Operação na conta 5 com valor -22195.00
-Operação na conta 10 com valor -23431.00
-Operação na conta 25 com valor -24371.00
-Operação na conta 5 com valor -23651.00
-Operação na conta 15 com valor 21092.00
-Operação na conta 15 com valor 21254.00
-Operação na conta 10 com valor -20111.00
-Operação na conta 20 com valor -21407.00
-Os dois correntistas com maior saldo são:
+A lista de operacoes suspeitas:
+Operacao na conta 25 com valor 23507.00
+Operacao na conta 20 com valor -20708.00
+Operacao na conta 5 com valor -22195.00
+Operacao na conta 10 com valor -23431.00
+Operacao na conta 25 com valor -24371.00
+Operacao na conta 5 com valor -23651.00
+Operacao na conta 15 com valor 21092.00
+Operacao na conta 15 com valor 21254.00
+Operacao na conta 10 com valor -20111.00
+Operacao na conta 20 com valor -21407.00
+Os dois correntistas com maior saldo sao:
 Id: 15, Saldo: 59768.00
 Id: 20, Saldo: 46471.00
 O saldo total da agencia eh: 44945.00

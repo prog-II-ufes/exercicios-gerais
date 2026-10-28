@@ -4,7 +4,6 @@ Lista de operacoes:
 3 - Listar todos os livros cadastrados.
 
 Livro adicionado com sucesso!
-
 Lista de Livros na Biblioteca:
 Titulo: Um
 Autor: Lorraint

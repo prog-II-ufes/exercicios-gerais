@@ -1,99 +1,76 @@
 #ifndef _LOCADORA_H
 #define _LOCADORA_H
 
-#include "filme.h"
 
+/**
+ * @brief Tipo opaco que representa uma locadora que possui pelo menos os seguintes atributos:
+ * a lista de filmes cadastrados e o lucro. Não há limite para a quantidade de filmes
+ * (a lista deve crescer conforme a necessidade).
+ */
 typedef struct Locadora tLocadora;
 
 /**
- * @brief Cria uma nova instância de tLocadora e inicializa filme como NULL, numFilmes como 0 e lucro como 0.
- * 
- * @return tLocadora* Ponteiro para a nova instância de tLocadora criada ou encerra o programa caso não haja memória suficiente.
+ * @brief Cria uma locadora, ainda sem filmes e sem lucro.
+ * Todos os campos da estrutura devem ser inicializados aqui.
+ * Se não for possível alocar memória, o programa é encerrado.
+ *
+ * @return tLocadora* Ponteiro para a locadora criada.
  */
-tLocadora* CriarLocadora ();
+tLocadora* CriaLocadora();
 
 /**
- * @brief Destrói uma instância de tLocadora.
- * 
- * @param locadora Ponteiro para a instância de tLocadora a ser destruída.
+ * @brief Libera a memória de uma locadora, inclusive a dos seus filmes.
+ *
+ * @param locadora Ponteiro para a locadora a ser destruída.
  */
-void DestruirLocadora (tLocadora* locadora);
+void DestroiLocadora(tLocadora* locadora);
 
 /**
- * @brief Verifica se um filme está cadastrado na locadora.
- * 
- * @param locadora Ponteiro para a instância de tLocadora a ser verificada.
- * @param codigo Código do filme a ser verificado.
- * @return int 1 se o filme está cadastrado, 0 caso contrário.
+ * @brief Cadastra os filmes de um bloco de cadastro, lendo-os com LeFilme até que ela retorne NULL (fim do bloco).
+ * Cada filme é adicionado ao final da lista de filmes, imprimindo "Filme cadastrado - <código> - <nome>\n".
+ * Se já houver um filme com o mesmo código, o filme não é cadastrado e imprime "Filme ja cadastrado no estoque\n".
+ *
+ * @param locadora Ponteiro para a locadora.
  */
-int VerificarFilmeCadastrado (tLocadora* locadora, int codigo);
+void CadastraFilmesLocadora(tLocadora* locadora);
 
 /**
- * @brief Cadastra um novo filme na locadora caso ele não esteja cadastrado.
+ * @brief Aluga uma fita de cada filme de um bloco de aluguel, lendo os códigos com LeCodigoFilme
+ * até que ela retorne -1 (fim do bloco). Ao final do bloco, se pelo menos uma fita foi alugada, imprime
+ * "Total de filmes alugados: <quantidade> com custo de R$<soma dos valores>\n".
  * 
- * @param locadora Ponteiro para a instância de tLocadora a ser atualizada.
- * @param filme Ponteiro para o filme a ser cadastrado.
+ * Se o filme não estiver cadastrado, imprime "Filme <código> nao cadastrado\n";
+ * Se não houver fitas em estoque, imprime "Filme <código> - <nome> nao disponivel no estoque. Volte mais tarde.\n".
+ *
+ * @param locadora Ponteiro para a locadora.
  */
-void CadastrarFilmeLocadora (tLocadora *locadora, tFilme *filme);
+void AlugaFilmesLocadora(tLocadora* locadora);
 
 /**
- * @brief Lê os dados de cadastro de um filme e o cadastra na locadora.
+ * @brief Devolve uma fita de cada filme de um bloco de devolução, lendo os códigos com LeCodigoFilme
+ * até que ela retorne -1 (fim do bloco).
  * 
- * @param Locadora Ponteiro para a instância de tLocadora a ser atualizada.
+ * Se o filme não estiver cadastrado, imprime "Filme <código> nao cadastrado\n";
+ * Se nenhuma fita do filme estiver alugada, imprime "Nao e possivel devolver o filme <código> - <nome>\n";
+ * Caso contrário, imprime "Filme <código> - <nome> Devolvido!\n" e o valor do filme é somado ao lucro.
+ *
+ * @param locadora Ponteiro para a locadora.
  */
-void LerCadastroLocadora (tLocadora* Locadora);
+void DevolveFilmesLocadora(tLocadora* locadora);
 
 /**
- * @brief Aluga um ou mais filmes da locadora.
- * 
- * @param locadora Ponteiro para a instância de tLocadora a ser atualizada.
- * @param codigos Vetor contendo os códigos dos filmes a serem alugados.
- * @param quantidadeCodigos Número de códigos de filmes a serem alugados.
+ * @brief Imprime "~ESTOQUE~\n" e, em seguida, todos os filmes cadastrados (inclusive os sem fitas em estoque)
+ * em ordem alfabética do nome, no formato "<código> - <nome> - Fitas em estoque: <quantidade>\n".
+ *
+ * @param locadora Ponteiro para a locadora.
  */
-void AlugarFilmesLocadora (tLocadora* locadora, int* codigos, int quantidadeCodigos);
+void ImprimeEstoqueLocadora(tLocadora* locadora);
 
 /**
- * @brief Lê o aluguel de um conjunto de filmes a partir da entrada padrão e os aluga na locadora.
- * 
- * @param locadora Ponteiro para a instância de tLocadora a ser atualizada.
+ * @brief Imprime o lucro da locadora: "Lucro total R$<lucro>\n". Se o lucro for zero, não imprime nada.
+ *
+ * @param locadora Ponteiro para a locadora.
  */
-void LerAluguelLocadora (tLocadora* locadora);
-
-/**
- * @brief Devolve um ou mais filmes alugados da locadora.
- * 
- * @param locadora Ponteiro para a instância de tLocadora a ser atualizada.
- * @param codigos Vetor contendo os códigos dos filmes a serem devolvidos.
- * @param quantidadeCodigos Número de códigos de filmes a serem devolvidos.
- */
-void DevolverFilmesLocadora (tLocadora* locadora, int* codigos, int quantidadeCodigos);
-
-/**
- * @brief Lê os dados de devolução de um ou mais filmes e os devolve na locadora.
- * 
- * @param locadora Ponteiro para a instância de tLocadora a ser atualizada.
- */
-void LerDevolucaoLocadora (tLocadora* locadora);
-
-/**
- * @brief Ordena os filmes cadastrados na locadora por ordem alfabética.
- * 
- * @param locadora Ponteiro para a instância de tLocadora a ser atualizada.
- */
-void OrdenarFilmesLocadora (tLocadora* locadora);
-
-/**
- * @brief Consulta o estoque de filmes da locadora.
- * 
- * @param locadora Ponteiro para a instância de tLocadora a ser consultada.
- */
-void ConsultarEstoqueLocadora (tLocadora* locadora);
-
-/**
- * @brief Consulta o lucro da locadora.
- * 
- * @param locadora Ponteiro para a instância de tLocadora a ser consultada.
- */
-void ConsultarLucroLocadora (tLocadora* locadora);
+void ImprimeLucroLocadora(tLocadora* locadora);
 
 #endif

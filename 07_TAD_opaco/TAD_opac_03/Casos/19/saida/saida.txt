@@ -13,7 +13,7 @@ Filme cadastrado - 25 - Tomb Raider
 
 Total de filmes alugados: 3 com custo de R$22
 
-Filme 26 nao cadastrado.
+Filme 26 nao cadastrado
 
 Total de filmes alugados: 3 com custo de R$17
 
@@ -55,7 +55,7 @@ Total de filmes alugados: 3 com custo de R$38
 Filme 24 - The Glass House Devolvido!
 Filme 29 - Enemy Gates Devolvido!
 
-Nao e possivel devolver o filme 24 - The Glass House.
+Nao e possivel devolver o filme 24 - The Glass House
 Filme 25 - Tomb Raider Devolvido!
 Filme 22 - Black Knight Devolvido!
 

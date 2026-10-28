@@ -13,3 +13,4 @@ Total de filmes alugados: 2 com custo de R$15
 1 - Hannibal - Fitas em estoque: 0
 3 - Sword Fish - Fitas em estoque: 1
 2 - Tomb Raider - Fitas em estoque: 0
+

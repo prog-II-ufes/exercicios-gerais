@@ -1,17 +1,28 @@
 #ifndef _ALUNO_H_
 #define _ALUNO_H_
 
+/**
+ * @brief Tamanho do vetor usado para ler o nome do aluno: até 49 caracteres (+1 para o '\0').
+ */
+#define MAX_NOME 50
+
+/**
+ * @brief Tipo opaco que representa um aluno com pelo menos os seguintes atributos: 
+ * nome, matrícula e as três notas.
+ */
 typedef struct Aluno tAluno;
 
 /**
- * @brief Cria um novo aluno vazio. Os atributos inteiros devem receber valor -1, e o ponteiro do nome deve apontar para NULL;
+ * @brief Cria um novo aluno vazio.
+ * Todos os campos da estrutura devem ser inicializados aqui; os dados do aluno são preenchidos
+ * depois, por LeAluno.
  * 
- * @return tAluno Retorna uma estrutura tAluno com os dados do aluno criado.
+ * @return tAluno* Ponteiro para o aluno criado.
  */
 tAluno* CriaAluno(); 
 
 /**
- * @brief Função para liberar toda a memória alocada dinamicamente para estrututas do tipo tAluno
+ * @brief Libera a memória de um aluno.
  * 
  * @param aluno Ponteiro para estrutura do tipo tAluno a ser apagada.
  */
@@ -19,9 +30,10 @@ void ApagaAluno(tAluno *aluno);
 
 
 /**
- * @brief Lê os dados de um aluno.
+ * @brief Lê os dados de um aluno da entrada padrão, em três linhas: o nome, a
+ * matrícula e as três notas (inteiros de 0 a 10, separados por espaço).
  * 
- * @param Ponteiro para aluno (alocado dinamicamente), cujos dados serão preenchidos nessa função
+ * @param aluno Ponteiro para aluno, cujos dados serão preenchidos nessa função
  */
 void LeAluno(tAluno *aluno);
 
@@ -35,15 +47,15 @@ void LeAluno(tAluno *aluno);
 int ComparaMatricula(tAluno* aluno1, tAluno* aluno2);
 
 /**
- * @brief Calcula a média das notas de um aluno.
+ * @brief Calcula a média aritmética das três notas de um aluno.
  * 
  * @param aluno Ponteiro para aluno a ter a média calculada.
- * @return int Retorna a média das notas do aluno.
+ * @return float Retorna a média das notas do aluno.
  */
-int CalculaMediaAluno(tAluno* aluno);
+float CalculaMediaAluno(tAluno* aluno);
 
 /**
- * @brief Verifica se um aluno foi aprovado ou reprovado.
+ * @brief Verifica se um aluno foi aprovado (média maior ou igual a 7) ou reprovado.
  * 
  * @param aluno Ponteiro para aluno a ser verificado.
  * @return int Retorna 1 se o aluno foi aprovado e 0 se foi reprovado.
@@ -51,7 +63,7 @@ int CalculaMediaAluno(tAluno* aluno);
 int VerificaAprovacao(tAluno* aluno);
 
 /**
- * @brief Imprime os dados de um aluno.
+ * @brief Imprime APENAS o nome do aluno, seguido de quebra de linha. Ex.: "Maria\n".
  * 
  * @param aluno Ponteiro para aluno a ser impresso.
  */

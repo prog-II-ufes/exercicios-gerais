@@ -4,7 +4,6 @@ Lista de operacoes:
 3 - Listar todos os livros cadastrados.
 
 Livro adicionado com sucesso!
-
 Lista de Livros na Biblioteca:
 Titulo: Dom
 Autor: Casmurro
@@ -12,7 +11,6 @@ Ano de Publicacao: 2003
 
 Livro adicionado com sucesso!
 Livro removido com sucesso!
-
 Lista de Livros na Biblioteca:
 Titulo: Dom
 Autor: Casmurro

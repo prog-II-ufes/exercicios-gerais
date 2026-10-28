@@ -3,66 +3,64 @@
 
 #include "vendedor.h"
 
-
-
+/**
+ * @brief Tipo opaco que representa uma loja que possui pelo menos os seguintes atributos:
+ * ID, valor do aluguel e a lista de vendedores contratados. Não há limite para a quantidade
+ * de vendedores (a lista deve crescer conforme a necessidade).
+ */
 typedef struct Loja tLoja;
 
 /**
- * @brief Abre uma nova loja.
- * 
+ * @brief Abre uma nova loja, ainda sem vendedores.
+ * Todos os campos da estrutura devem ser inicializados aqui.
+ *
  * @param id ID da loja.
  * @param aluguel Valor do aluguel da loja.
- * @return tLoja Retorna a estrutura do tipo tLoja com os dados da loja aberta.
+ * @return tLoja* Ponteiro para a loja aberta.
  */
 tLoja* AbreLoja(int id, float aluguel);
 
 /**
- * @brief Libera a memória alocada para uma loja.
- * 
- * @param loja Ponteiro para uma loja a ser apagado.
+ * @brief Libera a memória de uma loja, inclusive a dos seus vendedores (utilizando sua função apropriada).
+ *
+ * @param loja Ponteiro para a loja a ser apagada.
  */
 void ApagaLoja(tLoja* loja);
 
 /**
  * @brief Verifica se o ID de uma loja é igual a outro.
- * 
- * @param loja Estrutura do tipo tLoja contendo os dados da loja a ser verificada.
+ *
+ * @param loja Ponteiro para a loja a ser verificada.
  * @param id ID da loja a ser comparado.
- * @return int Retorna 1 se o ID da loja é igual ao ID passado como parâmetro, ou 0 caso contrário.
+ * @return int 1 se o ID da loja é igual ao ID passado como parâmetro, 0 caso contrário.
  */
 int VerificaIdLoja(tLoja* loja, int id);
 
 /**
- * @brief Contrata um novo vendedor para a loja.
- * 
- * @param loja Estrutura do tipo tLoja contendo os dados da loja.
- * @param vendedor Estrutura do tipo tVendedor contendo os dados do vendedor a ser contratado.
- * @return tLoja Retorna a estrutura do tipo tLoja atualizada com o novo vendedor contratado.
+ * @brief Contrata um novo vendedor para a loja, adicionando-o ao final da lista de vendedores.
+ *
+ * @param loja Ponteiro para a loja.
+ * @param vendedor Ponteiro para o vendedor a ser contratado.
  */
 void ContrataVendedor(tLoja* loja, tVendedor* vendedor);
 
 /**
- * @brief Registra uma nova venda para um vendedor da loja.
- * 
- * @param loja Estrutura do tipo tLoja contendo os dados da loja.
+ * @brief Registra uma nova venda para um vendedor da loja (utilizando sua função apropriada).
+ * Se a loja não tiver um vendedor com esse nome, nada acontece. Pode-se assumir que não há
+ * dois vendedores com o mesmo nome na mesma loja.
+ *
+ * @param loja Ponteiro para a loja.
  * @param nome Nome do vendedor que realizou a venda.
  * @param valor Valor da venda a ser registrada.
- * @return tLoja Retorna a estrutura do tipo tLoja atualizada com a venda registrada.
  */
 void RegistraVenda(tLoja* loja, char* nome, float valor);
 
 /**
- * @brief Calcula o lucro da loja.
- * 
- * @param loja Estrutura do tipo tLoja contendo os dados da loja.
- * @return tLoja Retorna a estrutura do tipo tLoja atualizada com o lucro calculado.
- */
-void CalculaLucro(tLoja* loja);
-
-/**
- * @brief Imprime o relatório da loja.
- * 
- * @param loja Estrutura do tipo tLoja contendo os dados da loja.
+ * @brief Imprime o relatório da loja: primeiro a linha "Loja <id>: Lucro total: R$ <lucro>\n" e,
+ * em seguida, o relatório de cada vendedor (utilizando sua função apropriada) na ordem de contratação.
+ * Todos os valores numéricos são impressos com 2 casas decimais.
+ *
+ * @param loja Ponteiro para a loja a ser impressa.
  */
 void ImprimeRelatorioLoja(tLoja* loja);
 

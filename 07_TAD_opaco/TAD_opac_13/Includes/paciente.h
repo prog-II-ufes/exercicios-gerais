@@ -1,79 +1,99 @@
-
 #ifndef _PACIENTE_H
 #define _PACIENTE_H
 
-#define MAX_NOME_PAC 101
-#define MAX_CARTAO_SUS 19
-#define MAX_LESOES 10
+#define MAX_NOME_PAC 101   /**< Tamanho do vetor do nome: até 100 caracteres (+1 para o '\0'), pode ter espaços. */
+#define MAX_CARTAO_SUS 19  /**< Tamanho do vetor do cartão SUS, no padrão 000-0000-0000-0000: 18 caracteres (+1 para o '\0'). */
 
 #include "data.h"
 #include "lesao.h"
 
-typedef struct Paciente Paciente;
+/**
+ * @brief Tipo opaco que representa um paciente que possui pelo menos os seguintes atributos:
+ * nome, cartão SUS, gênero, data de nascimento e a lista de lesões. Não há limite para a
+ * quantidade de lesões de um paciente (a lista deve crescer conforme a necessidade).
+ */
+typedef struct Paciente tPaciente;
 
-/*
-Função que cria um paciente a partir dos parâmetros fornecidos.
-@param nome: Nome do paciente.
-@param cartaoSus: Cartão SUS do paciente.
-@param genero: Gênero do paciente.
-@param dataNasc: Data de nascimento do paciente.
-@return Ponteiro para o paciente criado.
-*/
-Paciente *criaPaciente(char *nome, char *cartaoSus, char genero, Data *dataNasc);
+/**
+ * @brief Cria um paciente a partir dos dados fornecidos, ainda sem lesões.
+ * Todos os campos da estrutura devem ser inicializados aqui.
+ *
+ * @param nome Nome do paciente.
+ * @param cartaoSus Cartão SUS do paciente.
+ * @param genero Gênero do paciente.
+ * @param dataNasc Ponteiro para a data de nascimento do paciente.
+ * @return tPaciente* Ponteiro para o paciente criado.
+ */
+tPaciente *criaPaciente(char *nome, char *cartaoSus, char genero, tData *dataNasc);
 
-/*
-Função que lê os dados de um paciente a partir da entrada padrão. Consulte o enunciado e/ou os casos de teste para o formato esperado.
-@return Ponteiro para o paciente lido.
-*/
-Paciente *lerPaciente();
+/**
+ * @brief Lê os dados de um paciente da entrada padrão.
+ * Assuma que o caractere 'P' já foi lido. Esta função lê as 4 linhas seguintes: nome, data de
+ * nascimento (utilizando sua função apropriada), cartão SUS e gênero, inclusive a quebra de linha da última.
+ *
+ * @return tPaciente* Ponteiro para o paciente lido.
+ */
+tPaciente *lerPaciente();
 
-/*
-Função que adiciona uma lesão ao paciente.
-Basicamente, a lesão é adicionada à lista de lesões do paciente realizando toda a alocação dinâmica necessária.
-@param p: Ponteiro para o paciente ao qual a lesão será vinculada.
-@param l: Ponteiro para a lesão a ser vinculada ao paciente.
-*/
-void adicionaLesaoPaciente(Paciente *p, Lesao *l);
+/**
+ * @brief Adiciona uma lesão ao final da lista de lesões do paciente.
+ *
+ * @param p Ponteiro para o paciente ao qual a lesão será vinculada.
+ * @param l Ponteiro para a lesão a ser vinculada ao paciente.
+ */
+void adicionaLesaoPaciente(tPaciente *p, tLesao *l);
 
-/*
-Função que calcula a idade do paciente em anos completos com base em uma data de referência.
-@param p: O paciente cuja idade será calculada.
-@param dataBase: A data de referência para o cálculo da idade.
-@return A idade do paciente em anos completos.
-*/
-int calculaIdadePaciente(Paciente *p, Data *dataBase);
+/**
+ * @brief Calcula a idade do paciente em anos completos com base em uma data de referência
+ * (utilizando sua função apropriada).
+ *
+ * @param p Ponteiro para o paciente cuja idade será calculada.
+ * @param dataBase Ponteiro para a data de referência para o cálculo da idade.
+ * @return int A idade do paciente em anos completos.
+ */
+int calculaIdadePaciente(tPaciente *p, tData *dataBase);
 
-/*
-Função que obtém o cartão SUS de um paciente.
-@param p: Ponteiro para o paciente do qual se deseja obter o cartão SUS.
-@return Ponteiro para cartão SUS do paciente.
-*/
-char *getCartaoSusPaciente(Paciente *p);
+/**
+ * @brief Obtém o cartão SUS de um paciente.
+ *
+ * @param p Ponteiro para o paciente.
+ * @return char* O cartão SUS do paciente (a string pertence ao paciente; não a libere).
+ */
+char *obtemCartaoSusPaciente(tPaciente *p);
 
-/*
-Função que obtém o número de lesões associadas a um paciente.
-@param p: Ponteiro para o paciente cuja quantidade de lesões será obtida.
-@return O número de lesões do paciente.
-*/
-int getNumLesoesPaciente(Paciente *p);
+/**
+ * @brief Obtém o número de lesões associadas a um paciente.
+ *
+ * @param p Ponteiro para o paciente.
+ * @return int O número de lesões do paciente.
+ */
+int obtemNumLesoesPaciente(tPaciente *p);
 
-/*
-Função que calcula a quantidade de lesões cirúrgicas (malignas) associadas a um paciente.
-@param p: Ponteiro para o paciente cuja quantidade de lesões cirúrgicas será calculada.
-@return A quantidade de lesões cirúrgicas do paciente.
-*/
-int qtdLesoesCirurgicasPaciente(Paciente *p);
+/**
+ * @brief Calcula a quantidade de lesões cirúrgicas associadas a um paciente
+ * (utilizando sua função apropriada).
+ *
+ * @param p Ponteiro para o paciente.
+ * @return int A quantidade de lesões cirúrgicas do paciente.
+ */
+int qtdLesoesCirurgicasPaciente(tPaciente *p);
 
-/*
-Função que imprime o nome do paciente e o ID das lesões associadas a ele (exatamente como solicitado no enunciado e nos casos de teste).
-@param p: Ponteiro para o paciente cujas informações serão impressas.
-*/
-void imprimePaciente(Paciente *p);
+/**
+ * @brief Imprime o nome do paciente e o identificador das suas lesões: primeiro "- <nome> - ",
+ * em seguida o identificador de cada lesão (utilizando sua função apropriada) na ordem de
+ * cadastro e, por fim, uma quebra de linha. Ex.: "- SON GOKU - L1 L3 \n".
+ * Se o paciente não tiver lesões, não imprime nada.
+ *
+ * @param p Ponteiro para o paciente a ser impresso.
+ */
+void imprimePaciente(tPaciente *p);
 
-/*
-Função que libera a memória alocada para um paciente.
-@param p: Ponteiro para o paciente a ser liberado.
-*/
-void liberaPaciente(Paciente *p);
+/**
+ * @brief Libera a memória de um paciente, inclusive a da data de nascimento e a das lesões
+ * (utilizando suas funções apropriadas).
+ *
+ * @param p Ponteiro para o paciente a ser liberado.
+ */
+void liberaPaciente(tPaciente *p);
 
 #endif

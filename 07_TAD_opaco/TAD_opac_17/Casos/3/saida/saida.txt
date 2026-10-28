@@ -1,6 +1,6 @@
-Jogo de adivinhação
-Forneca um numero no intervalo entre 1 e 10000: 
-Forneca um numero no intervalo entre 1 e 10000: 
+Jogo de adivinhacao
+Forneca um numero no intervalo entre 1 e 10: 
+Forneca um numero no intervalo entre 1 e 10: 
 Forneca um intervalo de numeros naturais: 
 Voce tem direito a 10 tentativas
 Tentativa 1: 
@@ -20,7 +20,7 @@ Baixa
 Tentativa 8: 
 Parabens, voce ganhou!
 Deseja continuar a jogar (s/n): 
-Forneca um numero no intervalo entre 1 e 10000: 
+Forneca um numero no intervalo entre 1 e 10: 
 Forneca um intervalo de numeros naturais: 
 Voce tem direito a 10 tentativas
 Tentativa 1: 
@@ -100,7 +100,7 @@ Voce deve digitar s ou n!
 Deseja continuar a jogar (s/n): 
 Voce deve digitar s ou n!
 Deseja continuar a jogar (s/n): 
-Forneca um numero no intervalo entre 1 e 10000: 
+Forneca um numero no intervalo entre 1 e 10: 
 Forneca um intervalo de numeros naturais: 
 Voce tem direito a 6 tentativas
 Tentativa 1: 
@@ -116,7 +116,7 @@ Alta
 Tentativa 6: 
 Parabens, voce ganhou!
 Deseja continuar a jogar (s/n): 
-Forneca um numero no intervalo entre 1 e 10000: 
+Forneca um numero no intervalo entre 1 e 10: 
 Forneca um intervalo de numeros naturais: 
 Voce tem direito a 20 tentativas
 Tentativa 1: 

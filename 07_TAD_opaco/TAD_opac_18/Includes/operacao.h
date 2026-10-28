@@ -3,39 +3,42 @@
 
 #include "conta.h"
 
+/**
+ * @brief Tipo opaco que representa uma operação que possui pelo menos os seguintes atributos:
+ * a conta em que foi realizada e o valor (positivo para crédito e negativo para débito).
+ */
 typedef struct Operacao tOperacao;
 
 /**
- * @brief Cria uma variável (alocada dinamicamente) do tipo tOperacao. Ponteiros devem ser inicializados com NULL e variáveis numéricas com valor zero (exceto aquelas passadas como parâmetro para a função).
+ * @brief Cria uma operação com a conta e o valor informados. A operação apenas referencia a conta,
+ * ou seja, não altera o saldo da conta.
  *
- * @param conta - A conta que será associada a uma operação
- * @param valor - O valor da operação
- *
- * @return A variável do tipo tOperacao inicializada.
+ * @param conta Ponteiro para a conta em que a operação foi realizada.
+ * @param valor Valor da operação.
+ * @return tOperacao* Ponteiro para a operação criada.
  */
 tOperacao* CriaOperacao(tConta* conta, float valor);
 
 /**
- * @brief Libera toda a memória alocada para armazenar dados de uma operacao.
+ * @brief Libera a memória de uma operação (mas não a da sua conta).
  *
- * @param A variável do tipo tOperacao que será apagada.
+ * @param op Ponteiro para a operação a ser destruída.
  */
 void DestroiOperacao(tOperacao* op);
 
-
 /**
- * @brief Consulta o valor de uma operação especifica
+ * @brief Obtém o valor de uma operação.
  *
- * @param op - A operacao que queremos consultar o valor
- * @return O valor da operação cadastrada
+ * @param op Ponteiro para a operação.
+ * @return float Valor da operação.
  */
-float ConsultaValorOperacao(tOperacao* op);
-
+float ObtemValorOperacao(tOperacao* op);
 
 /**
- * @brief Imprime a operação. Ver formato nos exemplos de saída e/ou roteiro.
+ * @brief Imprime uma operação: "Operacao na conta <id> com valor <valor>\n", com o valor com 2 casas decimais.
+ * Ex.: "Operacao na conta 456 com valor -35431.00\n".
  *
- * @param op - A operacao que queremos imprimir
+ * @param op Ponteiro para a operação.
  */
 void ImprimeOperacao(tOperacao* op);
 

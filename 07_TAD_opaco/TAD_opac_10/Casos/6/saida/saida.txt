@@ -6,7 +6,6 @@ Lista de operacoes:
 Livro adicionado com sucesso!
 Livro adicionado com sucesso!
 Livro nao encontrado na biblioteca.
-
 Lista de Livros na Biblioteca:
 Titulo: Jockey
 Autor: PonyStar67

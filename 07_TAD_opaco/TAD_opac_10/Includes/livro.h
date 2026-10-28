@@ -1,46 +1,54 @@
 #ifndef LIVRO_H
 #define LIVRO_H
 
-#include <stdlib.h>
-
-// Estrutura que representa um livro
-typedef struct Livros tLivros;
-
+#define MAX_TITULO 100 /**< Tamanho do vetor para ler o título: até 99 caracteres (+1 para o '\0'), uma única palavra. */
+#define MAX_AUTOR 50   /**< Tamanho do vetor para ler o autor: até 49 caracteres (+1 para o '\0'), uma única palavra. */
 
 /**
- * Cria um livro "vazio". Ponteiros devem receber null e os atributos numéricos valor -1;
- *
- * @return Um ponteiro para um livro livro "vazio"
+ * @brief Tipo opaco que representa um livro que possui pelo menos os seguintes atributos:
+ * título, autor e ano de publicação.
  */
-tLivros* CriaLivro();
+typedef struct Livro tLivro;
+
 
 /**
- * Lê os atributos de um livro a partir da entrada padrão (teclado).
+ * @brief Cria um livro "vazio".
+ * Todos os campos da estrutura devem ser inicializados aqui.
  *
- * @param livro Um ponteiro para um livro que receberá os atributos lidos
+ * @return tLivro* Ponteiro para o livro criado.
  */
-void LerLivro(tLivros* livro);
+tLivro* CriaLivro();
 
 /**
- * Imprime os atributos da TAD tLivros (título, autor e ano de publicação).
- * 
- * @param livro Um ponteiro para o livro cujos atributos serão impressos
-*/
-void ImprimeLivro(tLivros* livro);
+ * @brief Lê os dados de um livro da entrada padrão: o título, o autor e o ano de publicação,
+ * separados por espaço ou quebra de linha. O título e o autor são uma única palavra cada.
+ *
+ * @param livro Ponteiro para o livro que terá seus dados preenchidos.
+ */
+void LerLivro(tLivro* livro);
 
 /**
- * Retorna o título do livro.
- * 
- * @param livro Ponteiro para o livro cujo título será retornado.
- * @return O título do livro.
-*/
-char *getTitulo(tLivros* livro);
+ * @brief Imprime os dados do livro, um por linha, seguidos de uma linha em branco:
+ * "Titulo: <titulo>\n", "Autor: <autor>\n", "Ano de Publicacao: <ano>\n" e "\n".
+ *
+ * @param livro Ponteiro para o livro a ser impresso.
+ */
+void ImprimeLivro(tLivro* livro);
 
 /**
- * Função para liberar toda a memória alocada por um livro
- * 
- * @param livro Um ponteiro para o livro cujos atributos serão apagados/liberados
-*/
-void ApagaLivro(tLivros* livro);
+ * @brief Verifica se o livro tem o título informado.
+ *
+ * @param livro Ponteiro para o livro cujo título será verificado.
+ * @param titulo O título procurado.
+ * @return int 1 se o título do livro for igual ao título informado, 0 caso contrário.
+ */
+int EhMesmoTituloLivro(tLivro* livro, char* titulo);
+
+/**
+ * @brief Libera a memória de um livro.
+ *
+ * @param livro Ponteiro para o livro a ser apagado.
+ */
+void ApagaLivro(tLivro* livro);
 
 #endif
