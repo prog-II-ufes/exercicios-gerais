@@ -84,7 +84,10 @@ void CadastrarFilmeLocadora (tLocadora *locadora, tFilme *filme){
  * 
  * @param Locadora Ponteiro para a instância de tLocadora a ser atualizada.
  */
-void LerCadastroLocadora (tLocadora* Locadora);
+void LerCadastroLocadora (tLocadora* Locadora){
+    tFilme *filme;
+    CadastrarFilmeLocadora(Locadora,filme);
+}
 
 /**
  * @brief Aluga um ou mais filmes da locadora.
@@ -97,8 +100,10 @@ void AlugarFilmesLocadora (tLocadora* locadora, int* codigos, int quantidadeCodi
     for(int i=0; i<quantidadeCodigos;i++){
         for(int j=0;j<locadora->qntdFilmes;j++){
             if(ObterCodigoFilme(locadora->filmes[j])==codigos[i])
-                if(ObterQtdEstoqueFilme(locadora->filmes[j])>0)
+                if(ObterQtdEstoqueFilme(locadora->filmes[j])>0){
                     AlugarFilme(locadora->filmes[j]);
+                    locadora->lucro+=ObterValorFilme(locadora->filmes[j]);
+                }
         }
     }
 }
@@ -199,9 +204,6 @@ void ConsultarEstoqueLocadora (tLocadora* locadora){
  * @param locadora Ponteiro para a instância de tLocadora a ser consultada.
  */
 void ConsultarLucroLocadora (tLocadora* locadora){
-    for(int i=0;i<locadora->qntdFilmes;i++){
-        locadora->lucro+= ObterValorFilme(locadora->filmes[i]);
-    }
     printf("Lucro total R$%d\n",locadora->lucro);
     printf("\n");
 }
