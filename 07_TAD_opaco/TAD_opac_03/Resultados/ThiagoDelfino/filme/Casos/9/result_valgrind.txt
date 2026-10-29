@@ -1,0 +1,43 @@
+==372280== Memcheck, a memory error detector
+==372280== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==372280== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==372280== Command: Resultados/ThiagoDelfino/filme/prog Resultados/ThiagoDelfino/filme/Casos/9
+==372280== Parent PID: 372279
+==372280== 
+==372280== Invalid write of size 4
+==372280==    at 0x48EA146: __vfscanf_internal (vfscanf-internal.c:1976)
+==372280==    by 0x48D9EC5: __isoc99_scanf (isoc99_scanf.c:30)
+==372280==    by 0x109321: LeFilme (in /home/teadelfino/Documents/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/ThiagoDelfino/filme/prog)
+==372280==    by 0x10975D: LerCadastroLocadora (in /home/teadelfino/Documents/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/ThiagoDelfino/filme/prog)
+==372280==    by 0x109F8E: main (in /home/teadelfino/Documents/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/ThiagoDelfino/filme/prog)
+==372280==  Address 0x0 is not stack'd, malloc'd or (recently) free'd
+==372280== 
+==372280== 
+==372280== Process terminating with default action of signal 11 (SIGSEGV)
+==372280==  Access not within mapped region at address 0x0
+==372280==    at 0x48EA146: __vfscanf_internal (vfscanf-internal.c:1976)
+==372280==    by 0x48D9EC5: __isoc99_scanf (isoc99_scanf.c:30)
+==372280==    by 0x109321: LeFilme (in /home/teadelfino/Documents/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/ThiagoDelfino/filme/prog)
+==372280==    by 0x10975D: LerCadastroLocadora (in /home/teadelfino/Documents/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/ThiagoDelfino/filme/prog)
+==372280==    by 0x109F8E: main (in /home/teadelfino/Documents/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/ThiagoDelfino/filme/prog)
+==372280==  If you believe this happened as a result of a stack
+==372280==  overflow in your program's main thread (unlikely but
+==372280==  possible), you can try to increase the size of the
+==372280==  main thread stack using the --main-stacksize= flag.
+==372280==  The main thread stack size used in this run was 8388608.
+==372280== 
+==372280== HEAP SUMMARY:
+==372280==     in use at exit: 4,164 bytes in 4 blocks
+==372280==   total heap usage: 4 allocs, 0 frees, 4,164 bytes allocated
+==372280== 
+==372280== LEAK SUMMARY:
+==372280==    definitely lost: 0 bytes in 0 blocks
+==372280==    indirectly lost: 0 bytes in 0 blocks
+==372280==      possibly lost: 0 bytes in 0 blocks
+==372280==    still reachable: 4,164 bytes in 4 blocks
+==372280==         suppressed: 0 bytes in 0 blocks
+==372280== Reachable blocks (those to which a pointer was found) are not shown.
+==372280== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==372280== 
+==372280== For lists of detected and suppressed errors, rerun with: -s
+==372280== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
