@@ -8,7 +8,6 @@ struct Locadora{
     int lucro,qntdFilmes;
 };
 
-
 /**
  * @brief Cria uma nova instância de tLocadora e inicializa filme como NULL, numFilmes como 0 e lucro como 0.
  * 
