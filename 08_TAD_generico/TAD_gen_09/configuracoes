@@ -1,0 +1,14 @@
+Arquivos
+	saida.txt=10
+Valgrind
+	desconto=0.4
+Validações
+	main=2.00
+	completo=3.00
+	documento=2.00
+	fila_imp=2.00
+    receita=1.00
+
+
+LimiteTempo=25
+MainAgrupada
