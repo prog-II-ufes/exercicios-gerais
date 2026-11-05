@@ -1,0 +1,30 @@
+NOME COMPLETO: Felipe Oliveira
+PAI: Matheus Oliveira
+MAE: Isabela Oliveira
+IRMAO: Sofia Oliveira
+
+NOME COMPLETO: Ana Silva
+PAI: Joao Silva
+MAE: Maria Silva
+IRMAO: Laura Silva
+
+NOME COMPLETO: Rafael Pereira
+PAI: Lucas Pereira
+MAE: Carolina Pereira
+IRMAO: Gabriel Pereira
+
+NOME COMPLETO: Gabriel Pereira
+PAI: Lucas Pereira
+MAE: Carolina Pereira
+IRMAO: Rafael Pereira
+
+NOME COMPLETO: Laura Silva
+PAI: Joao Silva
+MAE: Maria Silva
+IRMAO: Ana Silva
+
+NOME COMPLETO: Sofia Oliveira
+PAI: Matheus Oliveira
+MAE: Isabela Oliveira
+IRMAO: Felipe Oliveira
+

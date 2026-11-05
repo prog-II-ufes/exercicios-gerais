@@ -1,0 +1,26 @@
+18
+Lucas Pereira
+Matheus Oliveira
+Joao Silva
+Felipe Oliveira
+Sofia Santos
+Carolina Pereira
+Ana Silva
+Laura Costa
+Rafael Pereira
+Mariana Rodrigues
+Gabriel Pereira
+Maria Silva
+Laura Silva
+Pedro Santos
+Sofia Oliveira
+Isabela Oliveira
+Luiz Rodrigues
+Matheus Costa
+6
+mae: 5, pai: 0, filho: 8
+mae: 15, pai: 1, filho: 3
+mae: 11, pai: 2, filho: 6
+mae: 11, pai: 2, filho: 12
+mae: 15, pai: 1, filho: 14
+mae: 5, pai: 0, filho: 10

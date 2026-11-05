@@ -1,2 +1,0 @@
-Resultados/Djan/main/pessoa.o: file not recognized: File format not recognized
-collect2.exe: error: ld returned 1 exit status
