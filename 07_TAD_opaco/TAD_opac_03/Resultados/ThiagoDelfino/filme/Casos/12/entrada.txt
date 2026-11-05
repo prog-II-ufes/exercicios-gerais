@@ -1,0 +1,8 @@
+Cadastrar
+2,Shrek,4,1
+#
+Alugar
+1
+#
+Estoque
+#

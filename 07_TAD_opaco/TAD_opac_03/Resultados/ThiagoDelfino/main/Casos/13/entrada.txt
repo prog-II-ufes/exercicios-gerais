@@ -1,0 +1,17 @@
+Cadastrar
+2,Tomb Raider,5,1
+3,Sword Fish,8,1
+#
+Alugar
+1
+#
+Estoque
+#
+Alugar
+2
+#
+Devolver
+2
+#
+Estoque
+#

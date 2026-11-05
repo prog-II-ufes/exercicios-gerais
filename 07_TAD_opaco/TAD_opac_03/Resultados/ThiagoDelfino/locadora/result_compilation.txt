@@ -1,0 +1,11 @@
+locadora.c: In function ‘CriarLocadora’:
+locadora.c:30:5: warning: ignoring return value of ‘realloc’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   30 |     realloc(locadora->filmes,i);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+locadora.c: In function ‘VerificarFilmeCadastrado’:
+locadora.c:59:16: warning: ‘i’ is used uninitialized [-Wuninitialized]
+   59 |     for(int i;i<locadora->qntdFilmes;i++){
+      |               ~^~~~~~~~~~~~~~~~~~~~~
+locadora.c:59:13: note: ‘i’ was declared here
+   59 |     for(int i;i<locadora->qntdFilmes;i++){
+      |             ^

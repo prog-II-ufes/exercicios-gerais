@@ -1,0 +1,80 @@
+Cadastrar
+21,The Last Castle,10,5
+22,Black Knight,4,3
+23,Legally Blonde,8,3
+24,The Glass House,6,1
+25,Tomb Raider,7,2
+#
+Estoque
+#
+Alugar
+21
+22
+23
+#
+Alugar
+26
+#
+Alugar
+24
+25
+22
+#
+Alugar
+23
+24
+25
+#
+Estoque
+#
+Cadastrar
+26,Vanilla Sky,10,5
+27,Atlantis,4,2
+28,Spy Kids,9,3
+29,Enemy Gates,27,2
+30,Jimmy Neutron,5,10
+#
+Estoque
+#
+Alugar
+26
+#
+Devolver
+24
+25
+#
+Alugar
+24
+29
+30
+#
+Devolver
+24
+29
+#
+Devolver
+24
+25
+22
+#
+Devolver
+21
+22
+23
+#
+Alugar
+30
+#
+Alugar
+29
+30
+#
+Alugar
+30
+#
+Devolver
+30
+29
+#
+Estoque
+#

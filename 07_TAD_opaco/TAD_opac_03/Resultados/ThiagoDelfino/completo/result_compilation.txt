@@ -1,0 +1,22 @@
+filme.c: In function ‘LeFilme’:
+filme.c:34:19: warning: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘int’ [-Wformat=]
+   34 |     scanf("%[^,],%d,%d",filme->nome,filme->valor,filme->qntdEstoque);
+      |                  ~^                 ~~~~~~~~~~~~
+      |                   |                      |
+      |                   int *                  int
+filme.c:34:22: warning: format ‘%d’ expects argument of type ‘int *’, but argument 4 has type ‘int’ [-Wformat=]
+   34 |     scanf("%[^,],%d,%d",filme->nome,filme->valor,filme->qntdEstoque);
+      |                     ~^                           ~~~~~~~~~~~~~~~~~~
+      |                      |                                |
+      |                      int *                            int
+locadora.c: In function ‘CriarLocadora’:
+locadora.c:30:5: warning: ignoring return value of ‘realloc’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   30 |     realloc(locadora->filmes,i);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+locadora.c: In function ‘VerificarFilmeCadastrado’:
+locadora.c:59:16: warning: ‘i’ is used uninitialized [-Wuninitialized]
+   59 |     for(int i;i<locadora->qntdFilmes;i++){
+      |               ~^~~~~~~~~~~~~~~~~~~~~
+locadora.c:59:13: note: ‘i’ was declared here
+   59 |     for(int i;i<locadora->qntdFilmes;i++){
+      |             ^
